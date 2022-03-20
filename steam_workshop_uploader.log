@@ -1,0 +1,176 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - C:\Users\danaw167\Desktop\Sanae mod\project.xml
+Mod Data Directory = c:/Users/danaw167/Desktop/Sanae mod/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Running Localization...
+Parsing localization/sanae.string_table.xml
+
+Building Languages
+Exporting .loc2 files
+
+-------------------------------------------------------------------------------
+Searching for preview icon file c:/Users/danaw167/Desktop/Sanae mod/preview_icon.png...FOUND!
+<UploadMode> - Set to dont_submit
+
+
+-------------------------------------------------------------------------------
+Detected 2 unchanged files
+The following files are unchanged...
+c:/Users/danaw167/Desktop/Sanae mod/overlays/poptext_hp_heal_dot.png
+c:/Users/danaw167/Desktop/Sanae mod/overlays/tray_dot_hp_heal.png
+
+-------------------------------------------------------------------------------
+Modded files...
+
+1unaltered/modes/new_game_plus/upgrades/heroes/tenshi.upgrades.json
+1unaltered/modes/radiant/upgrades/heroes/tenshi.upgrades.json
+1unaltered/raid/camping/skill_icons/camp_skill_t_hisoueye.PNG
+1unaltered/raid/camping/skill_icons/camp_skill_t_makesomebombs.png
+1unaltered/raid/camping/skill_icons/camp_skill_t_nawitrance.png
+1unaltered/raid/camping/skill_icons/camp_skill_t_nompeach.PNG
+1unaltered/raid/camping/skill_icons/camp_skill_t_protectingstones.PNG
+1unaltered/raid/camping/skill_icons/camp_skill_t_slacktrance.png
+heroes/sanae/sanae_A/anim/sanae.sprite.afflicted.png
+heroes/sanae/sanae_A/anim/sanae.sprite.camp.png
+heroes/sanae/sanae_A/anim/sanae.sprite.combat.png
+heroes/sanae/sanae_A/anim/sanae.sprite.defend.png
+heroes/sanae/sanae_A/anim/sanae.sprite.disasterdispellingprayer.png
+heroes/sanae/sanae_A/anim/sanae.sprite.evilsealingcircle.png
+heroes/sanae/sanae_A/anim/sanae.sprite.exterminate.png
+heroes/sanae/sanae_A/anim/sanae.sprite.fantasyseal.png
+heroes/sanae/sanae_A/anim/sanae.sprite.homingamulet.png
+heroes/sanae/sanae_A/anim/sanae.sprite.idle.png
+heroes/sanae/sanae_A/anim/sanae.sprite.investigate.png
+heroes/sanae/sanae_A/anim/sanae.sprite.persuasion_needle.png
+heroes/sanae/sanae_A/anim/sanae.sprite.walk.png
+1unaltered/raid/camping/tenshi.camping_skills.json
+campaign/town/town_event/town_event.image_first_sanae.png
+heroes/sanae/anim/sanae.sprite.afflicted.atlas
+heroes/sanae/anim/sanae.sprite.afflicted.skel
+heroes/sanae/anim/sanae.sprite.camp.atlas
+heroes/sanae/anim/sanae.sprite.camp.skel
+heroes/sanae/anim/sanae.sprite.combat.atlas
+heroes/sanae/anim/sanae.sprite.combat.skel
+heroes/sanae/anim/sanae.sprite.defend.atlas
+heroes/sanae/anim/sanae.sprite.defend.skel
+heroes/sanae/anim/sanae.sprite.disasterdispellingprayer.atlas
+heroes/sanae/anim/sanae.sprite.disasterdispellingprayer.skel
+heroes/sanae/anim/sanae.sprite.evilsealingcircle.atlas
+heroes/sanae/anim/sanae.sprite.evilsealingcircle.skel
+heroes/sanae/anim/sanae.sprite.exterminate.atlas
+heroes/sanae/anim/sanae.sprite.exterminate.skel
+heroes/sanae/anim/sanae.sprite.fantasyseal.atlas
+heroes/sanae/anim/sanae.sprite.fantasyseal.skel
+heroes/sanae/anim/sanae.sprite.heroic.atlas
+heroes/sanae/anim/sanae.sprite.heroic.skel
+heroes/sanae/anim/sanae.sprite.homingamulet.atlas
+heroes/sanae/anim/sanae.sprite.homingamulet.skel
+heroes/sanae/anim/sanae.sprite.idle.atlas
+heroes/sanae/anim/sanae.sprite.idle.skel
+heroes/sanae/anim/sanae.sprite.investigate.atlas
+heroes/sanae/anim/sanae.sprite.investigate.skel
+heroes/sanae/anim/sanae.sprite.persuasion_needle.atlas
+heroes/sanae/anim/sanae.sprite.persuasion_needle.skel
+heroes/sanae/anim/sanae.sprite.walk.atlas
+heroes/sanae/anim/sanae.sprite.walk.skel
+heroes/sanae/fx/sanae.sprite.FS_target_fx.atlas
+heroes/sanae/fx/sanae.sprite.FS_target_fx.png
+heroes/sanae/fx/sanae.sprite.FS_target_fx.skel
+heroes/sanae/fx/sanae.sprite.HAFX.atlas
+heroes/sanae/fx/sanae.sprite.HAFX.png
+heroes/sanae/fx/sanae.sprite.HAFX.skel
+heroes/sanae/fx/sanae.sprite.barrier_target.atlas
+heroes/sanae/fx/sanae.sprite.barrier_target.png
+heroes/sanae/fx/sanae.sprite.barrier_target.skel
+heroes/sanae/fx/sanae.sprite.divine_grace_target.atlas
+heroes/sanae/fx/sanae.sprite.divine_grace_target.png
+heroes/sanae/fx/sanae.sprite.divine_grace_target.skel
+heroes/sanae/fx/sanae.sprite.ext_perf_fx.atlas
+heroes/sanae/fx/sanae.sprite.ext_perf_fx.png
+heroes/sanae/fx/sanae.sprite.ext_perf_fx.skel
+heroes/sanae/fx/sanae.sprite.hitspark_target.atlas
+heroes/sanae/fx/sanae.sprite.hitspark_target.png
+heroes/sanae/fx/sanae.sprite.hitspark_target.skel
+heroes/sanae/fx/sanae.sprite.homing_target_fx.atlas
+heroes/sanae/fx/sanae.sprite.homing_target_fx.png
+heroes/sanae/fx/sanae.sprite.homing_target_fx.skel
+heroes/sanae/fx/sanae.sprite.invigorating_vapours_target.atlas
+heroes/sanae/fx/sanae.sprite.invigorating_vapours_target.png
+heroes/sanae/fx/sanae.sprite.invigorating_vapours_target.skel
+heroes/sanae/fx/sanae.sprite.mk_prayer_prf_fx.atlas
+heroes/sanae/fx/sanae.sprite.mk_prayer_prf_fx.png
+heroes/sanae/fx/sanae.sprite.mk_prayer_prf_fx.skel
+heroes/sanae/fx/sanae.sprite.mkexterm_target.atlas
+heroes/sanae/fx/sanae.sprite.mkexterm_target.png
+heroes/sanae/fx/sanae.sprite.mkexterm_target.skel
+heroes/sanae/fx/sanae.sprite.needle_perf_fx.atlas
+heroes/sanae/fx/sanae.sprite.needle_perf_fx.png
+heroes/sanae/fx/sanae.sprite.needle_perf_fx.skel
+heroes/sanae/fx/sanae.sprite.needle_target_fx.atlas
+heroes/sanae/fx/sanae.sprite.needle_target_fx.png
+heroes/sanae/fx/sanae.sprite.needle_target_fx.skel
+heroes/sanae/fx/sanae.sprite.prayer_target.atlas
+heroes/sanae/fx/sanae.sprite.prayer_target.png
+heroes/sanae/fx/sanae.sprite.prayer_target.skel
+heroes/sanae/icons_equip/eqp_armour_0.png
+heroes/sanae/icons_equip/eqp_armour_1.png
+heroes/sanae/icons_equip/eqp_armour_2.png
+heroes/sanae/icons_equip/eqp_armour_3.png
+heroes/sanae/icons_equip/eqp_armour_4.png
+heroes/sanae/icons_equip/eqp_weapon_0.png
+heroes/sanae/icons_equip/eqp_weapon_1.png
+heroes/sanae/icons_equip/eqp_weapon_2.png
+heroes/sanae/icons_equip/eqp_weapon_3.png
+heroes/sanae/icons_equip/eqp_weapon_4.png
+heroes/sanae/sanae_A/sanae_portrait_roster.png
+raid/camping/skill_icons/camp_skill_danmaku_sanae.png
+raid/camping/skill_icons/camp_skill_sanae_guiding_star.png
+campaign/town_events/sanae.town_events.events.json
+heroes/sanae/FLAT HAIR(miko_guild_header).png
+heroes/sanae/miko_guild_header.png
+heroes/sanae/sanae.ability.five.png
+heroes/sanae/sanae.ability.four.png
+heroes/sanae/sanae.ability.one.png
+heroes/sanae/sanae.ability.seven.png
+heroes/sanae/sanae.ability.six.png
+heroes/sanae/sanae.ability.three.png
+heroes/sanae/sanae.ability.two.png
+heroes/sanae/sanae.art.darkest
+heroes/sanae/sanae.info.darkest
+raid/camping/sanae.camping_skills.json
+shared/buffs/sanae.buffs.json
+shared/buffs/sanae_Desk.buffs.json
+shared/buffs/sanae_Line.buffs.json
+upgrades/heroes/sanae.upgrades.json
+colours/sanae.colours.darkest
+effects/sanae.effects.darkest
+localization/0_english.loc2
+localization/sanae.string_table.xml
+overlays/poptext_damage_reflect.png
+overlays/poptext_health_damage_block.png
+overlays/poptext_health_damage_block_onset.png
+overlays/poptext_shuffle_dot.png
+overlays/poptext_shuffle_dot_resist.png
+overlays/poptext_vampire_resist.png
+overlays/tray_dot_shuffle.png
+overlays/tray_health_damage_block.png
+overlays/tray_quirk.disease_vampire_blood_lust.png
+overlays/tray_quirk.disease_vampire_crave.png
+overlays/tray_quirk.disease_vampire_passive.png
+overlays/tray_quirk.disease_vampire_wasting.png
+726675-sanae.jpg
+modfiles.txt
+preview_icon.png
+project.xml
+
+
+*******************************************************************************
+WARNING MOD WILL NOT BE UPLOADED
+*******************************************************************************
+Saving project file C:\Users\danaw167\Desktop\Sanae mod\project.xml
+

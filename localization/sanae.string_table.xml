@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <entry id="hero_class_name_sanae"><![CDATA[Deified]]></entry>
+	
+
+		<!--Camp Skills-->
+	<entry id="camping_skill_name_danmaku_sanae"><![CDATA[DANMAKU PRACTICE]]></entry>
+	<entry id="camping_skill_name_sanae_guiding_star"><![CDATA[GUIDING STAR]]></entry>
+	
+	<entry id="sanae+str_bark_encourage"><![CDATA[Take this, it'll bring you good luck.]]></entry>
+	
+	<entry id="sanae+str_bark_first_aid"><![CDATA[Don't worry, you're in good hands.]]></entry>
+	<entry id="sanae+str_bark_first_aid"><![CDATA[It's just a graze, you'll be fine.]]></entry>
+	
+	<entry id="sanae+str_bark_pep_talk"><![CDATA[Just take it easy.]]></entry>
+
+		<!--Combat Skills-->
+	<entry id="combat_skill_name_sanae_s_miracle_star"><![CDATA[Shooting Star]]></entry>
+	<entry id="combat_skill_name_sanae_s_divine_wind"><![CDATA[Divine Wind]]></entry>
+    <entry id="combat_skill_name_sanae_s_gather_faith"><![CDATA[Gather Faith]]></entry>
+    <entry id="combat_skill_name_sanae_s_starry_night"><![CDATA[Blinding Starlight]]></entry>
+	<entry id="combat_skill_name_sanae_s_moses_miracle"><![CDATA[Sea's Parting]]></entry>
+    <entry id="combat_skill_name_sanae_s_uplifting_prayer"><![CDATA[Uplifting Prayer]]></entry>
+	<entry id="combat_skill_name_sanae_s_suwacurse"><![CDATA[Mishaguji Summoning]]></entry>
+    <entry id="combat_skill_name_sanae_move"><![CDATA[Move]]></entry>
+    <entry id="upgrade_tree_name_sanae.s_miracle_star"><![CDATA[Shooting Star]]></entry>
+	<entry id="upgrade_tree_name_sanae.s_divine_wind"><![CDATA[Divine Wind]]></entry>
+    <entry id="upgrade_tree_name_sanae.s_gather_faith"><![CDATA[Gather Faith]]></entry>
+    <entry id="upgrade_tree_name_sanae.s_starry_night"><![CDATA[Blinding Starlight]]></entry>
+	<entry id="upgrade_tree_name_sanae.s_moses_miracle"><![CDATA[Sea's Parting]]></entry>
+	<entry id="upgrade_tree_name_sanae.s_uplifting_prayer"><![CDATA[Uplifting Prayer]]></entry>
+    <entry id="upgrade_tree_name_sanae.s_suwacurse"><![CDATA[Mishaguji Summoning]]></entry>
+	
+		<!-- Upgrades -->
+    <entry id="sanae_weapon_0"><![CDATA[Cracked Keystone]]></entry>
+    <entry id="sanae_weapon_1"><![CDATA[Chiseled Keystone]]></entry>
+    <entry id="sanae_weapon_2"><![CDATA[Sacred Keystone]]></entry>
+    <entry id="sanae_weapon_3"><![CDATA[Imbued Keystone]]></entry>
+    <entry id="sanae_weapon_4"><![CDATA["Heaven's Catastrophe"]]></entry>
+    <entry id="upgrade_tree_name_sanae.weapon"><![CDATA[Keystone]]></entry>
+    <entry id="sanae_armour_0"><![CDATA[Torn Dress]]></entry>
+    <entry id="sanae_armour_1"><![CDATA[Worn Dress]]></entry>
+    <entry id="sanae_armour_2"><![CDATA[Respectable Dress]]></entry>
+    <entry id="sanae_armour_3"><![CDATA[Pristine Dress]]></entry>
+    <entry id="sanae_armour_4"><![CDATA["Flawless Celestial Cloth"]]></entry>
+    <entry id="upgrade_tree_name_sanae.armour"><![CDATA[Dress]]></entry>
+    <entry id="action_verbose_body_guild_sanae"><![CDATA[Sanae Guild]]></entry>
+    <entry id="action_verbose_body_blacksmith_sanae"><![CDATA[Sanae Blacksmith]]></entry>
+    <entry id="action_verbose_body_camping_trainer_sanae"><![CDATA[Sanae Camp]]></entry>
+	
+		<!-- Event -->
+    <entry id="town_event_title_first_sanae"><![CDATA[Green Miko]]></entry>
+    <entry id="town_event_description_first_sanae"><![CDATA[She looks like her, but...]]></entry>
+	
+		<!-- Faith -->
+	<entry id="str_skill_mode_info_sanaefaith0"><![CDATA[{colour_start|sanaefaith}If Faith 0:{colour_end}]]></entry>
+    <entry id="str_skill_mode_info_sanaefaith1"><![CDATA[{colour_start|sanaefaith}If Faith 1:{colour_end}]]></entry>
+	<entry id="str_skill_mode_info_sanaefaith2"><![CDATA[{colour_start|sanaefaith}If Faith 2:{colour_end}]]></entry>
+	<entry id="str_skill_mode_info_sanaefaith3"><![CDATA[{colour_start|sanaefaith}If Faith 3:{colour_end}]]></entry>
+	<entry id="actor_mode_name_sanaefaith0"><![CDATA[Faith 0]]></entry>
+	<entry id="actor_mode_name_sanaefaith1"><![CDATA[Faith 1]]></entry>
+	<entry id="actor_mode_name_sanaefaith2"><![CDATA[Faith 2]]></entry>
+	<entry id="actor_mode_name_sanaefaith3"><![CDATA[Faith 3]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith0_desk"><![CDATA[Set Faith to 0]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith1_desk"><![CDATA[Set Faith to 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_desk"><![CDATA[Set Faith to 2]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_33_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(33%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_35_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(35%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_37_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(37%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_38_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(38%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_40_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(40%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_66_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(66%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_68_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(68%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_70_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(70%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_72_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(72%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_75_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(75%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_desk"><![CDATA[Set Faith to 3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_15_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(15%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_16_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(16%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_18_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(18%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_19_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(19%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_20_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(20%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_25_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(25%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_27_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(27%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_29_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(29%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_31_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(31%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_33_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(33%% chance){colour_end}]]></entry>
+
+		<!-- Trinkets and Bobbles -->
+	
+		<!-- Random Tooltips Desk -->
+	
+				<!-- Trinkets -->
+				
+				<!-- Skills -->
+				
+		<!-- Divine Wind -->
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4-6
+	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 4-6
+	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 6-8
+	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4-6]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5-7
+	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 5-7
+	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 7-9
+	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5-7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6-8
+	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 6-8
+	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-10
+	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6-8]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 7-9
+	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 7-9
+	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 9-11
+	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 7-9]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 8-10
+	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-10
+	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 10-12
+	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	
+		<!-- Gather Faith -->
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_2_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -2 for each ally]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_3_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -3 for each ally]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_4_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -4 for each ally]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_great_faith_desk"><![CDATA[1 Blocks for each ally
+	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	
+		<!-- Blinding Starlight -->
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_noblockstun_desk"><![CDATA[Pierces {colour_start|stun}Stun{colour_end} Recovery Buffs]]></entry>
+	
+		<!-- Seas Parting -->
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f0_desk"><![CDATA[+3 DODGE / +10%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f1_desk"><![CDATA[+5 DODGE / +20%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f2_desk"><![CDATA[+5 DODGE / +20%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f3_desk"><![CDATA[+10 DODGE / +30%% All Resists for 6 rds]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f0_desk"><![CDATA[+3 DODGE / +10%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f1_desk"><![CDATA[+6 DODGE / +20%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f2_desk"><![CDATA[+6 DODGE / +20%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f3_desk"><![CDATA[+12 DODGE / +30%% All Resists for 6 rds]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f0_desk"><![CDATA[+4 DODGE / +10%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f1_desk"><![CDATA[+7 DODGE / +20%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f2_desk"><![CDATA[+7 DODGE / +20%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f3_desk"><![CDATA[+14 DODGE / +30%% All Resists for 6 rds]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f0_desk"><![CDATA[+4 DODGE / +10%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f1_desk"><![CDATA[+8 DODGE / +20%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f2_desk"><![CDATA[+8 DODGE / +20%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f3_desk"><![CDATA[+16 DODGE / +30%% All Resists for 6 rds]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f0_desk"><![CDATA[+5 DODGE / +10%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f1_desk"><![CDATA[+10 DODGE / +20%% All Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f2_desk"><![CDATA[+10 DODGE / +20%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f3_desk"><![CDATA[+20 DODGE / +30%% All Resists for 6 rds]]></entry>
+	
+		<!-- Uplifting Prayer -->
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_forward_desk"><![CDATA[Target: {colour_start|move}Forward{colour_end} 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f1_desk"><![CDATA[+5 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f2_desk"><![CDATA[+10 ACC / +8%% CRT]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f3_desk"><![CDATA[+10 ACC / +8%% CRT
+	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f1_desk"><![CDATA[+6 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f2_desk"><![CDATA[+12 ACC / +9%% CRT]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f3_desk"><![CDATA[+12 ACC / +9%% CRT
+	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f1_desk"><![CDATA[+7 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f2_desk"><![CDATA[+14 ACC / +10%% CRT]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f3_desk"><![CDATA[+14 ACC / +10%% CRT
+	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f1_desk"><![CDATA[+8 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f2_desk"><![CDATA[+16 ACC / +11%% CRT]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f3_desk"><![CDATA[+16 ACC / +11%% CRT
+	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f1_desk"><![CDATA[+10 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f2_desk"><![CDATA[+20 ACC / +12%% CRT]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f3_desk"><![CDATA[+20 ACC / +12%% CRT
+	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	
+		<!-- Suwacurse -->
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_1_desk"><![CDATA[Clear all Corpses
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f0_desk"><![CDATA[2 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f1_desk"><![CDATA[4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f2_desk"><![CDATA[5 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f3_desk"><![CDATA[6 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l1_desk"><![CDATA[Line Effect:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_2_desk"><![CDATA[Clear all Corpses
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f0_desk"><![CDATA[2 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f1_desk"><![CDATA[4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f2_desk"><![CDATA[5 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f3_desk"><![CDATA[6 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l2_desk"><![CDATA[Line Effect:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_3_desk"><![CDATA[Clear all Corpses
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f0_desk"><![CDATA[3 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f1_desk"><![CDATA[5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f2_desk"><![CDATA[6 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f3_desk"><![CDATA[7 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l3_desk"><![CDATA[Line Effect:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_4_desk"><![CDATA[Clear all Corpses
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f0_desk"><![CDATA[3 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f1_desk"><![CDATA[5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f2_desk"><![CDATA[6 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f3_desk"><![CDATA[7 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l4_desk"><![CDATA[Line Effect:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_5_desk"><![CDATA[Clear all Corpses
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f0_desk"><![CDATA[4 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f1_desk"><![CDATA[6 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f2_desk"><![CDATA[7 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f3_desk"><![CDATA[8 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l5_desk"><![CDATA[Line Effect:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 7 pts/rd for 3 rds]]></entry>
+	
+	
+				
+		<!-- Crit -->
+	<entry id="sanae+str_critbyhero"><![CDATA[Are you ready for a miracle?!]]></entry>
+	
+		<!-- Death's Door -->
+    <entry id="sanae+str_bark_deathsdoor"><![CDATA[No... I can't fall here!]]></entry>
+	<entry id="sanae+str_bark_deathsdoorsurvive"><![CDATA[You'll never keep me down!]]></entry>
+	<entry id="sanae+str_bark_deathsdoorsurvive_ally"><![CDATA[That's it, keep going!]]></entry>
+	
+		<!-- When being hit --
+	<entry id="sanae+str_bark_bigwound"><![CDATA[Is that all?]]></entry>
+	<entry id="sanae+str_bark_bigwound"><![CDATA[*Snorts* Is that it?]]></entry>
+	<entry id="sanae+str_bark_bigwound"><![CDATA[That almost hurt.]]></entry>
+	
+	<entry id="sanae+str_bark_bleeddot"><![CDATA[A little blood won't stop me!]]></entry>
+	<entry id="sanae+str_bark_bleeddot"><![CDATA[It's just a flesh wound.]]></entry>
+	<entry id="sanae+str_bark_bleeddot"><![CDATA[Stop being so concerned.]]></entry>
+	
+	<entry id="sanae+str_bark_poisondot"><![CDATA[The pain merely enhances my focus.]]></entry>
+    <entry id="sanae+str_bark_poisondot"><![CDATA[You expected me to writhe in pain?]]></entry>
+    <entry id="sanae+str_bark_poisondot"><![CDATA[I won't succumb to trickery!]]></entry>
+	
+	<entry id="sanae+str_bark_bigwound_ally"><![CDATA[Pull yourself together.]]></entry>
+	<entry id="sanae+str_bark_bigwound_ally"><![CDATA[You'll be fine, walk it off.]]></entry>
+	-->
+	
+		<!-- On being moved --
+	<entry id="sanae+str_combat_knockback"><![CDATA[]]></entry>
+	
+	<entry id="sanae+str_combat_wastingtime"><![CDATA[This is boring. Finish them already!]]></entry>
+	-->
+	
+		<!-- Light --
+	<entry id="sanae+str_bark_torch_0"><![CDATA[They fight harder in the dark? Good.]]></entry>
+	<entry id="sanae+str_bark_torch_0"><![CDATA[Stay in my shadow.]]></entry>
+    <entry id="sanae+str_bark_torch_1"><![CDATA[What horrors stalk beyond the dying flame?]]></entry>
+    <entry id="sanae+str_bark_torch_1"><![CDATA[Come out, come out, wherever you are...]]></entry>
+    <entry id="sanae+str_bark_torch_2"><![CDATA[And now the fun begins!]]></entry>
+	<entry id="sanae+str_bark_torch_2"><![CDATA[Not all that glitters is gold.]]></entry>
+	-->
+	
+		<!-- Moving --
+	<entry id="sanae+str_bark_stopmoving"><![CDATA[What's the holdup?]]></entry>
+	<entry id="sanae+str_bark_stopmoving"><![CDATA[Make it quick.]]></entry>
+	<entry id="sanae+str_bark_startmoving"><![CDATA[About time we got moving.]]></entry>
+	<entry id="sanae+str_bark_startmoving"><![CDATA[Forward, minions!]]></entry>
+	-->
+	
+		<!-- Stress Increases --
+	<entry id="sanae+str_bark_increasingstress"><![CDATA[Another shinigami's trick?]]></entry>
+	<entry id="sanae+str_bark_increasingstress"><![CDATA[How cliche.]]></entry>
+	<entry id="sanae+str_bark_increasingstress"><![CDATA[Oh! That's a new one.]]></entry>
+	<entry id="sanae+str_bark_increasingstress"><![CDATA[Oh no. I'm sooo scared.]]></entry>
+	<entry id="sanae+str_bark_increasingstress"><![CDATA[Could you use your imagination a bit?]]></entry>
+	-->
+
+		<!-- Camping Barks Misc --
+    <entry id="sanae+str_bark_stress_partyhigh"><![CDATA[I knew you rabble were unreliable, and still I'm disappointed.]]></entry>
+    <entry id="sanae+str_bark_stress_partyhigh"><![CDATA[You rabble are weak, in body and spirit.]]></entry>
+	<entry id="sanae+str_bark_stress_partyhigh"><![CDATA[Vermin have more courage than you lot.]]></entry>
+	<entry id="sanae+str_bark_stress_partyhigh"><![CDATA[Why are you all so afraid?]]></entry>
+
+    <entry id="sanae+str_bark_stress_partylow"><![CDATA[Why did you bring me along again?]]></entry>
+    <entry id="sanae+str_bark_stress_partylow"><![CDATA[You know, I could make things more interesting... no?]]></entry>
+	<entry id="sanae+str_bark_stress_partylow"><![CDATA[Our enemy isn't trying very hard.]]></entry>
+    <entry id="sanae+str_bark_stress_partylow"><![CDATA[I wish something fun would happen.]]></entry>
+	
+    <entry id="sanae+str_bark_hp_partylow"><![CDATA[Why are humans so frail? *sigh*]]></entry>
+    <entry id="sanae+str_bark_hp_partylow"><![CDATA[If you can't take a hit, I'd recommend dodging.]]></entry>
+    <entry id="sanae+str_bark_hp_partylow"><![CDATA[Must I really babysit you?]]></entry>
+    <entry id="sanae+str_bark_hp_partylow"><![CDATA[Can't you fend for yourselves for once?]]></entry>
+	
+    <entry id="sanae+str_bark_hp_partyhigh"><![CDATA[You can hold your own, at least.]]></entry>
+    <entry id="sanae+str_bark_hp_partyhigh"><![CDATA[You can hold your own, I'll give you that.]]></entry>
+    <entry id="sanae+str_bark_hp_partyhigh"><![CDATA[All thanks to my efforts, of course!]]></entry>
+    <entry id="sanae+str_bark_hp_partyhigh"><![CDATA[You all know who to thank for our fortune!]]></entry>
+
+    <entry id="sanae+str_bark_hp_selflow"><![CDATA[Huh, that one actually got me.]]></entry>
+    <entry id="sanae+str_bark_hp_selflow"><![CDATA[It'll take more than this to get rid of me.]]></entry>
+    <entry id="sanae+str_bark_hp_selflow"><![CDATA[*winces* Don't worry, I'm fine.]]></entry>
+    <entry id="sanae+str_bark_hp_selflow"><![CDATA[I just need a pick-me-up.]]></entry>
+
+    <entry id="sanae+str_bark_hp_selfhigh"><![CDATA[Not a scratch, see?]]></entry>
+    <entry id="sanae+str_bark_hp_selfhigh"><![CDATA[You know, they could at least TRY to hurt me.]]></entry>
+    <entry id="sanae+str_bark_hp_selfhigh"><![CDATA[Compared to what I've been through, this is nothing.]]></entry>
+    <entry id="sanae+str_bark_hp_selfhigh"><![CDATA[*flexes* Peak condition, as always.]]></entry>
+
+    <entry id="sanae+str_bark_stress_selflow"><![CDATA[*yawns*]]></entry>
+    <entry id="sanae+str_bark_stress_selflow"><![CDATA[Wake me if anything interesting happens.]]></entry>
+    <entry id="sanae+str_bark_stress_selflow"><![CDATA[*snores*]]></entry>
+    <entry id="sanae+str_bark_stress_selflow"><![CDATA[I'm thinking of starting an incident. Anyone want in?]]></entry>
+
+    <entry id="sanae+str_bark_stress_selfhigh"><![CDATA[If this continues... hehehe...]]></entry>
+    <entry id="sanae+str_bark_stress_selfhigh"><![CDATA[Things are heating up...]]></entry>
+    <entry id="sanae+str_bark_stress_selfhigh"><![CDATA[So close... I can feel it...]]></entry>
+    <entry id="sanae+str_bark_stress_selfhigh"><![CDATA[Go on. Push me further... see what happens...]]></entry>
+
+    <entry id="sanae+str_bark_party_great_condition"><![CDATA[The end is in sight... pity.]]></entry>
+    <entry id="sanae+str_bark_party_great_condition"><![CDATA[I'm not gonna throw, okay?]]></entry>
+    <entry id="sanae+str_bark_party_great_condition"><![CDATA[This has been almost TOO easy.]]></entry>
+    <entry id="sanae+str_bark_party_great_condition"><![CDATA[Remind me why I'm here again?]]></entry>
+
+    <entry id="sanae+str_bark_party_poor_condition"><![CDATA[If you're just going to burden me, head back now.]]></entry>
+	<entry id="sanae+str_bark_party_poor_condition"><![CDATA[Keep this up, and you're headed to an early grave.]]></entry>
+    <entry id="sanae+str_bark_party_poor_condition"><![CDATA[I'm tired of carrying you sods.]]></entry>
+    <entry id="sanae+str_bark_party_poor_condition"><![CDATA[If you want to die so badly, I could help.]]></entry>
+
+    <entry id="sanae+str_bark_firewood_low"><![CDATA[Out of firewood, but at least that's less to carry.]]></entry>
+    <entry id="sanae+str_bark_firewood_low"><![CDATA[No, my sword does NOT create fire.]]></entry>
+	
+    <entry id="sanae+str_bark_provisions_low"><![CDATA[I hear night sparrows taste excellent when grilled.]]></entry>
+    <entry id="sanae+str_bark_provisions_low"><![CDATA[Who ate my share?]]></entry>
+    <entry id="sanae+str_bark_provisions_low"><![CDATA[Step away from the hat.]]></entry>
+    <entry id="sanae+str_bark_provisions_low"><![CDATA[Was that the last of the tinned catfish? ...good riddance.]]></entry>
+
+    <entry id="sanae+str_bark_provisions_high"><![CDATA[More interesting fare than back home, at least.]]></entry>
+    <entry id="sanae+str_bark_provisions_high"><![CDATA[I don't even recognize half these provisions!]]></entry>
+    <entry id="sanae+str_bark_provisions_high"><![CDATA[Abundant food and mediocre company... acceptable.]]></entry>
+    <entry id="sanae+str_bark_provisions_high"><![CDATA[Mediocre food, but at least we have a lot of it.]]></entry>
+	
+    <entry id="sanae+str_bark_firewood_high"><![CDATA[So much wood! What do you say to a bonfire?]]></entry>
+    <entry id="sanae+str_bark_firewood_high"><![CDATA[Stack the logs higher, we have plenty to spare.]]></entry>
+	
+	<entry id="sanae+str_bark_companionship"><![CDATA[This stone can absorb earthquakes. Wanna see?]]></entry>
+	
+	<entry id="sanae+str_bark_hobby"><![CDATA[This stone can absorb earthquakes. Wanna see?]]></entry>
+	-->
+	
+		<!-- Roster Barks --
+	<entry id="sanae+str_stagecoach_idle"><![CDATA[I excel at demolition, too.]]></entry>
+    <entry id="sanae+str_stagecoach_idle"><![CDATA[Wow. Reminds me of that miko's shrine after I...]]></entry>
+    <entry id="sanae+str_stagecoach_idle"><![CDATA[I hope you don't expect me to do carpentry.]]></entry>
+	<entry id="sanae+str_stagecoach_idle"><![CDATA[What happened, an earthquake? I didn't do it.]]></entry>
+	<entry id="sanae+str_stagecoach_idle"><![CDATA[So, what's here for me to fight?]]></entry>
+	<entry id="sanae+str_stagecoach_idle"><![CDATA[I hear you have a demonic infestation?]]></entry>
+	
+	<entry id="sanae+str_roster_list_low_stress_bark"><![CDATA[I'm bored, gimme something to do.]]></entry>
+	<entry id="sanae+str_roster_list_low_stress_bark"><![CDATA[I came here to fight, not laze about.]]></entry>
+	<entry id="sanae+str_roster_list_low_stress_bark"><![CDATA[If you need a mountain razed, I can do that too.]]></entry>
+    <entry id="sanae+str_roster_list_low_stress_bark"><![CDATA[It's like heaven here. Er, I didn't mean that in a good way.]]></entry>
+	
+    <entry id="sanae+str_roster_list_medium_stress_bark"><![CDATA[Why so concerned?]]></entry>
+    <entry id="sanae+str_roster_list_medium_stress_bark"><![CDATA[The shrine collapsed? Wasn't me this time.]]></entry>
+    <entry id="sanae+str_roster_list_medium_stress_bark"><![CDATA[I haven't seen anything horrific enough.]]></entry>
+	<entry id="sanae+str_roster_list_medium_stress_bark"><![CDATA[I heard you had demons here, but all I've seen are pigs.]]></entry>
+	
+    <entry id="sanae+str_roster_list_high_stress_bark"><![CDATA[Send me in again... heheheh...]]></entry>
+    <entry id="sanae+str_roster_list_high_stress_bark"><![CDATA[Fine, coop me up. See what happens.]]></entry>
+	<entry id="sanae+str_roster_list_high_stress_bark"><![CDATA[Ufufu...]]></entry>
+	<entry id="sanae+str_roster_list_high_stress_bark"><![CDATA[A good rampage will clear my head.]]></entry>
+		
+    <entry id="sanae+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Of all the horrors, THAT one was awfully ugly.]]></entry>
+    <entry id="sanae+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Finally, a sense of peace.]]></entry>
+    <entry id="sanae+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[*stretches* What a perfect day!]]></entry>
+	-->
+	
+	<entry id="str_incompatible_party_member_sanae_limit"><![CDATA[There can only be one.]]></entry>
+	
+		<!-- Destress Activites -->
+	<entry id="sanae+str_override_invalid_rejection"><![CDATA[That place makes my skin crawl...]]></entry>
+	
+				<!-- Bar --
+	<entry id="sanae+str_bar_committed"><![CDATA[Bring me your strongest!]]></entry>
+    <entry id="sanae+str_bar_committed"><![CDATA[Fetch me a bigger mug.]]></entry>
+    <entry id="sanae+str_bar_committed"><![CDATA[Any local specials?]]></entry>
+    <entry id="sanae+str_bar_committed"><![CDATA[You expect me to get drunk off this swill?]]></entry>
+	
+	<entry id="sanae+str_roster_list_bar_bark"><![CDATA[Another "on the rocks" joke, and I'm sending you to Hell.]]></entry>
+    <entry id="sanae+str_roster_list_bar_bark"><![CDATA[Oi, ugly! Bet I can drink you under the table!]]></entry>
+    <entry id="sanae+str_roster_list_bar_bark"><![CDATA[If I don't feel this one in the morning, you'll be sorry.]]></entry>
+	-->
+				<!-- Gambling --
+    <entry id="sanae+str_gambling_committed"><![CDATA[That's new, how do I play?]]></entry>
+    <entry id="sanae+str_gambling_committed"><![CDATA[One chip. It's all I'll need to clean up tonight.]]></entry>
+    <entry id="sanae+str_gambling_committed"><![CDATA[I'll wager this purse I can land a sto- what, you don't trust me?]]></entry>
+	<entry id="sanae+str_gambling_committed"><![CDATA[I prefer to wager lives, but this will suffice.]]></entry>
+	
+	<entry id="sanae+str_roster_list_gambling_bark"><![CDATA[Beginner's luck, I assure you.]]></entry>
+    <entry id="sanae+str_roster_list_gambling_bark"><![CDATA[Called your bluff.]]></entry>
+    <entry id="sanae+str_roster_list_gambling_bark"><![CDATA[This game seems a bit simple.]]></entry>
+	-->
+				<!-- Brothel --
+    <entry id="sanae+str_brothel_committed"><![CDATA[No, I don't want to see the men.]]></entry>
+    <entry id="sanae+str_brothel_committed"><![CDATA[I hope you can satisfy me.]]></entry>
+	<entry id="sanae+str_brothel_committed"><![CDATA[I'll try not to break the floor this time.]]></entry>
+	<entry id="sanae+str_brothel_committed"><![CDATA[Got anyone... feisty?]]></entry>
+	
+	<entry id="sanae+str_roster_list_brothel_bark"><![CDATA[*snuggles* So soft ~]]></entry>
+    <entry id="sanae+str_roster_list_brothel_bark"><![CDATA[Ooh, you're cute ~]]></entry>
+	-->
+		<!-- Boss Barks -->
+				<!-- Hag --
+	<entry id="sanae+str_prisoner_damage_cauldron_full"><![CDATA[You know my flesh is toxic, right?]]></entry>
+    <entry id="sanae+str_prisoner_damage_cauldron_full"><![CDATA[Get me out of this infernal cookpot!]]></entry>
+    <entry id="sanae+str_prisoner_damage_cauldron_full"><![CDATA[Stop making jokes and get me out!]]></entry>
+    <entry id="sanae+str_prisoner_damage_cauldron_full"><![CDATA[Smack the damn pot already!]]></entry>
+	-->
+	
+				<!-- Siren --
+    <entry id="sanae+str_control_before_turn_siren"><![CDATA[Why not? I've nothing better to do.]]></entry>
+    <entry id="sanae+str_control_before_turn_siren"><![CDATA[Hmhmhm~]]></entry>
+    <entry id="sanae+str_control_before_turn_siren"><![CDATA[I was getting bored of them anyways.]]></entry>
+    <entry id="sanae+str_control_before_turn_siren"><![CDATA[A proposition, you say?]]></entry>
+	
+    <entry id="sanae+str_control_return_siren"><![CDATA[Sorry. You're cute, but WAY too clingy.]]></entry>
+    <entry id="sanae+str_control_return_siren"><![CDATA[Sorry, got a little carried away.]]></entry>
+	<entry id="sanae+str_control_return_siren"><![CDATA[Sorry, not my type.]]></entry>
+    <entry id="sanae+str_control_return_siren"><![CDATA[No hard feelings, right?]]></entry>
+	-->
+	
+				<!-- Drowned Crew --
+    <entry id="sanae+str_prisoner_damage_drowned_anchored"><![CDATA[Dammit, I can't swim!]]></entry>
+    <entry id="sanae+str_prisoner_damage_drowned_anchored"><![CDATA[Stones don't float like that!]]></entry>
+    <entry id="sanae+str_prisoner_damage_drowned_anchored"><![CDATA[Rid me of this infernal anchor!]]></entry>
+	-->
+	
+				<!-- Wilbur --
+	<entry id="sanae+str_monster_attack_obliterate_enraged"><![CDATA[Fair enough, I suppose.]]></entry>
+    <entry id="sanae+str_monster_attack_obliterate_enraged"><![CDATA[Protecting your little friend, huh?]]></entry>
+    <entry id="sanae+str_monster_attack_obliterate_enraged"><![CDATA[Ow! Fine, deal with the small one later!]]></entry>
+	-->
+	
+				<!-- Cannon --
+    <entry id="sanae+str_monster_attack_light_fuse"><![CDATA[Get down, NOW!]]></entry>
+    <entry id="sanae+str_monster_attack_light_fuse"><![CDATA[Oh dear.]]></entry>
+    <entry id="sanae+str_monster_attack_light_fuse"><![CDATA[Well, THAT'S gonna hurt.]]></entry>
+    <entry id="sanae+str_monster_attack_light_fuse"><![CDATA[...that's not danmaku, is it.]]></entry>
+	-->
+	
+				<!-- Prophet --
+    <entry id="sanae+str_monster_attack_prophet_mark"><![CDATA[Stay back, incoming!]]></entry>
+    <entry id="sanae+str_monster_attack_prophet_mark"><![CDATA[Hey, that's MY thing!]]></entry>
+	<entry id="sanae+str_monster_attack_prophet_mark"><![CDATA[So much for originality...]]></entry>
+	<entry id="sanae+str_monster_attack_prophet_mark"><![CDATA[Poser.]]></entry>
+	-->
+	
+				<!-- Necromancer --
+    <entry id="sanae+str_monster_attack_unholy_smite"><![CDATA[Oi, hands off!]]></entry>
+    <entry id="sanae+str_monster_attack_unholy_judgement"><![CDATA[Now why'd you have to remind me of that?]]></entry>
+    <entry id="sanae+str_monster_attack_unholy_curse"><![CDATA[...what was that?]]></entry>
+	-->
+	
+				<!-- Heart of Darkness -->
+	<entry id="sanae+str_monster_user_selected_targets_kill_pill"><![CDATA[Maybe we'll be reunited in the beyond...]]></entry>
+	
+				<!-- Sunward Mod --
+	<entry id="sanae+str_monster_attack_bozu_nothing"><![CDATA[Well, what are you waiting for?]]></entry>
+    <entry id="sanae+str_monster_attack_bozu_nothing"><![CDATA[Come at me, I don't have all day!]]></entry>
+	<entry id="sanae+str_monster_attack_catfish_wave"><![CDATA[The torch? And why should I care?]]></entry>
+	<entry id="sanae+str_monster_attack_catfish_wave"><![CDATA[Stop playing games. Your opponent's right here.]]></entry>
+	<entry id="sanae+str_monster_attack_catfish_lunge"><![CDATA[Do that again, and you'll see stars instead of torchlight.]]></entry>
+    <entry id="sanae+str_monster_attack_yurei_free"><![CDATA[The afterlife is harsh. Be safe.]]></entry>
+    <entry id="sanae+str_monster_attack_yurei_free"><![CDATA[Such a pity.]]></entry>
+	<entry id="sanae+str_monster_attack_lion_cry"><![CDATA[Don't cry, I'm sending you next.]]></entry>
+	<entry id="sanae+str_monster_attack_lion_cry"><![CDATA[Just doing my job. Trust me, I don't like it either.]]></entry>
+	<entry id="sanae+str_monster_user_selected_targets_lion_roar"><![CDATA[How dare you talk back to me!]]></entry>
+	<entry id="sanae+str_monster_user_selected_targets_lion_roar"><![CDATA[Shut it, before I ram a Keystone into your backside!]]></entry>
+	<entry id="sanae+str_monster_user_selected_targets_lion_roar"><![CDATA[SILENCE!]]></entry>
+	-->
+	
+		<!-- Skill Barks -->
+	
+		<!-- Crossmod Skill Reactions -->
+				<!-- Tenshi -->
+	<entry id="sanae+str_tenshi_ult_spellcard_react"><![CDATA[]]></entry>
+	<entry id="sanae+str_tenshi_earthquake_spellcard_react"><![CDATA[]]></entry>
+	
+				<!-- Miko by The Necromancer --
+	<entry id="sanae+str_miko_spellcard_react"><![CDATA[Pffft. You call that a spellcard?]]></entry>
+	<entry id="sanae+str_miko_spellcard_react"><![CDATA[...was that supposed to be impressive?]]></entry>
+	<entry id="sanae+str_miko_spellcard_react"><![CDATA[Less flashy than I remember.]]></entry>
+	<entry id="sanae+str_miko_spellcard_react"><![CDATA[You're not trying, right?]]></entry>
+	<entry id="sanae+str_miko_spellcard_react"><![CDATA[Trying to make them surrender out of pity?]]></entry>
+	-->
+	
+				<!-- Maid by The Necromancer --
+	<entry id="sanae+str_the_world_react"><![CDATA[(They really aren't worth using that...)]]></entry>
+	<entry id="sanae+str_the_world_react"><![CDATA[(Fine, just leave some for me.)]]></entry>
+	<entry id="sanae+str_the_world_react"><![CDATA[(You need to slow down and relax.)]]></entry>
+	<entry id="sanae+str_the_world_react"><![CDATA[(Well, at least I won't have to wait.)]]></entry>
+	<entry id="sanae+str_the_world_react"><![CDATA[(Killjoy.)]]></entry>
+	-->
+	
+				<!-- Magician by Necro --
+	<entry id="sanae+str_master_spark_react"><![CDATA[I could do that too. If I felt like it.]]></entry>
+	<entry id="sanae+str_master_spark_react"><![CDATA[What, you can't spam it?]]></entry>
+	<entry id="sanae+str_master_spark_react"><![CDATA[Effective, if inelegant.]]></entry>
+	<entry id="sanae+str_master_spark_react"><![CDATA[You call THAT a laser?]]></entry>
+	-->
+	
+		<!-- Crimson Court -->
+			<!-- Prisoner --
+	<entry id="sanae+str_prisoner_help_me"><![CDATA[This isn't what it looks like, I swear.]]></entry>
+    <entry id="sanae+str_prisoner_rescue_thanks"><![CDATA[Keep quiet about this, and I'll help you.]]></entry>
+	-->
+	
+	
+		<!-- Buff shit -->
+	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
+	
+		<!-- Compatibility -->
+	
+
+  </language>
+
+</root>
+
