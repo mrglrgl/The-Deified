@@ -112,7 +112,7 @@ heroes/sanae/sanae.ability.six.png 34919
 heroes/sanae/sanae.ability.three.png 32522
 heroes/sanae/sanae.ability.two.png 37079
 heroes/sanae/sanae.art.darkest 2395
-heroes/sanae/sanae.info.darkest 59060
+heroes/sanae/sanae.info.darkest 59056
 raid/camping/sanae.camping_skills.json 4133
 shared/buffs/sanae.buffs.json 7638
 shared/buffs/sanae_Desk.buffs.json 45109
@@ -120,8 +120,8 @@ shared/buffs/sanae_Line.buffs.json 8136
 upgrades/heroes/sanae.upgrades.json 21257
 colours/sanae.colours.darkest 58
 effects/sanae.effects.darkest 46028
-localization/0_english.loc2 15293
-localization/sanae.string_table.xml 43018
+localization/0_english.loc2 15820
+localization/sanae.string_table.xml 44102
 overlays/poptext_damage_reflect.png 5169
 overlays/poptext_health_damage_block.png 5439
 overlays/poptext_health_damage_block_onset.png 5442
@@ -135,6 +135,7 @@ overlays/tray_quirk.disease_vampire_crave.png 17439
 overlays/tray_quirk.disease_vampire_passive.png 17480
 overlays/tray_quirk.disease_vampire_wasting.png 18097
 726675-sanae.jpg 13294
-modfiles.txt 7083
+README.md 43
+modfiles.txt 7265
 preview_icon.png 15369
 project.xml 596

@@ -8,6 +8,8 @@
 	<entry id="camping_skill_name_danmaku_sanae"><![CDATA[DANMAKU PRACTICE]]></entry>
 	<entry id="camping_skill_name_sanae_guiding_star"><![CDATA[GUIDING STAR]]></entry>
 	
+	<entry id="sanae+str_bark_danmaku_sanae"><![CDATA[Sometimes it helps to let off some steam.]]></entry>
+	<entry id="sanae+str_bark_sanae_guiding_star"><![CDATA[See that one? It will guide us to a brighter future!]]></entry>
 	<entry id="sanae+str_bark_encourage"><![CDATA[Take this, it'll bring you good luck.]]></entry>
 	
 	<entry id="sanae+str_bark_first_aid"><![CDATA[Don't worry, you're in good hands.]]></entry>
@@ -33,18 +35,18 @@
     <entry id="upgrade_tree_name_sanae.s_suwacurse"><![CDATA[Mishaguji Summoning]]></entry>
 	
 		<!-- Upgrades -->
-    <entry id="sanae_weapon_0"><![CDATA[Cracked Keystone]]></entry>
-    <entry id="sanae_weapon_1"><![CDATA[Chiseled Keystone]]></entry>
-    <entry id="sanae_weapon_2"><![CDATA[Sacred Keystone]]></entry>
-    <entry id="sanae_weapon_3"><![CDATA[Imbued Keystone]]></entry>
-    <entry id="sanae_weapon_4"><![CDATA["Heaven's Catastrophe"]]></entry>
-    <entry id="upgrade_tree_name_sanae.weapon"><![CDATA[Keystone]]></entry>
-    <entry id="sanae_armour_0"><![CDATA[Torn Dress]]></entry>
-    <entry id="sanae_armour_1"><![CDATA[Worn Dress]]></entry>
-    <entry id="sanae_armour_2"><![CDATA[Respectable Dress]]></entry>
-    <entry id="sanae_armour_3"><![CDATA[Pristine Dress]]></entry>
-    <entry id="sanae_armour_4"><![CDATA["Flawless Celestial Cloth"]]></entry>
-    <entry id="upgrade_tree_name_sanae.armour"><![CDATA[Dress]]></entry>
+    <entry id="sanae_weapon_0"><![CDATA[Weapon 1]]></entry>
+    <entry id="sanae_weapon_1"><![CDATA[Weapon 2]]></entry>
+    <entry id="sanae_weapon_2"><![CDATA[Weapon 3]]></entry>
+    <entry id="sanae_weapon_3"><![CDATA[Weapon 4]]></entry>
+    <entry id="sanae_weapon_4"><![CDATA["Weapon 5"]]></entry>
+    <entry id="upgrade_tree_name_sanae.weapon"><![CDATA[Weapon]]></entry>
+    <entry id="sanae_armour_0"><![CDATA[Armor 1]]></entry>
+    <entry id="sanae_armour_1"><![CDATA[Armor 2]]></entry>
+    <entry id="sanae_armour_2"><![CDATA[Armor 3]]></entry>
+    <entry id="sanae_armour_3"><![CDATA[Armor 4]]></entry>
+    <entry id="sanae_armour_4"><![CDATA["Armor 5"]]></entry>
+    <entry id="upgrade_tree_name_sanae.armour"><![CDATA[Armor]]></entry>
     <entry id="action_verbose_body_guild_sanae"><![CDATA[Sanae Guild]]></entry>
     <entry id="action_verbose_body_blacksmith_sanae"><![CDATA[Sanae Blacksmith]]></entry>
     <entry id="action_verbose_body_camping_trainer_sanae"><![CDATA[Sanae Camp]]></entry>
@@ -255,11 +257,22 @@
 	
 				
 		<!-- Crit -->
-	<entry id="sanae+str_critbyhero"><![CDATA[Are you ready for a miracle?!]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[That was no fluke.]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[Kneel, and maybe I'll forgive you.]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA["Lucky"? Hardly!]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[I'm getting better at this "extermination" thing!]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[Your fall has come.]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[I'll blow you away!]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[The winds have shifted in my favor!]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[Just give up. Resistance is futile.]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[Behold, the power of the gods!]]></entry>
+	<entry id="sanae+str_critbyhero"><![CDATA[NOW do you believe?]]></entry>
 	
 		<!-- Death's Door -->
     <entry id="sanae+str_bark_deathsdoor"><![CDATA[No... I can't fall here!]]></entry>
+	<entry id="sanae+str_bark_deathsdoor"><![CDATA[Gods help me!]]></entry>
 	<entry id="sanae+str_bark_deathsdoorsurvive"><![CDATA[You'll never keep me down!]]></entry>
+	<entry id="sanae+str_bark_deathsdoorsurvive"><![CDATA[This isn't my first defeat. And it won't be my last.]]></entry>
 	<entry id="sanae+str_bark_deathsdoorsurvive_ally"><![CDATA[That's it, keep going!]]></entry>
 	
 		<!-- When being hit --
