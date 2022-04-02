@@ -100,86 +100,88 @@
 				<!-- Skills -->
 				
 		<!-- Divine Wind -->
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-5]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4-6
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4-5
 	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 4-6
-	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 6-8
-	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 4-5
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 6-7
+	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4-6]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5-7
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4-5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5-6
 	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 5-7
-	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 7-9
-	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 5-6
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 7-8
+	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5-7]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6-8
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5-6]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6-7
 	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 6-8
-	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-10
-	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 6-7
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-9
+	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6-8]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 7-9
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6-7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 7-8
 	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 7-9
-	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 9-11
-	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 7-8
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 9-10
+	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 7-9]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 8-10
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 7-8]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 8-9
 	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-10
-	Cure {colour_start|stun}Status{colour_end} {colour_start|skill_unselectable}(Target only){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 10-12
-	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-9
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 10-11
+	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
 		<!-- Gather Faith -->
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_2_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -2 for each ally]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_3_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -3 for each ally]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_4_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -4 for each ally]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_great_faith_desk"><![CDATA[1 Blocks for each ally
-	Cure {colour_start|stun}Status{colour_end}]]></entry>
+	Cure Party {colour_start|stun}Status{colour_end}]]></entry>
 	
 		<!-- Blinding Starlight -->
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_noblockstun_desk"><![CDATA[Pierces {colour_start|stun}Stun{colour_end} Recovery Buffs]]></entry>
 	
 		<!-- Seas Parting -->
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f0_desk"><![CDATA[+3 DODGE / +10%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f1_desk"><![CDATA[+5 DODGE / +20%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f2_desk"><![CDATA[+5 DODGE / +20%% All Resists for 6 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f3_desk"><![CDATA[+10 DODGE / +30%% All Resists for 6 rds]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f0_desk"><![CDATA[+3 DODGE / +10%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f1_desk"><![CDATA[+6 DODGE / +20%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f2_desk"><![CDATA[+6 DODGE / +20%% All Resists for 6 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f3_desk"><![CDATA[+12 DODGE / +30%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f0_desk"><![CDATA[+3 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f1_desk"><![CDATA[+5 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f2_desk"><![CDATA[+5 DODGE for 7 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f3_desk"><![CDATA[+7 DODGE for 7 rds
+	1 Blocks for 2 rds]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f0_desk"><![CDATA[+4 DODGE / +10%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f1_desk"><![CDATA[+7 DODGE / +20%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f2_desk"><![CDATA[+7 DODGE / +20%% All Resists for 6 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f3_desk"><![CDATA[+14 DODGE / +30%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f0_desk"><![CDATA[+3 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f1_desk"><![CDATA[+6 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f2_desk"><![CDATA[+6 DODGE for 7 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f3_desk"><![CDATA[+9 DODGE for 7 rds
+	1 Blocks for 2 rds]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f0_desk"><![CDATA[+4 DODGE / +10%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f1_desk"><![CDATA[+8 DODGE / +20%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f2_desk"><![CDATA[+8 DODGE / +20%% All Resists for 6 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f3_desk"><![CDATA[+16 DODGE / +30%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f0_desk"><![CDATA[+4 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f1_desk"><![CDATA[+7 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f2_desk"><![CDATA[+7 DODGE for 7 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f3_desk"><![CDATA[+11 DODGE for 7 rds
+	1 Blocks for 2 rds]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f0_desk"><![CDATA[+4 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f1_desk"><![CDATA[+8 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f2_desk"><![CDATA[+8 DODGE for 7 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f3_desk"><![CDATA[+13 DODGE for 7 rds
+	1 Blocks for 2 rds]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f0_desk"><![CDATA[+5 DODGE / +10%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f1_desk"><![CDATA[+10 DODGE / +20%% All Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f2_desk"><![CDATA[+10 DODGE / +20%% All Resists for 6 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f3_desk"><![CDATA[+20 DODGE / +30%% All Resists for 6 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f0_desk"><![CDATA[+5 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f1_desk"><![CDATA[+10 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f2_desk"><![CDATA[+10 DODGE for 7 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f3_desk"><![CDATA[+15 DODGE for 7 rds
+	1 Blocks for 2 rds]]></entry>
 	
 		<!-- Uplifting Prayer -->
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_forward_desk"><![CDATA[Target: {colour_start|move}Forward{colour_end} 1]]></entry>
@@ -567,8 +569,9 @@
 	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
 	
 		<!-- Compatibility -->
-	
+	<entry id="tray_icon_tooltip_health_damage_blocks_duration_format"><![CDATA[%d Blocks (%d Rounds)]]></entry>
 
+	
   </language>
 
 </root>

@@ -54,35 +54,9 @@
          }
       },
 	  {
-         "id" : "sanae_setfaith2_35_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_setfaith2_35_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "sanae_setfaith2_37_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_setfaith2_37_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_setfaith2_38_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_setfaith2_38_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -197,35 +171,9 @@
          }
       },
 	  {
-         "id" : "sanae_setfaith3_16_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_setfaith3_16_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "sanae_setfaith3_18_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_setfaith3_18_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_setfaith3_19_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_setfaith3_19_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
