@@ -1,0 +1,1 @@
+inventory_item: .type "supply"		.id "sanae_faith_shard"			.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0

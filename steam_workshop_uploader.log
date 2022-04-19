@@ -29,12 +29,6 @@ Modded files...
 
 1unaltered/modes/new_game_plus/upgrades/heroes/tenshi.upgrades.json
 1unaltered/modes/radiant/upgrades/heroes/tenshi.upgrades.json
-1unaltered/raid/camping/skill_icons/camp_skill_t_hisoueye.PNG
-1unaltered/raid/camping/skill_icons/camp_skill_t_makesomebombs.png
-1unaltered/raid/camping/skill_icons/camp_skill_t_nawitrance.png
-1unaltered/raid/camping/skill_icons/camp_skill_t_nompeach.PNG
-1unaltered/raid/camping/skill_icons/camp_skill_t_protectingstones.PNG
-1unaltered/raid/camping/skill_icons/camp_skill_t_slacktrance.png
 heroes/sanae/sanae_A/anim/sanae.sprite.afflicted.png
 heroes/sanae/sanae_A/anim/sanae.sprite.camp.png
 heroes/sanae/sanae_A/anim/sanae.sprite.combat.png
@@ -48,7 +42,6 @@ heroes/sanae/sanae_A/anim/sanae.sprite.idle.png
 heroes/sanae/sanae_A/anim/sanae.sprite.investigate.png
 heroes/sanae/sanae_A/anim/sanae.sprite.persuasion_needle.png
 heroes/sanae/sanae_A/anim/sanae.sprite.walk.png
-1unaltered/raid/camping/tenshi.camping_skills.json
 campaign/town/town_event/town_event.image_first_sanae.png
 heroes/sanae/anim/sanae.sprite.afflicted.atlas
 heroes/sanae/anim/sanae.sprite.afflicted.skel
@@ -128,7 +121,10 @@ heroes/sanae/icons_equip/eqp_weapon_2.png
 heroes/sanae/icons_equip/eqp_weapon_3.png
 heroes/sanae/icons_equip/eqp_weapon_4.png
 heroes/sanae/sanae_A/sanae_portrait_roster.png
+panels/icons_equip/supply/inv_supply+sanae_faith_shard.png
 raid/camping/skill_icons/camp_skill_danmaku_sanae.png
+raid/camping/skill_icons/camp_skill_sanae_camp_buffskill.png
+raid/camping/skill_icons/camp_skill_sanae_camp_healskill.png
 raid/camping/skill_icons/camp_skill_sanae_guiding_star.png
 campaign/town_events/sanae.town_events.events.json
 heroes/sanae/FLAT HAIR(miko_guild_header).png
@@ -149,8 +145,10 @@ shared/buffs/sanae_Line.buffs.json
 upgrades/heroes/sanae.upgrades.json
 colours/sanae.colours.darkest
 effects/sanae.effects.darkest
+inventory/sanae.supply.inventory.items.darkest
 localization/0_english.loc2
 localization/sanae.string_table.xml
+loot/sanae.loot.json
 overlays/poptext_damage_reflect.png
 overlays/poptext_health_damage_block.png
 overlays/poptext_health_damage_block_onset.png

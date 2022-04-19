@@ -16,7 +16,7 @@ combat_skill: .id "s_miracle_star" .icon "one" .anim "exterminate" .fx "ext_perf
 combat_skill: .id "s_divine_wind" .icon "two" .anim "fantasyseal" .fx "" .targfx "divine_grace_target" .can_display_performer_selection_after_turn false .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "s_gather_faith" .icon "three" .anim "disasterdispellingprayer" .fx "mk_prayer_prf_fx" .targheadfx "prayer_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "s_starry_night" .icon "four" .anim "homingamulet" .fx "HAFX" .targchestfx "homing_target_fx" .condensed_tooltip_stats true .condensed_tooltip_effects false .area_pos_offset 150 0 .target_area_pos_offset -125 0
-combat_skill: .id "s_moses_miracle" .icon "five" .anim "evilsealingcircle" .fx "" .targfx "barrier_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
+combat_skill: .id "s_moses_miracle" .icon "five" .anim "fantasyseal" .fx "" .targfx "barrier_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "s_uplifting_prayer" .icon "six" .anim "disasterdispellingprayer" .fx "mk_prayer_prf_fx" .targfx "invigorating_vapours_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "s_suwacurse" .icon "seven" .anim "homingamulet" .fx "HAFX" .targchestfx "homing_target_fx" .condensed_tooltip_stats true .condensed_tooltip_effects false
 

@@ -5,11 +5,16 @@
 	
 
 		<!--Camp Skills-->
-	<entry id="camping_skill_name_danmaku_sanae"><![CDATA[DANMAKU PRACTICE]]></entry>
+	<entry id="camping_skill_name_sanae_camp_healskill"><![CDATA[GREATER THAUMATURGY]]></entry>
+	<entry id="camping_skill_name_danmaku_sanae"><![CDATA[SUPPLICATION]]></entry>
+	<entry id="camping_skill_name_sanae_camp_buffskill"><![CDATA[RAZORSHARP BLESSING]]></entry>
 	<entry id="camping_skill_name_sanae_guiding_star"><![CDATA[GUIDING STAR]]></entry>
 	
-	<entry id="sanae+str_bark_danmaku_sanae"><![CDATA[Sometimes it helps to let off some steam.]]></entry>
+	<entry id="sanae+str_bark_sanae_camp_healskill"><![CDATA[HAAAAAAA!]]></entry>
+	<entry id="sanae+str_bark_danmaku_sanae"><![CDATA[Please, lend me your prayers...]]></entry>
+	<entry id="sanae+str_bark_sanae_camp_buffskill"><![CDATA[Sharp enough to split metal!]]></entry>
 	<entry id="sanae+str_bark_sanae_guiding_star"><![CDATA[See that one? It will guide us to a brighter future!]]></entry>
+	
 	<entry id="sanae+str_bark_encourage"><![CDATA[Take this, it'll bring you good luck.]]></entry>
 	
 	<entry id="sanae+str_bark_first_aid"><![CDATA[Don't worry, you're in good hands.]]></entry>
@@ -59,37 +64,16 @@
 	<entry id="str_skill_mode_info_sanaefaith0"><![CDATA[{colour_start|sanaefaith}If Faith 0:{colour_end}]]></entry>
     <entry id="str_skill_mode_info_sanaefaith1"><![CDATA[{colour_start|sanaefaith}If Faith 1:{colour_end}]]></entry>
 	<entry id="str_skill_mode_info_sanaefaith2"><![CDATA[{colour_start|sanaefaith}If Faith 2:{colour_end}]]></entry>
-	<entry id="str_skill_mode_info_sanaefaith3"><![CDATA[{colour_start|sanaefaith}If Faith 3:{colour_end}]]></entry>
 	<entry id="actor_mode_name_sanaefaith0"><![CDATA[Faith 0]]></entry>
 	<entry id="actor_mode_name_sanaefaith1"><![CDATA[Faith 1]]></entry>
 	<entry id="actor_mode_name_sanaefaith2"><![CDATA[Faith 2]]></entry>
-	<entry id="actor_mode_name_sanaefaith3"><![CDATA[Faith 3]]></entry>
 	
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith0_desk"><![CDATA[Set Faith to 0]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith1_desk"><![CDATA[Set Faith to 1]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_desk"><![CDATA[Set Faith to 2]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_33_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(33%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_35_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(35%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_37_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(37%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_38_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(38%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_40_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(40%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_66_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(66%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_68_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(68%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_70_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(70%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_72_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(72%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_75_desk"><![CDATA[Set Faith to 2 {colour_start|skill_unselectable}(75%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_desk"><![CDATA[Set Faith to 3]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_15_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(15%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_16_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(16%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_18_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(18%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_19_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(19%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_20_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(20%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_25_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(25%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_27_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(27%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_29_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(29%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_31_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(31%% chance){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith3_33_desk"><![CDATA[Set Faith to 3 {colour_start|skill_unselectable}(33%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaithnull_desk"><![CDATA[{colour_start|skill_unselectable}(Does not alter Faith){colour_end}]]></entry>
+
 
 		<!-- Trinkets and Bobbles -->
 	
@@ -102,161 +86,139 @@
 		<!-- Divine Wind -->
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4-5
-	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 4-5
 	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l1_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 6-7
-	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4-5]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5-6
-	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 5-6
 	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l2_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 7-8
-	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5-6]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6-7
-	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 6-7
 	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l3_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-9
-	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6-7]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 7-8
-	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 7-8
 	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l4_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 9-10
-	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f0_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 7-8]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 8-9
-	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-9
 	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 10-11
-	Cure Party {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
 		<!-- Gather Faith -->
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_2_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -2 for each ally]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_3_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -3 for each ally]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_4_faith_desk"><![CDATA[{colour_start|stress}Stress{colour_end} -4 for each ally]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_great_faith_desk"><![CDATA[1 Blocks for each ally
-	Cure Party {colour_start|stun}Status{colour_end}]]></entry>
-	
-		<!-- Blinding Starlight -->
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_noblockstun_desk"><![CDATA[Pierces {colour_start|stun}Stun{colour_end} Recovery Buffs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_great_faith_desk"><![CDATA[2 Blocks until end of round
+	Cure {colour_start|stun}Status{colour_end}]]></entry>
 	
 		<!-- Seas Parting -->
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f0_desk"><![CDATA[+3 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f1_desk"><![CDATA[+5 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f2_desk"><![CDATA[+5 DODGE for 7 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f3_desk"><![CDATA[+7 DODGE for 7 rds
-	1 Blocks for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f1_desk"><![CDATA[+5 DODGE / -5%% Crits Received]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f2_desk"><![CDATA[+7 DODGE / -7%% Crits Received
+	Buffs for 2 additional rds]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f0_desk"><![CDATA[+3 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f1_desk"><![CDATA[+6 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f2_desk"><![CDATA[+6 DODGE for 7 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f3_desk"><![CDATA[+9 DODGE for 7 rds
-	1 Blocks for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f1_desk"><![CDATA[+6 DODGE / -6%% Crits Received]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f2_desk"><![CDATA[+9 DODGE / -9%% Crits Received
+	Buffs for 2 additional rds]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f0_desk"><![CDATA[+4 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f1_desk"><![CDATA[+7 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f2_desk"><![CDATA[+7 DODGE for 7 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f3_desk"><![CDATA[+11 DODGE for 7 rds
-	1 Blocks for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f1_desk"><![CDATA[+7 DODGE / -7%% Crits Received]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f2_desk"><![CDATA[+11 DODGE / -11%% Crits Received
+	Buffs for 2 additional rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f0_desk"><![CDATA[+4 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f1_desk"><![CDATA[+8 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f2_desk"><![CDATA[+8 DODGE for 7 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f3_desk"><![CDATA[+13 DODGE for 7 rds
-	1 Blocks for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f1_desk"><![CDATA[+8 DODGE / -8%% Crits Received]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f2_desk"><![CDATA[+13 DODGE / -13%% Crits Received
+	Buffs for 2 additional rds]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f0_desk"><![CDATA[+5 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f1_desk"><![CDATA[+10 DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f2_desk"><![CDATA[+10 DODGE for 7 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f3_desk"><![CDATA[+15 DODGE for 7 rds
-	1 Blocks for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f1_desk"><![CDATA[+10 DODGE / -10%% Crits Received]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f2_desk"><![CDATA[+15 DODGE / -15%% Crits Received
+	Buffs for 2 additional rds]]></entry>
 	
 		<!-- Uplifting Prayer -->
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_forward_desk"><![CDATA[Target: {colour_start|move}Forward{colour_end} 1]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f1_desk"><![CDATA[+5 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f2_desk"><![CDATA[+10 ACC / +8%% CRT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f3_desk"><![CDATA[+10 ACC / +8%% CRT
-	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f0_desk"><![CDATA[+20%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f1_desk"><![CDATA[+30%% DMG / +5 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f2_desk"><![CDATA[+40%% DMG / +10 ACC
+	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f1_desk"><![CDATA[+6 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f2_desk"><![CDATA[+12 ACC / +9%% CRT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f3_desk"><![CDATA[+12 ACC / +9%% CRT
-	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f0_desk"><![CDATA[+22%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f1_desk"><![CDATA[+32%% DMG / +6 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f2_desk"><![CDATA[+42%% DMG / +12 ACC
+	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f1_desk"><![CDATA[+7 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f2_desk"><![CDATA[+14 ACC / +10%% CRT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f3_desk"><![CDATA[+14 ACC / +10%% CRT
-	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f0_desk"><![CDATA[+24%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f1_desk"><![CDATA[+34%% DMG / +7 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f2_desk"><![CDATA[+44%% DMG / +14 ACC
+	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f1_desk"><![CDATA[+8 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f2_desk"><![CDATA[+16 ACC / +11%% CRT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f3_desk"><![CDATA[+16 ACC / +11%% CRT
-	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f0_desk"><![CDATA[+26%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f1_desk"><![CDATA[+36%% DMG / +8 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f2_desk"><![CDATA[+46%% DMG / +16 ACC
+	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f1_desk"><![CDATA[+10 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f2_desk"><![CDATA[+20 ACC / +12%% CRT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f3_desk"><![CDATA[+20 ACC / +12%% CRT
-	Grants an {colour_start|notable}Extra Action{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f0_desk"><![CDATA[+30%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f1_desk"><![CDATA[+40%% DMG / +10 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f2_desk"><![CDATA[+50%% DMG / +20 ACC
+	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
 	
 		<!-- Suwacurse -->
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_1_desk"><![CDATA[Clear all Corpses
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f0_desk"><![CDATA[2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f1_desk"><![CDATA[4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f2_desk"><![CDATA[5 pts/rd for 4 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f3_desk"><![CDATA[6 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f1_desk"><![CDATA[5 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l1_f2_desk"><![CDATA[6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l1_desk"><![CDATA[Line Effect:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_2_desk"><![CDATA[Clear all Corpses
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f0_desk"><![CDATA[2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f1_desk"><![CDATA[4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f2_desk"><![CDATA[5 pts/rd for 4 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f3_desk"><![CDATA[6 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f1_desk"><![CDATA[5 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l2_f2_desk"><![CDATA[6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l2_desk"><![CDATA[Line Effect:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_3_desk"><![CDATA[Clear all Corpses
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f0_desk"><![CDATA[3 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f1_desk"><![CDATA[5 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f2_desk"><![CDATA[6 pts/rd for 4 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f3_desk"><![CDATA[7 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f1_desk"><![CDATA[6 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l3_f2_desk"><![CDATA[7 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l3_desk"><![CDATA[Line Effect:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 4 pts/rd for 2 rds]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_4_desk"><![CDATA[Clear all Corpses
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f0_desk"><![CDATA[3 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f1_desk"><![CDATA[5 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f2_desk"><![CDATA[6 pts/rd for 4 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f3_desk"><![CDATA[7 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f1_desk"><![CDATA[6 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l4_f2_desk"><![CDATA[7 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l4_desk"><![CDATA[Line Effect:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 4 pts/rd for 2 rds]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_5_desk"><![CDATA[Clear all Corpses
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f0_desk"><![CDATA[4 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f1_desk"><![CDATA[6 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f2_desk"><![CDATA[7 pts/rd for 4 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f3_desk"><![CDATA[8 pts/rd for 4 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f1_desk"><![CDATA[7 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_blight_l5_f2_desk"><![CDATA[8 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_lineblight_l5_desk"><![CDATA[Line Effect:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 7 pts/rd for 3 rds]]></entry>
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 5 pts/rd for 2 rds]]></entry>
 	
-	
+		<!-- Camp Item -->
+	<entry id="str_inventory_title_supplysanae_faith_shard"><![CDATA[Shard of Faith]]></entry>
+	<entry id="str_inventory_description_supplysanae_faith_shard"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|sanaefaith}Faith{colour_end} level to {colour_start|notable}2{colour_end}! {colour_start|skill_unselectable}Disclaimer: Has no effect on anyone but The Deified.{colour_end}]]></entry>
+	<entry id="camping_skill_effect_loot_sanae_faith_shard_find"><![CDATA[Create 1 Shard of Faith]]></entry>
+
 				
 		<!-- Crit -->
 	<entry id="sanae+str_critbyhero"><![CDATA[That was no fluke.]]></entry>

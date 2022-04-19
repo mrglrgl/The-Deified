@@ -1,0 +1,16 @@
+{
+   "loot_tables" :
+   [
+	{
+         "id" : "sanae_faith_shard_find",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "sanae_faith_shard", "amount" : 1 }}
+           
+         ]
+	}  
+   ]
+}

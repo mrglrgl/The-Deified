@@ -2,10 +2,10 @@
    "buffs":
    [
 	  {
-         "id" : "seas_parting_bleed_10",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "bleed",
-         "amount" : 0.1,
+         "id" : "seas_parting_dodge_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.03,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -15,10 +15,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_blight_10",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : 0.1,
+         "id" : "seas_parting_dodge_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.04,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -28,10 +28,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_stun_10",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.1,
+         "id" : "seas_parting_dodge_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -41,10 +41,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_debuff_10",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.1,
+         "id" : "seas_parting_dodge_6",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.06,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -54,10 +54,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_death_10",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "death_blow",
-         "amount" : 0.1,
+         "id" : "seas_parting_dodge_7",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -67,10 +67,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_move_10",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "move",
-         "amount" : 0.1,
+         "id" : "seas_parting_dodge_8",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -80,10 +80,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_disease_10",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "disease",
-         "amount" : 0.1,
+         "id" : "seas_parting_dodge_9",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.09,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -93,179 +93,181 @@
          }
       },
 	  {
-         "id" : "seas_parting_bleed_20",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "bleed",
+         "id" : "seas_parting_dodge_10",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_dodge_11",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_dodge_13",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_dodge_15",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_6",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_7",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_8",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_9",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_10",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_11",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_13",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_15",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_camping_ignore_protection",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
          "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_blight_20",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_stun_20",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_debuff_20",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_death_20",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "death_blow",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_move_20",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "move",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_disease_20",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "disease",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_bleed_30",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "bleed",
-         "amount" : 0.3,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_blight_30",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : 0.3,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_stun_30",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.3,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_debuff_30",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.3,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_death_30",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "death_blow",
-         "amount" : 0.3,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_move_30",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "move",
-         "amount" : 0.3,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_disease_30",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "disease",
-         "amount" : 0.3,
+         "duration_type" : "combat_end",
+         "duration" : 4,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
