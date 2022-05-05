@@ -29,7 +29,7 @@
     <entry id="combat_skill_name_sanae_s_starry_night"><![CDATA[Blinding Starlight]]></entry>
 	<entry id="combat_skill_name_sanae_s_moses_miracle"><![CDATA[Sea's Parting]]></entry>
     <entry id="combat_skill_name_sanae_s_uplifting_prayer"><![CDATA[Uplifting Prayer]]></entry>
-	<entry id="combat_skill_name_sanae_s_suwacurse"><![CDATA[Mishaguji Summoning]]></entry>
+	<entry id="combat_skill_name_sanae_s_suwacurse"><![CDATA[Gods' Wrath]]></entry>
     <entry id="combat_skill_name_sanae_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_sanae.s_miracle_star"><![CDATA[Shooting Star]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_divine_wind"><![CDATA[Divine Wind]]></entry>
@@ -37,7 +37,7 @@
     <entry id="upgrade_tree_name_sanae.s_starry_night"><![CDATA[Blinding Starlight]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_moses_miracle"><![CDATA[Sea's Parting]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_uplifting_prayer"><![CDATA[Uplifting Prayer]]></entry>
-    <entry id="upgrade_tree_name_sanae.s_suwacurse"><![CDATA[Mishaguji Summoning]]></entry>
+    <entry id="upgrade_tree_name_sanae.s_suwacurse"><![CDATA[Gods' Wrath]]></entry>
 	
 		<!-- Upgrades -->
     <entry id="sanae_weapon_0"><![CDATA[Weapon 1]]></entry>
@@ -72,14 +72,18 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith0_desk"><![CDATA[Set Faith to 0]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith1_desk"><![CDATA[Set Faith to 1]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaith2_desk"><![CDATA[Set Faith to 2]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaithnull_desk"><![CDATA[{colour_start|skill_unselectable}(Does not alter Faith){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_setfaithnull_desk"><![CDATA[{colour_start|skill_unselectable}No additional effects{colour_end}]]></entry>
 
 
 		<!-- Trinkets and Bobbles -->
+	<entry id="str_inventory_title_trinketsanae_trinket_amulet"><![CDATA[Moriya Amulet]]></entry>
+	<entry id="str_inventory_title_trinketsanae_trinket_manual"><![CDATA[Esoteric Manual]]></entry>
+	<entry id="str_inventory_title_trinketsanae_trinket_fan"><![CDATA[Gale Fan]]></entry>
 	
 		<!-- Random Tooltips Desk -->
 	
 				<!-- Trinkets -->
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_amulet_desk"><![CDATA[+1 Additional HP {colour_start|healhp}Healed{colour_end} if {colour_start|sanaefaith}Faith{colour_end} 0 or 1]]></entry>
 				
 				<!-- Skills -->
 				
@@ -114,10 +118,6 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_l5_f2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 8-9
 	Cure Target {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
 	
-		<!-- Gather Faith -->
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_great_faith_desk"><![CDATA[2 Blocks until end of round
-	Cure {colour_start|stun}Status{colour_end}]]></entry>
-	
 		<!-- Seas Parting -->
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_buff_desk"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
 	
@@ -126,22 +126,22 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l1_f2_desk"><![CDATA[+7 DODGE / -7%% Crits Received
 	Buffs for 2 additional rds]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f0_desk"><![CDATA[+3 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f0_desk"><![CDATA[+4 DODGE]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f1_desk"><![CDATA[+6 DODGE / -6%% Crits Received]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l2_f2_desk"><![CDATA[+9 DODGE / -9%% Crits Received
 	Buffs for 2 additional rds]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f0_desk"><![CDATA[+4 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f0_desk"><![CDATA[+5 DODGE]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f1_desk"><![CDATA[+7 DODGE / -7%% Crits Received]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l3_f2_desk"><![CDATA[+11 DODGE / -11%% Crits Received
 	Buffs for 2 additional rds]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f0_desk"><![CDATA[+4 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f0_desk"><![CDATA[+6 DODGE]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f1_desk"><![CDATA[+8 DODGE / -8%% Crits Received]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l4_f2_desk"><![CDATA[+13 DODGE / -13%% Crits Received
 	Buffs for 2 additional rds]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f0_desk"><![CDATA[+5 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f0_desk"><![CDATA[+7 DODGE]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f1_desk"><![CDATA[+10 DODGE / -10%% Crits Received]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_seas_parting_l5_f2_desk"><![CDATA[+15 DODGE / -15%% Crits Received
 	Buffs for 2 additional rds]]></entry>
@@ -151,27 +151,27 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f0_desk"><![CDATA[+20%% DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f1_desk"><![CDATA[+30%% DMG / +5 ACC]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l1_f2_desk"><![CDATA[+40%% DMG / +10 ACC
-	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
+	Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f0_desk"><![CDATA[+22%% DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f1_desk"><![CDATA[+32%% DMG / +6 ACC]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l2_f2_desk"><![CDATA[+42%% DMG / +12 ACC
-	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
+	Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f0_desk"><![CDATA[+24%% DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f1_desk"><![CDATA[+34%% DMG / +7 ACC]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l3_f2_desk"><![CDATA[+44%% DMG / +14 ACC
-	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
+	Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f0_desk"><![CDATA[+26%% DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f1_desk"><![CDATA[+36%% DMG / +8 ACC]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l4_f2_desk"><![CDATA[+46%% DMG / +16 ACC
-	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
+	Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f0_desk"><![CDATA[+30%% DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f1_desk"><![CDATA[+40%% DMG / +10 ACC]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_l5_f2_desk"><![CDATA[+50%% DMG / +20 ACC
-	Clear {colour_start|debuff}Debuffs{colour_end}/{colour_start|stress}Horror{colour_end}]]></entry>
+	Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 	
 		<!-- Suwacurse -->
 	<entry id="buff_stat_tooltip_upgrade_discount_suwacurse_header_1_desk"><![CDATA[Clear all Corpses

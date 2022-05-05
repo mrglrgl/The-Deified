@@ -1,0 +1,55 @@
+{
+   "entries":
+   [
+      {
+         "id" : "sanae_trinket_amulet",
+         "buffs" : 
+         [
+            "sanae_amulet_heal_F0",
+			"sanae_amulet_heal_F1",
+			"sanae_amulet_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "sanae_trinket_manual",
+         "buffs" : 
+         [
+			"sanae_manual_trapres"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "sanae_trinket_fan",
+         "buffs" : 
+         [
+			"sanae_fan_heal",
+			"sanae_fan_dodge",
+			"sanae_fan_spd",
+			"sanae_fan_stress"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      }
+	]
+}

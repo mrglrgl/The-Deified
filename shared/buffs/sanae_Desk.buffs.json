@@ -249,19 +249,6 @@
          }
       },
 	  {
-         "id" : "sanae_great_faith_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_great_faith_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "sanae_fake_buff_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_fake_buff_desk",

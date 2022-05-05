@@ -1,0 +1,50 @@
+{
+   "buffs":
+   [
+	  {
+         "id" : "sanae_fpip_f1",
+         "stat_type":"upgrade_discount",
+         "stat_sub_type":"sanae_fpip_f1_desk",
+         "amount":1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith1"
+         },
+		 "has_description" : false,
+         "fx" : "sanae_fpip_1"
+      },
+	  {
+         "id" : "sanae_fpip_f2a",
+         "stat_type":"upgrade_discount",
+         "stat_sub_type":"sanae_fpip_f2a_desk",
+         "amount":1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith2"
+         },
+		 "has_description" : false,
+         "fx" : "sanae_fpip_1"
+      },
+	  {
+         "id" : "sanae_fpip_f2b",
+         "stat_type":"upgrade_discount",
+         "stat_sub_type":"sanae_fpip_f2b_desk",
+         "amount":1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith2"
+         },
+		 "has_description" : false,
+         "fx" : "sanae_fpip_2"
+      }
+   ]
+}

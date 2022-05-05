@@ -110,6 +110,12 @@ heroes/sanae/fx/sanae.sprite.needle_target_fx.skel
 heroes/sanae/fx/sanae.sprite.prayer_target.atlas
 heroes/sanae/fx/sanae.sprite.prayer_target.png
 heroes/sanae/fx/sanae.sprite.prayer_target.skel
+heroes/sanae/fx/sanae.sprite.sanae_fpip_1.atlas
+heroes/sanae/fx/sanae.sprite.sanae_fpip_1.png
+heroes/sanae/fx/sanae.sprite.sanae_fpip_1.skel
+heroes/sanae/fx/sanae.sprite.sanae_fpip_2.atlas
+heroes/sanae/fx/sanae.sprite.sanae_fpip_2.png
+heroes/sanae/fx/sanae.sprite.sanae_fpip_2.skel
 heroes/sanae/icons_equip/eqp_armour_0.png
 heroes/sanae/icons_equip/eqp_armour_1.png
 heroes/sanae/icons_equip/eqp_armour_2.png
@@ -122,6 +128,9 @@ heroes/sanae/icons_equip/eqp_weapon_3.png
 heroes/sanae/icons_equip/eqp_weapon_4.png
 heroes/sanae/sanae_A/sanae_portrait_roster.png
 panels/icons_equip/supply/inv_supply+sanae_faith_shard.png
+panels/icons_equip/trinket/inv_trinket+sanae_trinket_amulet.png
+panels/icons_equip/trinket/inv_trinket+sanae_trinket_fan.png
+panels/icons_equip/trinket/inv_trinket+sanae_trinket_manual.png
 raid/camping/skill_icons/camp_skill_danmaku_sanae.png
 raid/camping/skill_icons/camp_skill_sanae_camp_buffskill.png
 raid/camping/skill_icons/camp_skill_sanae_camp_healskill.png
@@ -142,6 +151,8 @@ raid/camping/sanae.camping_skills.json
 shared/buffs/sanae.buffs.json
 shared/buffs/sanae_Desk.buffs.json
 shared/buffs/sanae_Line.buffs.json
+shared/buffs/sanae_OMC.buffs.json
+shared/buffs/sanae_Trinket.buffs.json
 upgrades/heroes/sanae.upgrades.json
 colours/sanae.colours.darkest
 effects/sanae.effects.darkest
@@ -161,6 +172,10 @@ overlays/tray_quirk.disease_vampire_blood_lust.png
 overlays/tray_quirk.disease_vampire_crave.png
 overlays/tray_quirk.disease_vampire_passive.png
 overlays/tray_quirk.disease_vampire_wasting.png
+trinkets/com.rarities.trinkets.json
+trinkets/crimson_court.rarities.trinkets.json
+trinkets/east_town.rarities.trinkets.json
+trinkets/sanae.entries.trinkets.json
 726675-sanae.jpg
 README.md
 modfiles.txt

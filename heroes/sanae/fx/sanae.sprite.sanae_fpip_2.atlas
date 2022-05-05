@@ -1,0 +1,13 @@
+
+sanae.sprite.sanae_fpip_2.png
+size: 85,83
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+riposte 2count 1
+  rotate: false
+  xy: 2, 2
+  size: 81, 79
+  orig: 81, 79
+  offset: 0, 0
+  index: -1
