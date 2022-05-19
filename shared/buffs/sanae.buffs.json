@@ -93,19 +93,6 @@
          }
       },
 	  {
-         "id" : "seas_parting_dodge_10",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "seas_parting_dodge_11",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
@@ -119,10 +106,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_dodge_13",
+         "id" : "seas_parting_dodge_12",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : 0.13,
+         "amount" : 0.12,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -136,6 +123,19 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "seas_parting_critr_4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.04,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -197,19 +197,6 @@
          }
       },
 	  {
-         "id" : "seas_parting_critr_9",
-         "stat_type" : "crit_received_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.09,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "seas_parting_critr_10",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
@@ -223,10 +210,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_critr_11",
+         "id" : "seas_parting_critr_12",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : -0.11,
+         "amount" : -0.12,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -236,10 +223,10 @@
          }
       },
 	  {
-         "id" : "seas_parting_critr_13",
+         "id" : "seas_parting_critr_14",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : -0.13,
+         "amount" : -0.14,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -249,16 +236,42 @@
          }
       },
 	  {
-         "id" : "seas_parting_critr_15",
+         "id" : "seas_parting_critr_16",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : -0.15,
+         "amount" : -0.16,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_ap_f1",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith1"
+         }
+      },
+	  {
+         "id" : "sanae_ap_f2",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith2"
          }
       },
 	  {

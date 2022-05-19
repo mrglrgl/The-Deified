@@ -150,7 +150,6 @@ heroes/sanae/sanae.info.darkest
 raid/camping/sanae.camping_skills.json
 shared/buffs/sanae.buffs.json
 shared/buffs/sanae_Desk.buffs.json
-shared/buffs/sanae_Line.buffs.json
 shared/buffs/sanae_OMC.buffs.json
 shared/buffs/sanae_Trinket.buffs.json
 upgrades/heroes/sanae.upgrades.json
@@ -178,7 +177,6 @@ trinkets/east_town.rarities.trinkets.json
 trinkets/sanae.entries.trinkets.json
 726675-sanae.jpg
 README.md
-modfiles.txt
 preview_icon.png
 project.xml
 
