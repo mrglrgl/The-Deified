@@ -2,6 +2,19 @@
    "buffs":
    [
 	  {
+         "id" : "sanae_faithbreak_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_faithbreak_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "sanae_plus1faith_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_plus1faith_desk",
@@ -171,9 +184,9 @@
          }
       },
 	  {
-         "id" : "seas_parting_A1_Desk",
+         "id" : "seas_parting_1_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_A1_desk",
+         "stat_sub_type" : "seas_parting_1_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -184,9 +197,9 @@
          }
       },
 	  {
-         "id" : "seas_parting_A2_Desk",
+         "id" : "seas_parting_2_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_A2_desk",
+         "stat_sub_type" : "seas_parting_2_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -197,9 +210,9 @@
          }
       },
 	  {
-         "id" : "seas_parting_A3_Desk",
+         "id" : "seas_parting_3_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_A3_desk",
+         "stat_sub_type" : "seas_parting_3_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -210,9 +223,9 @@
          }
       },
 	  {
-         "id" : "seas_parting_A4_Desk",
+         "id" : "seas_parting_4_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_A4_desk",
+         "stat_sub_type" : "seas_parting_4_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -223,74 +236,9 @@
          }
       },
 	  {
-         "id" : "seas_parting_A5_Desk",
+         "id" : "seas_parting_5_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_A5_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_B1_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_B1_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_B2_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_B2_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_B3_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_B3_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_B4_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_B4_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_B5_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_B5_desk",
+         "stat_sub_type" : "seas_parting_5_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -317,6 +265,19 @@
          "id" : "seas_parting_f2_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "seas_parting_f2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_fake_target_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_fake_target_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
