@@ -116,17 +116,17 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fake_target_desk"><![CDATA[Target:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_forward_desk"><![CDATA[{colour_start|move}Forward{colour_end} 1]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A1_desk"><![CDATA[+7 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A2_desk"><![CDATA[+9 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A3_desk"><![CDATA[+11 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A4_desk"><![CDATA[+13 ACC]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A5_desk"><![CDATA[+15 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A1_desk"><![CDATA[+15%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A2_desk"><![CDATA[+17%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A3_desk"><![CDATA[+20%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A4_desk"><![CDATA[+22%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_A5_desk"><![CDATA[+25%% DMG]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B1_desk"><![CDATA[+15%% DMG per Faith]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B2_desk"><![CDATA[+17%% DMG per Faith]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B3_desk"><![CDATA[+20%% DMG per Faith]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B4_desk"><![CDATA[+22%% DMG per Faith]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B5_desk"><![CDATA[+25%% DMG per Faith]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B1_desk"><![CDATA[+7 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B2_desk"><![CDATA[+9 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B3_desk"><![CDATA[+11 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B4_desk"><![CDATA[+13 ACC]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_B5_desk"><![CDATA[+15 ACC]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_uplift_f2_desk"><![CDATA[{colour_start|sanaespend}-2 Faith:{colour_end} Clear {colour_start|debuff}Debuffs{colour_end}{colour_start|invisible}  ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
