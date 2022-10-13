@@ -25,17 +25,17 @@
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_sanae_s_miracle_star"><![CDATA[Shooting Star]]></entry>
 	<entry id="combat_skill_name_sanae_s_divine_wind"><![CDATA[Divine Wind]]></entry>
-    <entry id="combat_skill_name_sanae_s_gather_faith"><![CDATA[Renewing Prayer]]></entry>
+    <entry id="combat_skill_name_sanae_s_gather_faith"><![CDATA[Evil-warding Prayer]]></entry>
     <entry id="combat_skill_name_sanae_s_starry_night"><![CDATA[Starlight]]></entry>
-	<entry id="combat_skill_name_sanae_s_moses_miracle"><![CDATA[Parting Waves]]></entry>
+	<entry id="combat_skill_name_sanae_s_moses_miracle"><![CDATA[Cobalt Barrier]]></entry>
     <entry id="combat_skill_name_sanae_s_uplifting_prayer"><![CDATA[Uplifting Prayer]]></entry>
 	<entry id="combat_skill_name_sanae_s_suwacurse"><![CDATA[Gods' Wrath]]></entry>
     <entry id="combat_skill_name_sanae_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_sanae.s_miracle_star"><![CDATA[Shooting Star]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_divine_wind"><![CDATA[Divine Wind]]></entry>
-    <entry id="upgrade_tree_name_sanae.s_gather_faith"><![CDATA[Renewing Prayer]]></entry>
+    <entry id="upgrade_tree_name_sanae.s_gather_faith"><![CDATA[Evil-warding Prayer]]></entry>
     <entry id="upgrade_tree_name_sanae.s_starry_night"><![CDATA[Starlight]]></entry>
-	<entry id="upgrade_tree_name_sanae.s_moses_miracle"><![CDATA[Parting Waves]]></entry>
+	<entry id="upgrade_tree_name_sanae.s_moses_miracle"><![CDATA[Cobalt Barrier]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_uplifting_prayer"><![CDATA[Uplifting Prayer]]></entry>
     <entry id="upgrade_tree_name_sanae.s_suwacurse"><![CDATA[Gods' Wrath]]></entry>
 	
