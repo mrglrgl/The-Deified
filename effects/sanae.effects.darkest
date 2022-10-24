@@ -60,11 +60,11 @@ effect: .name "Sanae Solar Flare L5 Desk" .target "performer" .skill_instant tru
 
 
 //Effects
-effect: .name "Solar Flare Stun 90" .target "target" .chance 90% .stun 1	.on_hit true .on_miss false .has_description false
 effect: .name "Solar Flare Stun 100" .target "target" .chance 100% .stun 1	.on_hit true .on_miss false .has_description false
 effect: .name "Solar Flare Stun 110" .target "target" .chance 110% .stun 1	.on_hit true .on_miss false .has_description false
 effect: .name "Solar Flare Stun 120" .target "target" .chance 120% .stun 1	.on_hit true .on_miss false .has_description false
 effect: .name "Solar Flare Stun 130" .target "target" .chance 130% .stun 1	.on_hit true .on_miss false .has_description false
+effect: .name "Solar Flare Stun 140" .target "target" .chance 130% .stun 1	.on_hit true .on_miss false .has_description false
 
 
 
@@ -86,21 +86,23 @@ effect: .name "Sanae Uplift L5 Desk" .target "performer" .skill_instant true .bu
 
 // Effects
 effect: .name "Sanae Uplift Pull" .target "target" .chance 9000% .pull 1 .on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L1" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .attack_rating_add 7%		.duration 2	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L2" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .attack_rating_add 9%		.duration 2	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L3" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .attack_rating_add 11%	.duration 2	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L4" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .attack_rating_add 13%	.duration 2	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L5" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .attack_rating_add 15%	.duration 2	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L1" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .attack_rating_add 7%		.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L2" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .attack_rating_add 9%		.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L3" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .attack_rating_add 11%	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L4" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .attack_rating_add 13%	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L5" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .attack_rating_add 15%	.duration 3	.on_hit true .on_miss false .has_description false
 
 effect: .name "Sanae Debuff Clear Target" .target "target"  .chance 100% .clear_debuff 1 .on_hit true .on_miss false .has_description false
 
 
 //// Suwacurse
 // Custom Tooltips
-effect: .name "Sanae Suwacurse Desk" .target "performer" .skill_instant true .buff_ids "sanae_faithbreak_Desk" "sanae_suwacurse_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Sanae Suwacurse Desk" .target "performer" .skill_instant true .buff_ids "sanae_suwarefund_Desk" "sanae_faithbreak_Desk" "sanae_suwacurse_Desk" .apply_once true .on_hit true .on_miss true
 
 // Effects
 effect: .name "Sanae Armor Pierce" .target "performer" .skill_instant true .buff_ids "sanae_ap_f1" "sanae_ap_f2" .on_hit true .on_miss false .has_description false
+effect: .name "Sanae Suwacurse SF0" .target "target" .set_mode sanaefaith0 .chance 1000% .swap_source_and_target true																					.on_hit true .on_miss true .queue true .has_description false	.apply_once true
+effect: .name "Sanae Suwacurse SF1" .target "target" .set_mode sanaefaith1 .chance 1000% .swap_source_and_target true	.buff_source_type bsrc_quest_failure .buff_ids "sanae_fpip_f1"	.duration -1	.on_hit true .on_miss true .queue true .has_description false	.apply_once true
 
 
 

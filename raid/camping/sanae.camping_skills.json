@@ -223,7 +223,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "sanae_camping_ignore_protection",
-					"amount" :  0.15
+					"amount" :  0.25
 				},
 				{ 
 					"selection" : "individual",
@@ -272,6 +272,22 @@
                     "type": "buff",
                     "sub_type" : "campingScoutingBuff",
 					"amount" :  0.2
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "sanae_camping_scout76",
+					"amount" :  0.1
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "sanae_camping_scout51",
+					"amount" :  0.1
 				}
 			],
 			"hero_classes" : ["sanae"],

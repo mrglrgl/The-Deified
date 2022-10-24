@@ -29,7 +29,7 @@
     <entry id="combat_skill_name_sanae_s_starry_night"><![CDATA[Starlight]]></entry>
 	<entry id="combat_skill_name_sanae_s_moses_miracle"><![CDATA[Cobalt Barrier]]></entry>
     <entry id="combat_skill_name_sanae_s_uplifting_prayer"><![CDATA[Uplifting Prayer]]></entry>
-	<entry id="combat_skill_name_sanae_s_suwacurse"><![CDATA[Gods' Wrath]]></entry>
+	<entry id="combat_skill_name_sanae_s_suwacurse"><![CDATA[Exorcise]]></entry>
     <entry id="combat_skill_name_sanae_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_sanae.s_miracle_star"><![CDATA[Shooting Star]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_divine_wind"><![CDATA[Divine Wind]]></entry>
@@ -37,7 +37,7 @@
     <entry id="upgrade_tree_name_sanae.s_starry_night"><![CDATA[Starlight]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_moses_miracle"><![CDATA[Cobalt Barrier]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_uplifting_prayer"><![CDATA[Uplifting Prayer]]></entry>
-    <entry id="upgrade_tree_name_sanae.s_suwacurse"><![CDATA[Gods' Wrath]]></entry>
+    <entry id="upgrade_tree_name_sanae.s_suwacurse"><![CDATA[Exorcise]]></entry>
 	
 		<!-- Upgrades -->
     <entry id="sanae_weapon_0"><![CDATA[Weapon 1]]></entry>
@@ -75,7 +75,11 @@
 		<!-- Trinkets and Bobbles -->
 	<entry id="str_inventory_title_trinketsanae_trinket_amulet"><![CDATA[Moriya Amulet]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_manual"><![CDATA[Esoteric Manual]]></entry>
+	<entry id="str_inventory_title_trinketsanae_trinket_fang"><![CDATA[Mishaguji Fang]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_fan"><![CDATA[Gale Fan]]></entry>
+	<entry id="str_inventory_title_trinketcom_sanae_donationbox"><![CDATA[Otherworldly Donations]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_s_gather_faith"><![CDATA[Evil-warding Prayer]]></entry>
 	
 		<!-- Random Tooltips Desk -->
 	
@@ -93,11 +97,11 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_divine_wind_partyheal_l5_desk"><![CDATA[{colour_start|sanaespend}-2 Faith:{colour_end} {colour_start|healhp}Heal{colour_end} Other Heroes 7-8{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	
 		<!-- SOLAR FLARE -->
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l1_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(90%% base) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l2_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(100%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l3_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(110%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l4_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(120%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l5_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(130%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l1_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(100%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l2_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(110%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l3_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(120%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l4_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(130%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_solar_flare_l5_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(140%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
 	
 		<!-- Seas Parting -->
@@ -132,6 +136,7 @@
 
 	
 		<!-- Suwacurse -->
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_suwarefund_desk"><![CDATA[On Kill/Corpse: {colour_start|sanaefaith}+1 Faith{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_suwacurse_desk"><![CDATA[{colour_start|sanaespend}-1 Faith:{colour_end} Armor Piercing{colour_start|invisible}  ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
 	
@@ -453,7 +458,7 @@
 	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
 	
 		<!-- Compatibility -->
-	<entry id="tray_icon_tooltip_health_damage_blocks_duration_format"><![CDATA[%d Blocks (%d Rounds)]]></entry>
+	<entry id="buff_rule_data_tooltip_farm"><![CDATA[Farmstead]]></entry>
 
 	
   </language>

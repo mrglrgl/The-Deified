@@ -444,6 +444,19 @@
          }
       },
 	  {
+         "id" : "sanae_suwarefund_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_suwarefund_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "sanae_suwacurse_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_suwacurse_desk",

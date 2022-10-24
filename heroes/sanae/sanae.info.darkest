@@ -1,4 +1,4 @@
-resistances: .stun 30% .poison 40% .bleed 10% .disease 40% .move 20% .debuff 40% .death_blow 67% .trap 20%
+resistances: .stun 30% .poison 40% .bleed 30% .disease 40% .move 20% .debuff 40% .death_blow 67% .trap 20%
 crit: .effects "on_crit_sanae"
 weapon: .name "sanae_weapon_0" .atk 0% .dmg 3 6  .crit 7% .spd 7
 weapon: .name "sanae_weapon_1" .atk 0% .dmg 4 7  .crit 8% .spd 7 .upgradeRequirementCode 0
@@ -12,26 +12,26 @@ armour: .name "sanae_armour_3" .def 25% .prot 0 .hp 31 .spd 0 .upgradeRequiremen
 armour: .name "sanae_armour_4" .def 30% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 3
 
 // Shooting Star
-combat_skill: .id "s_miracle_star" .level 0 .type "ranged" .atk 85%  .dmg 0% .crit 6% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
-combat_skill: .id "s_miracle_star" .level 0 .type "ranged" .atk 85%  .dmg 0% .crit 6% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
-combat_skill: .id "s_miracle_star" .level 0 .type "ranged" .atk 85%  .dmg 0% .crit 6% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
+combat_skill: .id "s_miracle_star" .level 0 .type "ranged" .atk 90%  .dmg 0% .crit 8% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
+combat_skill: .id "s_miracle_star" .level 0 .type "ranged" .atk 90%  .dmg 0% .crit 8% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
+combat_skill: .id "s_miracle_star" .level 0 .type "ranged" .atk 90%  .dmg 0% .crit 8% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
 
 
-combat_skill: .id "s_miracle_star" .level 1 .type "ranged" .atk 90%  .dmg 0% .crit 7% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
-combat_skill: .id "s_miracle_star" .level 1 .type "ranged" .atk 90%  .dmg 0% .crit 7% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
-combat_skill: .id "s_miracle_star" .level 1 .type "ranged" .atk 90%  .dmg 0% .crit 7% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
+combat_skill: .id "s_miracle_star" .level 1 .type "ranged" .atk 95%  .dmg 0% .crit 9% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
+combat_skill: .id "s_miracle_star" .level 1 .type "ranged" .atk 95%  .dmg 0% .crit 9% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
+combat_skill: .id "s_miracle_star" .level 1 .type "ranged" .atk 95%  .dmg 0% .crit 9% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
 
-combat_skill: .id "s_miracle_star" .level 2 .type "ranged" .atk 95%  .dmg 0% .crit 8% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
-combat_skill: .id "s_miracle_star" .level 2 .type "ranged" .atk 95%  .dmg 0% .crit 8% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
-combat_skill: .id "s_miracle_star" .level 2 .type "ranged" .atk 95%  .dmg 0% .crit 8% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
+combat_skill: .id "s_miracle_star" .level 2 .type "ranged" .atk 100%  .dmg 0% .crit 10% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
+combat_skill: .id "s_miracle_star" .level 2 .type "ranged" .atk 100%  .dmg 0% .crit 10% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
+combat_skill: .id "s_miracle_star" .level 2 .type "ranged" .atk 100%  .dmg 0% .crit 10% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
 
-combat_skill: .id "s_miracle_star" .level 3 .type "ranged" .atk 100%  .dmg 0% .crit 9% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
-combat_skill: .id "s_miracle_star" .level 3 .type "ranged" .atk 100%  .dmg 0% .crit 9% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
-combat_skill: .id "s_miracle_star" .level 3 .type "ranged" .atk 100%  .dmg 0% .crit 9% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
+combat_skill: .id "s_miracle_star" .level 3 .type "ranged" .atk 105%  .dmg 0% .crit 11% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
+combat_skill: .id "s_miracle_star" .level 3 .type "ranged" .atk 105%  .dmg 0% .crit 11% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
+combat_skill: .id "s_miracle_star" .level 3 .type "ranged" .atk 105%  .dmg 0% .crit 11% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
 
-combat_skill: .id "s_miracle_star" .level 4 .type "ranged" .atk 105%  .dmg 0% .crit 10% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
-combat_skill: .id "s_miracle_star" .level 4 .type "ranged" .atk 105%  .dmg 0% .crit 10% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
-combat_skill: .id "s_miracle_star" .level 4 .type "ranged" .atk 105%  .dmg 0% .crit 10% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
+combat_skill: .id "s_miracle_star" .level 4 .type "ranged" .atk 110%  .dmg 0% .crit 12% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Sanae Plus1 Faith Desk"
+combat_skill: .id "s_miracle_star" .level 4 .type "ranged" .atk 110%  .dmg 0% .crit 12% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith0_effects "Sanae SetFaith 1"
+combat_skill: .id "s_miracle_star" .level 4 .type "ranged" .atk 110%  .dmg 0% .crit 12% .launch 432 .target 1234 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Sanae SetFaith 2"
 
 
 // Gather Faith
@@ -85,25 +85,25 @@ combat_skill: .id "s_divine_wind" .level 4 .heal 7 8 .launch 43 .target @1234 .s
 
 
 // SOLAR FLARE
-combat_skill: .id "s_starry_night" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 4% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L1 Desk"
-combat_skill: .id "s_starry_night" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 4% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 90" "Sanae SetFaith 0"	
-combat_skill: .id "s_starry_night" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 4% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 90" "Sanae SetFaith 1"
+combat_skill: .id "s_starry_night" .level 0 .type "ranged" .atk 100% .dmg -50% .crit 4% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L1 Desk"
+combat_skill: .id "s_starry_night" .level 0 .type "ranged" .atk 100% .dmg -50% .crit 4% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 100" "Sanae SetFaith 0"	
+combat_skill: .id "s_starry_night" .level 0 .type "ranged" .atk 100% .dmg -50% .crit 4% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 100" "Sanae SetFaith 1"
 
-combat_skill: .id "s_starry_night" .level 1 .type "ranged" .atk 100% .dmg -50% .crit 5% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L2 Desk"
-combat_skill: .id "s_starry_night" .level 1 .type "ranged" .atk 100% .dmg -50% .crit 5% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 100"	"Sanae SetFaith 0"	
-combat_skill: .id "s_starry_night" .level 1 .type "ranged" .atk 100% .dmg -50% .crit 5% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 100"	"Sanae SetFaith 1"
+combat_skill: .id "s_starry_night" .level 1 .type "ranged" .atk 105% .dmg -50% .crit 5% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L2 Desk"
+combat_skill: .id "s_starry_night" .level 1 .type "ranged" .atk 105% .dmg -50% .crit 5% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 110"	"Sanae SetFaith 0"	
+combat_skill: .id "s_starry_night" .level 1 .type "ranged" .atk 105% .dmg -50% .crit 5% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 110"	"Sanae SetFaith 1"
 
-combat_skill: .id "s_starry_night" .level 2 .type "ranged" .atk 105% .dmg -50% .crit 6% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L3 Desk"
-combat_skill: .id "s_starry_night" .level 2 .type "ranged" .atk 105% .dmg -50% .crit 6% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 110"	"Sanae SetFaith 0"	
-combat_skill: .id "s_starry_night" .level 2 .type "ranged" .atk 105% .dmg -50% .crit 6% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 110" "Sanae SetFaith 1"
+combat_skill: .id "s_starry_night" .level 2 .type "ranged" .atk 110% .dmg -50% .crit 6% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L3 Desk"
+combat_skill: .id "s_starry_night" .level 2 .type "ranged" .atk 110% .dmg -50% .crit 6% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 120"	"Sanae SetFaith 0"	
+combat_skill: .id "s_starry_night" .level 2 .type "ranged" .atk 110% .dmg -50% .crit 6% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 120" "Sanae SetFaith 1"
 
-combat_skill: .id "s_starry_night" .level 3 .type "ranged" .atk 110% .dmg -50% .crit 7% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L4 Desk"
-combat_skill: .id "s_starry_night" .level 3 .type "ranged" .atk 110% .dmg -50% .crit 7% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 120"	"Sanae SetFaith 0"	
-combat_skill: .id "s_starry_night" .level 3 .type "ranged" .atk 110% .dmg -50% .crit 7% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 120" "Sanae SetFaith 1"
+combat_skill: .id "s_starry_night" .level 3 .type "ranged" .atk 115% .dmg -50% .crit 7% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L4 Desk"
+combat_skill: .id "s_starry_night" .level 3 .type "ranged" .atk 115% .dmg -50% .crit 7% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 130"	"Sanae SetFaith 0"	
+combat_skill: .id "s_starry_night" .level 3 .type "ranged" .atk 115% .dmg -50% .crit 7% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 130" "Sanae SetFaith 1"
 
-combat_skill: .id "s_starry_night" .level 4 .type "ranged" .atk 115% .dmg -50% .crit 8% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L5 Desk"
-combat_skill: .id "s_starry_night" .level 4 .type "ranged" .atk 115% .dmg -50% .crit 8% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 130"	"Sanae SetFaith 0"	
-combat_skill: .id "s_starry_night" .level 4 .type "ranged" .atk 115% .dmg -50% .crit 8% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 130" "Sanae SetFaith 1"
+combat_skill: .id "s_starry_night" .level 4 .type "ranged" .atk 120% .dmg -50% .crit 8% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.effect "Destealth" "Sanae Solar Flare L5 Desk"
+combat_skill: .id "s_starry_night" .level 4 .type "ranged" .atk 120% .dmg -50% .crit 8% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith1_effects "Solar Flare Stun 140"	"Sanae SetFaith 0"	
+combat_skill: .id "s_starry_night" .level 4 .type "ranged" .atk 120% .dmg -50% .crit 8% .launch 432 .target  1234 .is_crit_valid True .ignore_stealth true  .valid_modes sanaefaith0 sanaefaith1 sanaefaith2	.sanaefaith2_effects "Solar Flare Stun 140" "Sanae SetFaith 1"
 
 
 // Cobalt Barrier
@@ -154,24 +154,29 @@ combat_skill: .id "s_uplifting_prayer" .level 4 .launch 4321 .target @1234  .val
 
 // Suwacurse
 combat_skill: .id "s_suwacurse" .level 0 .type "melee" .atk 90% .dmg 40% .crit 1%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .effect "Sanae Armor Pierce" "Sanae Suwacurse Desk"
-combat_skill: .id "s_suwacurse" .level 0 .type "melee" .atk 90% .dmg 40% .crit 1%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae SetFaith 0"
-combat_skill: .id "s_suwacurse" .level 0 .type "melee" .atk 90% .dmg 40% .crit 1%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae SetFaith 1"
+combat_skill: .id "s_suwacurse" .level 0 .type "melee" .atk 90% .dmg 40% .crit 1%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith0_effects "Sanae SetFaith 1" "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 0 .type "melee" .atk 90% .dmg 40% .crit 1%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 0 .type "melee" .atk 90% .dmg 40% .crit 1%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae Suwacurse SF1"
 
 combat_skill: .id "s_suwacurse" .level 1 .type "melee" .atk 95% .dmg 40% .crit 2%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .effect "Sanae Armor Pierce" "Sanae Suwacurse Desk"
-combat_skill: .id "s_suwacurse" .level 1 .type "melee" .atk 95% .dmg 40% .crit 2%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae SetFaith 0"
-combat_skill: .id "s_suwacurse" .level 1 .type "melee" .atk 95% .dmg 40% .crit 2%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae SetFaith 1"
+combat_skill: .id "s_suwacurse" .level 1 .type "melee" .atk 95% .dmg 40% .crit 2%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith0_effects "Sanae SetFaith 1" "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 1 .type "melee" .atk 95% .dmg 40% .crit 2%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 1 .type "melee" .atk 95% .dmg 40% .crit 2%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae Suwacurse SF1"
 
 combat_skill: .id "s_suwacurse" .level 2 .type "melee" .atk 100% .dmg 40% .crit 3%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .effect "Sanae Armor Pierce" "Sanae Suwacurse Desk"
-combat_skill: .id "s_suwacurse" .level 2 .type "melee" .atk 100% .dmg 40% .crit 3%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae SetFaith 0"
-combat_skill: .id "s_suwacurse" .level 2 .type "melee" .atk 100% .dmg 40% .crit 3%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae SetFaith 1"
+combat_skill: .id "s_suwacurse" .level 2 .type "melee" .atk 100% .dmg 40% .crit 3%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith0_effects "Sanae SetFaith 1" "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 2 .type "melee" .atk 100% .dmg 40% .crit 3%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 2 .type "melee" .atk 100% .dmg 40% .crit 3%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae Suwacurse SF1"
 
 combat_skill: .id "s_suwacurse" .level 3 .type "melee" .atk 105% .dmg 40% .crit 4%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .effect "Sanae Armor Pierce" "Sanae Suwacurse Desk"
-combat_skill: .id "s_suwacurse" .level 3 .type "melee" .atk 105% .dmg 40% .crit 4%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae SetFaith 0"
-combat_skill: .id "s_suwacurse" .level 3 .type "melee" .atk 105% .dmg 40% .crit 4%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae SetFaith 1"
+combat_skill: .id "s_suwacurse" .level 3 .type "melee" .atk 105% .dmg 40% .crit 4%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith0_effects "Sanae SetFaith 1" "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 3 .type "melee" .atk 105% .dmg 40% .crit 4%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 3 .type "melee" .atk 105% .dmg 40% .crit 4%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae Suwacurse SF1"
 
 combat_skill: .id "s_suwacurse" .level 4 .type "melee" .atk 110% .dmg 40% .crit 5%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .effect "Sanae Armor Pierce" "Sanae Suwacurse Desk"
-combat_skill: .id "s_suwacurse" .level 4 .type "melee" .atk 110% .dmg 40% .crit 5%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae SetFaith 0"
-combat_skill: .id "s_suwacurse" .level 4 .type "melee" .atk 110% .dmg 40% .crit 5%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae SetFaith 1"
+combat_skill: .id "s_suwacurse" .level 4 .type "melee" .atk 110% .dmg 40% .crit 5%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith0_effects "Sanae SetFaith 1" "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 4 .type "melee" .atk 110% .dmg 40% .crit 5%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith1_effects "Sanae Suwacurse SF0"
+combat_skill: .id "s_suwacurse" .level 4 .type "melee" .atk 110% .dmg 40% .crit 5%  .launch 321 .target 12 .is_crit_valid True .valid_modes sanaefaith0 sanaefaith1 sanaefaith2  .sanaefaith2_effects "Sanae Suwacurse SF1"
 
 
 combat_move_skill: .id "move" .type "move" .level 0 .move 2 2 .launch 4321 .is_stall_invalidating false

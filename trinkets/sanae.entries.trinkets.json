@@ -22,7 +22,9 @@
          "id" : "sanae_trinket_manual",
          "buffs" : 
          [
-			"sanae_manual_trapres"
+			"sanae_manual_prot",
+			"sanae_manual_trapres",
+			"sanae_manual_stress"
          ],
          "hero_class_requirements":
          [
@@ -30,6 +32,26 @@
          ],
          "rarity" : "uncommon",
          "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "sanae_trinket_fang",
+         "buffs" : 
+         [
+			"sanae_fang_meleedmgl",
+			"sanae_fang_meleedmgh",
+			"sanae_fang_dodge_r1",
+			"sanae_fang_dodge_r2",
+			"sanae_fang_heal_ewp",
+			"sanae_fang_stress"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
          "limit" : 0,
          "origin_dungeon" : ""
       },

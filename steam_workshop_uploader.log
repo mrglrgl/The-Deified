@@ -128,8 +128,10 @@ heroes/sanae/icons_equip/eqp_weapon_3.png
 heroes/sanae/icons_equip/eqp_weapon_4.png
 heroes/sanae/sanae_A/sanae_portrait_roster.png
 panels/icons_equip/supply/inv_supply+sanae_faith_shard.png
+panels/icons_equip/trinket/inv_trinket+com_sanae_donationbox.png
 panels/icons_equip/trinket/inv_trinket+sanae_trinket_amulet.png
 panels/icons_equip/trinket/inv_trinket+sanae_trinket_fan.png
+panels/icons_equip/trinket/inv_trinket+sanae_trinket_fang.png
 panels/icons_equip/trinket/inv_trinket+sanae_trinket_manual.png
 raid/camping/skill_icons/camp_skill_danmaku_sanae.png
 raid/camping/skill_icons/camp_skill_sanae_camp_buffskill.png
@@ -175,6 +177,7 @@ trinkets/com.rarities.trinkets.json
 trinkets/crimson_court.rarities.trinkets.json
 trinkets/east_town.rarities.trinkets.json
 trinkets/sanae.entries.trinkets.json
+trinkets/sanae_com.entries.trinkets.json
 726675-sanae.jpg
 README.md
 preview_icon.png
