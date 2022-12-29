@@ -1,0 +1,13 @@
+{
+   "sets":
+   [
+	  {
+         "id" : "cc_sanae",
+         "buffs" : 
+         [
+			"sanae_cc_set_stunr",
+			"sanae_cc_set_dodge"
+         ]
+      }
+   ]
+}

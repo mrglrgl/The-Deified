@@ -5,8 +5,12 @@
          "id" : "sanae_trinket_amulet",
          "buffs" : 
          [
-            "sanae_amulet_heal_F0",
-			"sanae_amulet_heal_F1",
+            "sanae_amulet_heal",
+			"sanae_amulet_blockblock",
+			"sanae_amulet_missingblock",
+			"sanae_amulet_quirkblock",
+			"sanae_amulet_moneyblock",
+			"sanae_amulet_trinketblock",
 			"sanae_amulet_Desk"
          ],
          "hero_class_requirements":
@@ -19,12 +23,11 @@
          "origin_dungeon" : ""
       },
 	  {
-         "id" : "sanae_trinket_manual",
+         "id" : "sanae_trinket_nue",
          "buffs" : 
          [
-			"sanae_manual_prot",
-			"sanae_manual_trapres",
-			"sanae_manual_stress"
+			"sanae_nue_racc",
+			"sanae_nue_stun"
          ],
          "hero_class_requirements":
          [
@@ -41,9 +44,9 @@
          [
 			"sanae_fang_meleedmgl",
 			"sanae_fang_meleedmgh",
+			"sanae_fang_heal_ewp",
 			"sanae_fang_dodge_r1",
 			"sanae_fang_dodge_r2",
-			"sanae_fang_heal_ewp",
 			"sanae_fang_stress"
          ],
          "hero_class_requirements":
@@ -56,13 +59,12 @@
          "origin_dungeon" : ""
       },
 	  {
-         "id" : "sanae_trinket_fan",
+         "id" : "sanae_trinket_manual",
          "buffs" : 
          [
-			"sanae_fan_heal",
-			"sanae_fan_dodge",
-			"sanae_fan_spd",
-			"sanae_fan_stress"
+			"sanae_manual_trapres",
+			"sanae_manual_stressskills",
+			"sanae_manual_stress"
          ],
          "hero_class_requirements":
          [
@@ -72,6 +74,29 @@
          "price" : 25000,
          "limit" : 0,
          "origin_dungeon" : ""
+      },
+	  {
+         "id" : "sanae_trinket_kasen",
+         "buffs" : 
+         [
+			"sanae_kasen_hp",
+			"sanae_kasen_diseaser",
+			"sanae_kasen_debuffr",
+			"sanae_kasen_virtue",
+			"sanae_kasen_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "sakura",
+         "price" : 30000,
+         "limit" : 1,
+         "origin_dungeon" : "ship",
+		 "friendly_skill_additional_effects":
+         [
+			 "Sanae Oni Purge"
+         ]
       }
 	]
 }

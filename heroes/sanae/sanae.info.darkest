@@ -191,9 +191,9 @@ mode: .id sanaefaith0 .is_raid_default true
 mode: .id sanaefaith1 .is_raid_default true
 mode: .id sanaefaith2 .is_raid_default true
 
-activity_modifier: .override_valid_activity_ids prayer meditation treatment disease_treatment .override_stress_removal_amount_low 100 .override_stress_removal_amount_high 100
+activity_modifier: .override_valid_activity_ids prayer meditation bar gambling brothel treatment disease_treatment
 
-quirk_modifier: .incompatible_class_ids enlightened god_fearing flagellant alcoholism gambler love_interest unquiet_mind witness faithless resolution known_cheat deviant_tastes bad_gambler skilled_gambler desecrater improved_balance nymphomania
+quirk_modifier: .incompatible_class_ids flagellant alcoholism witness faithless desecrater
 
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 
@@ -206,4 +206,3 @@ id_index: .index 1780556
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
 
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0
-incompatible_party_member: .id sanae_limit .hero_tag sanae

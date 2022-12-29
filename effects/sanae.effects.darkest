@@ -32,22 +32,22 @@ effect: .name "Divine Wind L5 Desk" .target "performer" .skill_instant true .buf
 
 
 // Healing
-effect: .name "Divine Wind Lowblock"			.target "performer"	.chance 50% .buff_source_type bsrc_notspecified .buff_type hp_heal_amount .buff_amount -200 .duration 1	.on_hit true .on_miss false .apply_once true .has_description false
-effect: .name "Divine Wind Reverse Lowblock"	.target "performer"	.chance 50% .buff_source_type bsrc_notspecified .buff_type hp_heal_amount .buff_amount 200 .duration 1	.on_hit true .on_miss false .apply_once true .has_description false
-effect: .name "Divine Wind PartyHeal L1 Low"	.target "target_group_other"	.chance 100% .heal 3 .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L1 High"	.target "target_group_other"	.chance 50% .heal 4  .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L2 Low"	.target "target_group_other"	.chance 100% .heal 4 .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L2 High"	.target "target_group_other"	.chance 50% .heal 5  .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L3 Low"	.target "target_group_other"	.chance 100% .heal 5 .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L3 High"	.target "target_group_other"	.chance 50% .heal 6  .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L4 Low"	.target "target_group_other"	.chance 100% .heal 6 .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L4 High"	.target "target_group_other"	.chance 50% .heal 7  .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L5 Low"	.target "target_group_other"	.chance 100% .heal 7 .can_crit_heal false .on_hit true .on_miss false .has_description false
-effect: .name "Divine Wind PartyHeal L5 High"	.target "target_group_other"	.chance 50% .heal 8  .can_crit_heal false .on_hit true .on_miss false .has_description false
+effect: .name "Divine Wind Lowblock"			.target "performer"	.chance 50% .buff_source_type bsrc_notspecified .buff_type hp_heal_amount .buff_amount -200 .duration 1	.on_hit true .on_miss false .apply_once true .has_description false .queue true
+effect: .name "Divine Wind Reverse Lowblock"	.target "performer"	.chance 50% .buff_source_type bsrc_notspecified .buff_type hp_heal_amount .buff_amount 200 .duration 1	.on_hit true .on_miss false .apply_once true .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L1 Low"	.target "target_group_other"	.chance 100% .heal 3 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L1 High"	.target "target_group_other"	.chance 50% .heal 4  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L2 Low"	.target "target_group_other"	.chance 100% .heal 4 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L2 High"	.target "target_group_other"	.chance 50% .heal 5  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L3 Low"	.target "target_group_other"	.chance 100% .heal 5 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L3 High"	.target "target_group_other"	.chance 50% .heal 6  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L4 Low"	.target "target_group_other"	.chance 100% .heal 6 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L4 High"	.target "target_group_other"	.chance 50% .heal 7  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L5 Low"	.target "target_group_other"	.chance 100% .heal 7 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Divine Wind PartyHeal L5 High"	.target "target_group_other"	.chance 50% .heal 8  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
 
 
 // Status Clear
-effect: .name "Sanae DoT Cure Target" .target "target"  .chance 100% .cure_bleed 1 .cure_poison 1 .on_hit true .on_miss false .has_description false
+effect: .name "Sanae DoT Cure Target" .target "target"  .chance 100% .cure_bleed 1 .cure_poison 1 .on_hit true .on_miss false .has_description false .queue true
 
 
 //// Blinding Starlight
@@ -112,4 +112,8 @@ effect: .name "on_crit_sanae"    .target "performer_group" .curio_result_type "p
 //// Items
 effect: .name "sanae_faith_shard" .target "performer" .set_mode sanaefaith2 .chance 100% .buff_source_type bsrc_quest_failure .buff_ids "sanae_fpip_f2a" "sanae_fpip_f2b" 	.duration -1 .on_hit true .on_miss true .queue true .has_description false
 //effect: .name "sanae_faith_shard" .target "performer" .set_mode sanaefaith2 .chance 100% .on_hit true .on_miss true .queue true .has_description false
+
+//// Trinkets
+// Sunward
+effect: .name "Sanae Oni Purge" .target "target"  .chance 100% .clear_debuff 1 .on_hit true .on_miss false .has_description false
 
