@@ -30,21 +30,12 @@ effect: .name "Divine Wind L3 Desk" .target "performer" .skill_instant true .buf
 effect: .name "Divine Wind L4 Desk" .target "performer" .skill_instant true .buff_ids "sanae_faithbreak_Desk" "sanae_dotclear_Desk" "divine_wind_partyheal_l4_Desk" .apply_once true .on_hit true .on_miss true
 effect: .name "Divine Wind L5 Desk" .target "performer" .skill_instant true .buff_ids "sanae_faithbreak_Desk" "sanae_dotclear_Desk" "divine_wind_partyheal_l5_Desk" .apply_once true .on_hit true .on_miss true
 
-
 // Healing
-effect: .name "Divine Wind Lowblock"			.target "performer"	.chance 50% .buff_source_type bsrc_notspecified .buff_type hp_heal_amount .buff_amount -200 .duration 1	.on_hit true .on_miss false .apply_once true .has_description false .queue true
-effect: .name "Divine Wind Reverse Lowblock"	.target "performer"	.chance 50% .buff_source_type bsrc_notspecified .buff_type hp_heal_amount .buff_amount 200 .duration 1	.on_hit true .on_miss false .apply_once true .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L1 Low"	.target "target_group_other"	.chance 100% .heal 3 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L1 High"	.target "target_group_other"	.chance 50% .heal 4  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L2 Low"	.target "target_group_other"	.chance 100% .heal 4 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L2 High"	.target "target_group_other"	.chance 50% .heal 5  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L3 Low"	.target "target_group_other"	.chance 100% .heal 5 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L3 High"	.target "target_group_other"	.chance 50% .heal 6  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L4 Low"	.target "target_group_other"	.chance 100% .heal 6 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L4 High"	.target "target_group_other"	.chance 50% .heal 7  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L5 Low"	.target "target_group_other"	.chance 100% .heal 7 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-effect: .name "Divine Wind PartyHeal L5 High"	.target "target_group_other"	.chance 50% .heal 8  .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
-
+effect: .name "Sanae DW Other Heal L1"	.target "target_group_other"	.chance 100% .heal 4 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Sanae DW Other Heal L2"	.target "target_group_other"	.chance 100% .heal 5 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Sanae DW Other Heal L3"	.target "target_group_other"	.chance 100% .heal 6 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Sanae DW Other Heal L4"	.target "target_group_other"	.chance 100% .heal 7 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
+effect: .name "Sanae DW Other Heal L5"	.target "target_group_other"	.chance 100% .heal 8 .can_crit_heal false .on_hit true .on_miss false .has_description false .queue true
 
 // Status Clear
 effect: .name "Sanae DoT Cure Target" .target "target"  .chance 100% .cure_bleed 1 .cure_poison 1 .on_hit true .on_miss false .has_description false .queue true
@@ -78,24 +69,30 @@ effect: .name "Sanae Barrier Buff L5" .target "target" .chance 100% .buff_ids "s
 
 //// Uplifting Prayer
 // Custom Tooltips
-effect: .name "Sanae Uplift L1 Desk" .target "performer" .skill_instant true .buff_ids "sanae_fake_target_Desk" "sanae_uplift_forward_Desk" "sanae_uplift_A1_Desk" "sanae_uplift_B1_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Sanae Uplift L2 Desk" .target "performer" .skill_instant true .buff_ids "sanae_fake_target_Desk" "sanae_uplift_forward_Desk" "sanae_uplift_A2_Desk" "sanae_uplift_B2_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Sanae Uplift L3 Desk" .target "performer" .skill_instant true .buff_ids "sanae_fake_target_Desk" "sanae_uplift_forward_Desk" "sanae_uplift_A3_Desk" "sanae_uplift_B3_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Sanae Uplift L4 Desk" .target "performer" .skill_instant true .buff_ids "sanae_fake_target_Desk" "sanae_uplift_forward_Desk" "sanae_uplift_A4_Desk" "sanae_uplift_B4_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Sanae Uplift L5 Desk" .target "performer" .skill_instant true .buff_ids "sanae_fake_target_Desk" "sanae_uplift_forward_Desk" "sanae_uplift_A5_Desk" "sanae_uplift_B5_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Sanae Uplift L1 Desk" .target "performer" .skill_instant true .buff_ids "sanae_uplift_forward_Desk" "sanae_uplift_A1_Desk" "sanae_fake_target_Desk" "sanae_uplift_B1_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Sanae Uplift L2 Desk" .target "performer" .skill_instant true .buff_ids "sanae_uplift_forward_Desk" "sanae_uplift_A2_Desk" "sanae_fake_target_Desk" "sanae_uplift_B2_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Sanae Uplift L3 Desk" .target "performer" .skill_instant true .buff_ids "sanae_uplift_forward_Desk" "sanae_uplift_A3_Desk" "sanae_fake_target_Desk" "sanae_uplift_B3_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Sanae Uplift L4 Desk" .target "performer" .skill_instant true .buff_ids "sanae_uplift_forward_Desk" "sanae_uplift_A4_Desk" "sanae_fake_target_Desk" "sanae_uplift_B4_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Sanae Uplift L5 Desk" .target "performer" .skill_instant true .buff_ids "sanae_uplift_forward_Desk" "sanae_uplift_A5_Desk" "sanae_fake_target_Desk" "sanae_uplift_B5_Desk" "sanae_plus1faith_Desk" .apply_once true .on_hit true .on_miss true
 
 // Effects
 effect: .name "Sanae Uplift Pull" .target "target" .chance 9000% .pull 1 .on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L1" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .attack_rating_add 7%		.duration 3	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L2" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .attack_rating_add 9%		.duration 3	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L3" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .attack_rating_add 11%	.duration 3	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L4" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .attack_rating_add 13%	.duration 3	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae Uplift Buff L5" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .attack_rating_add 15%	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L1" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .attack_rating_add 5%		.speed_rating_add 2	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L2" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .attack_rating_add 6%		.speed_rating_add 2	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L3" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .attack_rating_add 7%		.speed_rating_add 3	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L4" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .attack_rating_add 8%		.speed_rating_add 3	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift Buff L5" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .attack_rating_add 10%	.speed_rating_add 4	.duration 3	.on_hit true .on_miss false .has_description false
+
+effect: .name "Sanae Uplift SBuff L1" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .attack_rating_add 5%		.speed_rating_add 2	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift SBuff L2" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .attack_rating_add 6%		.speed_rating_add 2	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift SBuff L3" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .attack_rating_add 7% 	.speed_rating_add 3	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift SBuff L4" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .attack_rating_add 8% 	.speed_rating_add 3	.duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae Uplift SBuff L5" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .attack_rating_add 10%	.speed_rating_add 4	.duration 3	.on_hit true .on_miss false .has_description false
 
 effect: .name "Sanae Debuff Clear Target" .target "target"  .chance 100% .clear_debuff 1 .on_hit true .on_miss false .has_description false
 
 
-//// Suwacurse
+//// Exorcise
 // Custom Tooltips
 effect: .name "Sanae Suwacurse Desk" .target "performer" .skill_instant true .buff_ids "sanae_suwarefund_Desk" "sanae_faithbreak_Desk" "sanae_suwacurse_Desk" .apply_once true .on_hit true .on_miss true
 

@@ -1,0 +1,13 @@
+
+sanae.sprite.exorcise_tarfx.png
+size: 371,445
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Exorcise/tar fx 2
+  rotate: false
+  xy: 2, 2
+  size: 367, 441
+  orig: 367, 441
+  offset: 0, 0
+  index: -1

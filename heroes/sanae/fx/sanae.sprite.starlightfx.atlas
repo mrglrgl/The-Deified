@@ -1,0 +1,34 @@
+
+sanae.sprite.starlightfx.png
+size: 933,1132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Starlight/Self FX/Hand Star
+  rotate: false
+  xy: 662, 261
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+Starlight/Self FX/fx glow 2
+  rotate: true
+  xy: 2, 2
+  size: 413, 658
+  orig: 413, 658
+  offset: 0, 0
+  index: -1
+Starlight/Self FX/shadow 2
+  rotate: false
+  xy: 2, 417
+  size: 426, 713
+  orig: 426, 713
+  offset: 0, 0
+  index: -1
+Starlight/Self FX/star glow
+  rotate: false
+  xy: 430, 519
+  size: 501, 611
+  orig: 501, 611
+  offset: 0, 0
+  index: -1

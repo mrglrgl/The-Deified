@@ -1,0 +1,20 @@
+
+sanae.sprite.shootingstarfx.png
+size: 435,1284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shooting Star/fx glow
+  rotate: false
+  xy: 2, 2
+  size: 431, 565
+  orig: 431, 565
+  offset: 0, 0
+  index: -1
+Shooting Star/shadow
+  rotate: false
+  xy: 2, 569
+  size: 391, 713
+  orig: 391, 713
+  offset: 0, 0
+  index: -1

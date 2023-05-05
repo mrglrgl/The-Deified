@@ -1,20 +1,20 @@
 
 sanae.sprite.defend.png
-size: 796,659
+size: 827,583
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 defend
   rotate: true
   xy: 2, 2
-  size: 655, 728
-  orig: 655, 728
+  size: 579, 758
+  orig: 579, 758
   offset: 0, 0
   index: -1
-sakuya_combat_shadow
+shadow
   rotate: true
-  xy: 732, 300
-  size: 357, 62
-  orig: 357, 62
+  xy: 762, 224
+  size: 357, 63
+  orig: 357, 63
   offset: 0, 0
   index: -1

@@ -177,18 +177,26 @@
 			"use_limit" : 1,
 			"effects" :
 			[
-				{
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 1.0 },
-					"type": "loot",
-					"sub_type": "sanae_faith_shard_find",
-					"amount": 1
-				},
 				{ 
 					"selection" : "party_other",
 					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "stress_heal_amount",
+					"sub_type" : "",
+					"amount" :  10										
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : ["afflicted"],
 					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "stress_heal_amount",
+					"sub_type" : "",
+					"amount" :  10										
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : ["has_deaths_door_recovery_buffs"],
+					"chance" : { "code" : "c", "amount": 1.0 },
 					"type" : "stress_heal_amount",
 					"sub_type" : "",
 					"amount" :  10										

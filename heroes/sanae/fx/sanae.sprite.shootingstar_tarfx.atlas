@@ -1,0 +1,62 @@
+
+sanae.sprite.shootingstar_tarfx.png
+size: 1496,1135
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shooting Star/fx
+  rotate: true
+  xy: 516, 2
+  size: 574, 482
+  orig: 574, 482
+  offset: 0, 0
+  index: -1
+Shooting Star/tar/impact orb
+  rotate: false
+  xy: 2, 578
+  size: 516, 555
+  orig: 516, 555
+  offset: 0, 0
+  index: -1
+Shooting Star/tar/light beam 1
+  rotate: false
+  xy: 2, 21
+  size: 512, 555
+  orig: 512, 555
+  offset: 0, 0
+  index: -1
+Shooting Star/tar/light beam 2
+  rotate: true
+  xy: 1000, 5
+  size: 295, 389
+  orig: 295, 389
+  offset: 0, 0
+  index: -1
+Shooting Star/tar/light beam 3
+  rotate: false
+  xy: 1000, 302
+  size: 489, 277
+  orig: 489, 277
+  offset: 0, 0
+  index: -1
+Shooting Star/tar/light beam 4
+  rotate: true
+  xy: 1321, 661
+  size: 472, 173
+  orig: 472, 173
+  offset: 0, 0
+  index: -1
+Shooting Star/tar/light beam 5
+  rotate: false
+  xy: 520, 618
+  size: 442, 515
+  orig: 442, 515
+  offset: 0, 0
+  index: -1
+Shooting Star/tar/light beam 6
+  rotate: false
+  xy: 964, 581
+  size: 355, 552
+  orig: 355, 552
+  offset: 0, 0
+  index: -1

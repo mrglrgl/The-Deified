@@ -1,19 +1,19 @@
 
-sanae.sprite.investigate.png
-size: 785,573
+sanae.sprite.attack_upliftingsurge.png
+size: 922,592
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Interact
+Uplifting Surge/Uplifting Surge
   rotate: true
   xy: 2, 2
-  size: 569, 716
-  orig: 569, 716
+  size: 588, 853
+  orig: 588, 853
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 720, 214
+  xy: 857, 233
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

@@ -5,7 +5,7 @@
          "id" : "cc_set_sanae_first",
          "buffs" : 
          [	
-			"sanae_cc_first_spd",
+			"sanae_cc_first_stressskills",
 			"sanae_cc_first_f0heal",
 			"sanae_cc_first_f1heal",
 			"sanae_cc_first_Desk"
@@ -25,7 +25,7 @@
          "id" : "cc_set_sanae_second",
          "buffs" : 
          [
-			"sanae_cc_second_acc",
+			"sanae_cc_second_spd",
 			"sanae_cc_second_f2stun",
 			"sanae_cc_second_f1stun",
 			"sanae_cc_second_Desk"

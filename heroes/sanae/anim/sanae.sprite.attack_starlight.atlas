@@ -1,19 +1,19 @@
 
-sanae.sprite.investigate.png
-size: 785,573
+sanae.sprite.attack_starlight.png
+size: 785,483
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Interact
+Starlight/Starlight
   rotate: true
   xy: 2, 2
-  size: 569, 716
-  orig: 569, 716
+  size: 479, 716
+  orig: 479, 716
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 720, 214
+  xy: 720, 124
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

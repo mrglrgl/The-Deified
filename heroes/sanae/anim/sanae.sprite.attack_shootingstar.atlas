@@ -1,19 +1,19 @@
 
-sanae.sprite.investigate.png
-size: 785,573
+sanae.sprite.attack_shootingstar.png
+size: 784,562
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Interact
+Shooting Star/Shooting Star
   rotate: true
   xy: 2, 2
-  size: 569, 716
-  orig: 569, 716
+  size: 558, 715
+  orig: 558, 715
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 720, 214
+  xy: 719, 203
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

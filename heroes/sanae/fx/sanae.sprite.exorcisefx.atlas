@@ -1,0 +1,48 @@
+
+sanae.sprite.exorcisefx.png
+size: 2262,653
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Exorcise/self fx/fx glow
+  rotate: false
+  xy: 2, 2
+  size: 654, 649
+  orig: 654, 649
+  offset: 0, 0
+  index: -1
+Exorcise/self fx/lightning 1
+  rotate: false
+  xy: 1271, 20
+  size: 573, 214
+  orig: 573, 214
+  offset: 0, 0
+  index: -1
+Exorcise/self fx/lightning 2
+  rotate: false
+  xy: 1271, 387
+  size: 765, 264
+  orig: 765, 264
+  offset: 0, 0
+  index: -1
+Exorcise/self fx/lightning 3
+  rotate: true
+  xy: 2116, 79
+  size: 572, 144
+  orig: 572, 144
+  offset: 0, 0
+  index: -1
+Exorcise/self fx/shadow
+  rotate: false
+  xy: 658, 28
+  size: 611, 623
+  orig: 611, 623
+  offset: 0, 0
+  index: -1
+Exorcise/self fx/wind whip stab
+  rotate: false
+  xy: 1271, 236
+  size: 843, 149
+  orig: 843, 149
+  offset: 0, 0
+  index: -1
