@@ -473,6 +473,7 @@
 	
 		<!-- Compatibility -->
 	<entry id="buff_rule_data_tooltip_farm"><![CDATA[Farmstead]]></entry>
+	<entry id="buff_stat_tooltip_crit_received_chance"><![CDATA[%+d%% Crits Received]]></entry>
 
 	
   </language>
