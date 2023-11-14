@@ -1,0 +1,20 @@
+
+sanae.sprite.subjugatefx.png
+size: 760,1145
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Subjugate/fxshadow
+  rotate: true
+  xy: 2, 2
+  size: 658, 756
+  orig: 658, 756
+  offset: 0, 0
+  index: -1
+Subjugate/glow line
+  rotate: true
+  xy: 2, 662
+  size: 481, 744
+  orig: 481, 744
+  offset: 0, 0
+  index: -1

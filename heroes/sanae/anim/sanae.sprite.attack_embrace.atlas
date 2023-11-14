@@ -1,0 +1,20 @@
+
+sanae.sprite.attack_embrace.png
+size: 1004,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Divine Wind/group wind/Layer 2
+  rotate: true
+  xy: 2, 2
+  size: 516, 935
+  orig: 516, 935
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 939, 161
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -120,7 +120,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "s_suwacurse"
+            "string" : "s_exorcise"
          }
       },
       {
@@ -133,7 +133,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "s_suwacurse"
+            "string" : "s_exorcise"
          }
       },
 	  {

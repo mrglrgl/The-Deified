@@ -1,27 +1,27 @@
 
 sanae.sprite.heroic.png
-size: 2301,1188
+size: 1872,1130
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-background
+heroic syn (4)
   rotate: false
-  xy: 2, 59
-  size: 1341, 1127
-  orig: 1341, 1127
+  xy: 1368, 135
+  size: 308, 298
+  orig: 308, 298
   offset: 0, 0
   index: -1
-halo
+heroic syn (5)
   rotate: true
-  xy: 1345, 2
-  size: 309, 298
-  orig: 309, 298
+  xy: 2, 2
+  size: 1126, 1364
+  orig: 1126, 1364
   offset: 0, 0
   index: -1
-heroic
+virtue
   rotate: true
-  xy: 1345, 313
-  size: 873, 954
-  orig: 873, 954
+  xy: 1368, 435
+  size: 693, 502
+  orig: 693, 502
   offset: 0, 0
   index: -1

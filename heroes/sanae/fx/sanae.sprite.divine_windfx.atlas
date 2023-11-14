@@ -1,0 +1,62 @@
+
+sanae.sprite.divine_windfx.png
+size: 2013,601
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Divine Wind/group wind/Group FX/Group Wind  5
+  rotate: true
+  xy: 212, 55
+  size: 544, 122
+  orig: 544, 122
+  offset: 0, 0
+  index: -1
+Divine Wind/group wind/Group FX/Group Wind 6
+  rotate: false
+  xy: 1340, 376
+  size: 671, 223
+  orig: 671, 223
+  offset: 0, 0
+  index: -1
+Divine Wind/group wind/Group FX/Snake 1
+  rotate: true
+  xy: 515, 270
+  size: 329, 190
+  orig: 329, 190
+  offset: 0, 0
+  index: -1
+Divine Wind/group wind/Group FX/Snake 2
+  rotate: true
+  xy: 336, 245
+  size: 354, 177
+  orig: 354, 177
+  offset: 0, 0
+  index: -1
+Divine Wind/group wind/Group FX/group wind 1
+  rotate: false
+  xy: 707, 322
+  size: 631, 277
+  orig: 631, 277
+  offset: 0, 0
+  index: -1
+Divine Wind/group wind/Group FX/group wind 2
+  rotate: false
+  xy: 1103, 58
+  size: 875, 262
+  orig: 875, 262
+  offset: 0, 0
+  index: -1
+Divine Wind/group wind/Group FX/group wind 3
+  rotate: false
+  xy: 336, 10
+  size: 765, 233
+  orig: 765, 233
+  offset: 0, 0
+  index: -1
+Divine Wind/group wind/Group FX/group wind 4
+  rotate: true
+  xy: 2, 2
+  size: 597, 208
+  orig: 597, 208
+  offset: 0, 0
+  index: -1

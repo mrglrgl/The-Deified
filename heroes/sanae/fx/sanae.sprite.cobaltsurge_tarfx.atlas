@@ -1,0 +1,55 @@
+
+sanae.sprite.cobaltsurge_tarfx.png
+size: 697,275
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Combalt/frog base
+  rotate: true
+  xy: 633, 181
+  size: 92, 62
+  orig: 92, 62
+  offset: 0, 0
+  index: -1
+Combalt/frog leap
+  rotate: false
+  xy: 498, 5
+  size: 125, 108
+  orig: 125, 108
+  offset: 0, 0
+  index: -1
+Combalt/frog mount 1
+  rotate: false
+  xy: 633, 91
+  size: 56, 88
+  orig: 56, 88
+  offset: 0, 0
+  index: -1
+Combalt/frog mount 2
+  rotate: false
+  xy: 625, 2
+  size: 56, 87
+  orig: 56, 87
+  offset: 0, 0
+  index: -1
+Combalt/inner ring
+  rotate: false
+  xy: 271, 47
+  size: 225, 226
+  orig: 225, 226
+  offset: 0, 0
+  index: -1
+Combalt/outer ring
+  rotate: false
+  xy: 2, 6
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+Combalt/star
+  rotate: false
+  xy: 498, 115
+  size: 133, 158
+  orig: 133, 158
+  offset: 0, 0
+  index: -1

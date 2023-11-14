@@ -1,4 +1,5 @@
 commonfx: .deathfx death_medium
+display_modifier: .disabled_popup_text_types move_resist
 
 weapon: .name "sanae_weapon_0" .icon "eqp_weapon_0.png"
 weapon: .name "sanae_weapon_1" .icon "eqp_weapon_1.png"
@@ -12,14 +13,14 @@ armour: .name "sanae_armour_2" .icon "eqp_armour_2.png"
 armour: .name "sanae_armour_3" .icon "eqp_armour_3.png"
 armour: .name "sanae_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "s_miracle_star" .icon "one" .anim "attack_shootingstar" .fx "shootingstarfx" .targchestfx "shootingstar_tarfx" .condensed_tooltip_stats true .condensed_tooltip_effects false	  .area_pos_offset 150 0
-combat_skill: .id "s_gather_faith" .icon "two" .anim "disasterdispellingprayer" .fx "mk_prayer_prf_fx" .targheadfx "prayer_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
-combat_skill: .id "s_divine_wind" .icon "three" .anim "fantasyseal" .fx "" .targfx "divine_grace_target" .can_display_performer_selection_after_turn false .condensed_tooltip_stats true .condensed_tooltip_effects false
-combat_skill: .id "s_starry_night" .icon "four" .anim "attack_starlight" .fx "starlightfx" .targheadfx "starlighttarfx" .condensed_tooltip_stats true .condensed_tooltip_effects false .area_pos_offset 150 0 .target_area_pos_offset -125 0
-combat_skill: .id "s_moses_miracle" .icon "five" .anim "fantasyseal" .fx "" .targfx "barrier_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
-combat_skill: .id "s_uplifting_prayer" .icon "six" .anim "attack_upliftingsurge" .fx "upliftingsurgefx" .targfx "invigorating_vapours_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
-combat_skill: .id "s_suwacurse" .icon "seven" .anim "attack_exorcise" .fx "exorcisefx" .targchestfx "exorcise_tarfx" .condensed_tooltip_stats true .condensed_tooltip_effects false  .area_pos_offset 150 0
+combat_skill: .id "s_exorcise"		.icon "one"		.anim "attack_exorcise"			.fx "exorcisefx"		.targchestfx "exorcise_tarfx"		.condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1  .area_pos_offset 150 0
+combat_skill: .id "s_miracle_star"	.icon "two"		.anim "attack_shootingstar"		.fx "shootingstarfx" 	.targchestfx "shootingstar_tarfx"	.condensed_tooltip_effects false	  .area_pos_offset 125 0
+combat_skill: .id "s_suwacurse"		.icon "three"	.anim "attack_subjugate"		.fx "subjugatefx"		.targchestfx "blood_splatter"		.condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1
+combat_skill: .id "s_moses_miracle" .icon "four"	.anim "attack_upliftingsurge"	.fx "upliftingsurgefx"	.targchestfx "cobaltbarrier_tarfx"	.can_display_performer_selection_after_turn false  .condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 2
+combat_skill: .id "s_divine_wind"	.icon "five"	.anim "attack_divinewind"		.fx "divinewindfx"		.targfx		 "battlefield_bandage_target"	.can_display_performer_selection_after_turn false  .condensed_tooltip_stats false .condensed_tooltip_effects false  .condensed_tooltip_effects_per_line 1
+combat_skill: .id "s_gather_faith"	.icon "six"		.anim "attack_embrace"			.fx "embracefx"			.targchestfx "divine_wind_tarfx"	.can_display_performer_selection_after_turn false .condensed_tooltip_stats true  .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1
+combat_skill: .id "s_starry_night"	.icon "seven"	.anim "attack_starlight"		.fx "starlightfx"		.targheadfx	 "starlighttarfx"		.can_display_performer_selection_after_turn false  .condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1
 
-combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+combat_move_skill: .id "s_special_move" .icon "generic_move" .anim "attack_ward"
 
-act_out_display: .attack_friendly_anim "exterminate" .attack_friendly_fx "ext_perf_fx" .attack_friendly_targchestfx "mkexterm_target" .attack_friendly_sfx "/char/ally/vestal_mace_bash"
+act_out_display: .attack_friendly_anim "attack_shootingstar" .attack_friendly_fx "shootingstarfx" .attack_friendly_targchestfx "shootingstar_tarfx" .attack_friendly_sfx "/char/ally/vestal_mace_bash"

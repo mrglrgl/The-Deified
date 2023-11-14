@@ -1,0 +1,76 @@
+
+sanae.sprite.embracefx.png
+size: 3021,376
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Divine Wind/Group FX/Fx glow
+  rotate: true
+  xy: 1318, 15
+  size: 359, 773
+  orig: 359, 773
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Personal Winds/person wind 1
+  rotate: false
+  xy: 2093, 55
+  size: 525, 319
+  orig: 525, 319
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Personal Winds/personal Wind 4
+  rotate: false
+  xy: 885, 6
+  size: 431, 368
+  orig: 431, 368
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Personal Winds/personal wind 2
+  rotate: true
+  xy: 2620, 2
+  size: 109, 113
+  orig: 109, 113
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Personal Winds/personal wind 3
+  rotate: false
+  xy: 2735, 13
+  size: 119, 98
+  orig: 119, 98
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Personal Winds/personal wind 5
+  rotate: false
+  xy: 2896, 245
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Personal Winds/personal wind 6
+  rotate: true
+  xy: 2856, 11
+  size: 73, 140
+  orig: 73, 140
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Personal Winds/wand wind
+  rotate: true
+  xy: 2620, 113
+  size: 261, 274
+  orig: 261, 274
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Personal Winds/wand wind 2
+  rotate: false
+  xy: 2896, 86
+  size: 116, 157
+  orig: 116, 157
+  offset: 0, 0
+  index: -1
+Divine Wind/Group FX/Shadow fx
+  rotate: true
+  xy: 2, 2
+  size: 372, 881
+  orig: 372, 881
+  offset: 0, 0
+  index: -1

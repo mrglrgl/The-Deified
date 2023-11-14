@@ -1,0 +1,20 @@
+
+sanae.sprite.attack_miracle.png
+size: 767,361
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 702, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+ward/Evil warding prayer
+  rotate: true
+  xy: 2, 45
+  size: 314, 698
+  orig: 314, 698
+  offset: 0, 0
+  index: -1

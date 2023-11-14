@@ -2,10 +2,10 @@
    "buffs":
    [
 	  {
-         "id" : "seas_parting_dodge_4",
+         "id" : "sanaeDDACC",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.04,
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -15,7 +15,7 @@
          }
       },
 	  {
-         "id" : "seas_parting_dodge_5",
+         "id" : "sanaeDDDODGE",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.05,
@@ -28,49 +28,205 @@
          }
       },
 	  {
-         "id" : "seas_parting_dodge_6",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.06,
+         "id" : "sanae_dmgl15_light76",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "lightbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0,
+            "float" : 76,
             "string" : ""
          }
       },
 	  {
-         "id" : "seas_parting_dodge_7",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.07,
+         "id" : "sanae_dmgh15_light76",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "lightbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0,
+            "float" : 76,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "sanae_dmgl15_light51",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 51,
             "string" : ""
          }
       },
 	  {
-         "id" : "seas_parting_dodge_8",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.08,
+         "id" : "sanae_dmgh15_light51",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "lightbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0,
+            "float" : 51,
             "string" : ""
          }
       },
 	  {
-         "id" : "seas_parting_critr_4",
-         "stat_type" : "crit_received_chance",
+         "id" : "sanae_dmgl15_light26",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 26,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_dmgh15_light26",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 26,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_dmgl15_light1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_dmgh15_light1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_dmgl15_light76",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 76,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_acc_light1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 999,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_faithrenew1",
+         "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : -0.04,
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_gather_faith"
+         }
+      },
+	  {
+         "id" : "sanae_faithrenew2",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_gather_faith"
+         }
+      },
+	  {
+         "id" : "sanae_faithrenew3",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_gather_faith"
+         }
+      },
+	  {
+         "id" : "sanae_faithrenew4",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_gather_faith"
+         }
+      },
+	  {
+         "id" : "sanae_faithrenew5",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_gather_faith"
+         }
+      },
+	  {
+         "id" : "sanae_faithoverflow1",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -80,7 +236,306 @@
          }
       },
 	  {
-         "id" : "seas_parting_critr_5",
+         "id" : "sanae_faithoverflow2",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_faithoverflow3",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_faithoverflow4",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_faithoverflow5",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_stars_f2_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.8,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith2"
+         }
+      },
+	  {
+         "id" : "sanae_stars_f2_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.8,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith2"
+         }
+      },
+	  {
+         "id" : "sanae_crit_f1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 1000,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith1"
+         }
+      },
+	  {
+         "id" : "sanae_crit_f2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 1000,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanaefaith2"
+         }
+      },
+	  {
+         "id" : "sanae_ACC10",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_ACC11",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_ACC12",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_ACC13",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_ACC15",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_Stress-10",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_Stress-12",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_Stress-15",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_Stress-17",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_Stress-20",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_scout30",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_bulwarkheal1",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_bulwarkheal2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_bulwarkheal3",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_bulwarkreflect",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_bulwarkcrit1",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : -0.05,
@@ -93,7 +548,7 @@
          }
       },
 	  {
-         "id" : "seas_parting_critr_6",
+         "id" : "sanae_bulwarkcrit2",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : -0.06,
@@ -106,7 +561,7 @@
          }
       },
 	  {
-         "id" : "seas_parting_critr_7",
+         "id" : "sanae_bulwarkcrit3",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : -0.07,
@@ -119,7 +574,7 @@
          }
       },
 	  {
-         "id" : "seas_parting_critr_8",
+         "id" : "sanae_bulwarkcrit4",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : -0.08,
@@ -132,29 +587,16 @@
          }
       },
 	  {
-         "id" : "sanae_ap_f1",
-         "stat_type" : "ignore_protection",
+         "id" : "sanae_bulwarkcrit5",
+         "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 1,
+         "amount" : -0.09,
          "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "sanaefaith1"
-         }
-      },
-	  {
-         "id" : "sanae_ap_f2",
-         "stat_type" : "ignore_protection",
-         "stat_sub_type" : "",
-         "amount" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "sanaefaith2"
+            "string" : ""
          }
       },
 	  {

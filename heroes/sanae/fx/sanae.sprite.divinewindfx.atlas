@@ -1,0 +1,55 @@
+
+sanae.sprite.divinewindfx.png
+size: 660,1078
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Divine Wind/self fx/fx glow
+  rotate: false
+  xy: 366, 263
+  size: 285, 813
+  orig: 285, 813
+  offset: 0, 0
+  index: -1
+Divine Wind/self fx/shadow
+  rotate: false
+  xy: 2, 175
+  size: 362, 901
+  orig: 362, 901
+  offset: 0, 0
+  index: -1
+Divine Wind/self fx/wand wind 1
+  rotate: false
+  xy: 408, 110
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+Divine Wind/self fx/wand wind 2
+  rotate: false
+  xy: 408, 28
+  size: 100, 80
+  orig: 100, 80
+  offset: 0, 0
+  index: -1
+Divine Wind/self fx/wand wind 3
+  rotate: false
+  xy: 228, 2
+  size: 178, 171
+  orig: 178, 171
+  offset: 0, 0
+  index: -1
+Divine Wind/self fx/wand wind 4
+  rotate: true
+  xy: 584, 163
+  size: 98, 74
+  orig: 98, 74
+  offset: 0, 0
+  index: -1
+Divine Wind/self fx/wand wind 5
+  rotate: false
+  xy: 2, 20
+  size: 224, 153
+  orig: 224, 153
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+sanae.sprite.divine_wind_tarfx.png
+size: 601,336
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Divine Wind/group wind/Group FX/Group Wind  5
+  rotate: false
+  xy: 2, 2
+  size: 544, 122
+  orig: 544, 122
+  offset: 0, 0
+  index: -1
+Divine Wind/group wind/Group FX/group wind 4
+  rotate: false
+  xy: 2, 126
+  size: 597, 208
+  orig: 597, 208
+  offset: 0, 0
+  index: -1

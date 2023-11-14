@@ -1,40 +1,47 @@
 
 sanae.sprite.upliftingsurgefx.png
-size: 2031,490
+size: 2039,489
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Uplifting Surge/fx glow
   rotate: true
-  xy: 2, 3
+  xy: 2, 2
   size: 485, 789
   orig: 485, 789
   offset: 0, 0
   index: -1
 Uplifting Surge/fx self/wand fx
-  rotate: true
-  xy: 1532, 159
+  rotate: false
+  xy: 1532, 166
   size: 329, 321
   orig: 329, 321
   offset: 0, 0
   index: -1
 Uplifting Surge/fx self/wand fx 2
   rotate: false
-  xy: 1855, 182
+  xy: 1863, 181
   size: 174, 306
   orig: 174, 306
   offset: 0, 0
   index: -1
 Uplifting Surge/fx self/wand fx 3
   rotate: true
-  xy: 1532, 2
+  xy: 1532, 9
   size: 155, 202
   orig: 155, 202
   offset: 0, 0
   index: -1
+Uplifting Surge/hairpin glow
+  rotate: false
+  xy: 1736, 117
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
 Uplifting Surge/shadow
   rotate: true
-  xy: 793, 21
+  xy: 793, 20
   size: 467, 737
   orig: 467, 737
   offset: 0, 0

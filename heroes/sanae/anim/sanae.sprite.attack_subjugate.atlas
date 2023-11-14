@@ -1,0 +1,27 @@
+
+sanae.sprite.attack_subjugate.png
+size: 710,1031
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Subjugate/snake fx
+  rotate: false
+  xy: 2, 2
+  size: 347, 267
+  orig: 347, 267
+  offset: 0, 0
+  index: -1
+Subjugate/subjugate
+  rotate: false
+  xy: 2, 271
+  size: 689, 758
+  orig: 689, 758
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 351, 206
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

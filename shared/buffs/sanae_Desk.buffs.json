@@ -2,6 +2,400 @@
    "buffs":
    [
 	  {
+         "id" : "sanae_deleter",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_deleter",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise1a_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise1a_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise2a_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise2a_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise3a_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise3a_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise4a_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise4a_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise5a_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise5a_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise1b_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise1b_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise2b_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise2b_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise3b_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise3b_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise4b_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise4b_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_exorcise5b_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise5b_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_starkillerA_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_starkillerA_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_starkillerB_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_starkillerB_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_corpseclear_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_corpseclear_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_barrierA_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_barrierA_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_barrierB_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_barrierB_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+			"id": "sanae_miracleDesk_A1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "sanae_miracleDesk_A1",
+			"amount": 1,
+			"remove_on_battle_complete" : true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+	  },
+	  {
+			"id": "sanae_miracleDesk_A2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "sanae_miracleDesk_A2",
+			"amount": 1,
+			"remove_on_battle_complete" : true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+	  },
+	  {
+			"id": "sanae_miracleDesk_A3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "sanae_miracleDesk_A3",
+			"amount": 1,
+			"remove_on_battle_complete" : true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+	  },
+	  {
+			"id": "sanae_miracleDesk_B",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "sanae_miracleDesk_B",
+			"amount": 1,
+			"remove_on_battle_complete" : true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+	  },
+	  {
+         "id" : "sanae_healmiracle1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_healmiracle1_Desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_healmiracle2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_healmiracle2_Desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_healmiracle3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_healmiracle3_Desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_fakebuffparty_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_fakebuffparty_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_inspire_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_inspire_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_inspire_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_inspire_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_inspire_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_inspire_desk_3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_inspire_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_inspire_desk_4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_inspire_Desk_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_inspire_desk_5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_scoutmiracle_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_scoutmiracle_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "sanae_faithbreak_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_faithbreak_desk",
@@ -28,11 +422,128 @@
          }
       },
 	  {
+         "id" : "sanae_exorcise_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_exorcise_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_backward_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_backward_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_forward_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_forward_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_selfally_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_selfally_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_heal_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_heal_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_heal_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_heal_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_heal_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_heal_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_renew_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_renew_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "sanae_dotclear_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_dotclear_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_f1"
+         }
+      },
+	  {
+         "id" : "sanae_faithtray1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_faithtray",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -41,9 +552,61 @@
          }
       },
 	  {
-         "id" : "divine_wind_partyheal_l1_Desk",
+         "id" : "sanae_faithtray2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "divine_wind_partyheal_l1_desk",
+         "stat_sub_type" : "sanae_faithtray",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_faithtray3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_faithtray",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_faithtray4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_faithtray",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_faithtray5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_faithtray",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "divine_wind_F1_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "divine_wind_F1_1_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -54,9 +617,9 @@
          }
       },
 	  {
-         "id" : "divine_wind_partyheal_l2_Desk",
+         "id" : "divine_wind_F1_2_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "divine_wind_partyheal_l2_desk",
+         "stat_sub_type" : "divine_wind_F1_2_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -67,9 +630,9 @@
          }
       },
 	  {
-         "id" : "divine_wind_partyheal_l3_Desk",
+         "id" : "divine_wind_F1_3_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "divine_wind_partyheal_l3_desk",
+         "stat_sub_type" : "divine_wind_F1_3_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -80,9 +643,9 @@
          }
       },
 	  {
-         "id" : "divine_wind_partyheal_l4_Desk",
+         "id" : "divine_wind_F2_1_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "divine_wind_partyheal_l4_desk",
+         "stat_sub_type" : "divine_wind_F2_1_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -93,9 +656,9 @@
          }
       },
 	  {
-         "id" : "divine_wind_partyheal_l5_Desk",
+         "id" : "divine_wind_F2_2_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "divine_wind_partyheal_l5_desk",
+         "stat_sub_type" : "divine_wind_F2_2_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -106,9 +669,9 @@
          }
       },
 	  {
-         "id" : "sanae_solar_flare_l1_Desk",
+         "id" : "divine_wind_F2_3_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_solar_flare_l1_desk",
+         "stat_sub_type" : "divine_wind_F2_3_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -119,165 +682,9 @@
          }
       },
 	  {
-         "id" : "sanae_solar_flare_l2_Desk",
+         "id" : "sanae_fake_debuff_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_solar_flare_l2_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_solar_flare_l3_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_solar_flare_l3_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_solar_flare_l4_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_solar_flare_l4_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_solar_flare_l5_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_solar_flare_l5_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_fake_buff_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_fake_buff_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_1_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_1_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_2_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_2_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_3_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_3_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_4_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_4_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_5_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_5_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_buff_f0_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_buff_f0_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "seas_parting_f2_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "seas_parting_f2_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_fake_target_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_fake_target_desk",
+         "stat_sub_type" : "sanae_fake_debuff_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -301,136 +708,6 @@
          }
       },
 	  {
-         "id" : "sanae_uplift_A1_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_A1_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_A2_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_A2_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_A3_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_A3_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_A4_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_A4_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_A5_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_A5_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_B1_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_B1_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_B2_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_B2_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_B3_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_B3_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_B4_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_B4_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_uplift_B5_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_uplift_B5_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "sanae_uplift_f2_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_uplift_f2_desk",
@@ -444,9 +721,9 @@
          }
       },
 	  {
-         "id" : "sanae_suwarefund_Desk",
+         "id" : "sanae_solar_flare_A1_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_suwarefund_desk",
+         "stat_sub_type" : "sanae_solar_flare_A1_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -457,9 +734,126 @@
          }
       },
 	  {
-         "id" : "sanae_suwacurse_Desk",
+         "id" : "sanae_solar_flare_A2_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_suwacurse_desk",
+         "stat_sub_type" : "sanae_solar_flare_A2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_solar_flare_A3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_solar_flare_A3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_solar_flare_A4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_solar_flare_A4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_solar_flare_A5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_solar_flare_A5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_solar_flare_B1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_solar_flare_B1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_f1"
+         }
+      },
+	  {
+         "id" : "sanae_solar_flare_B2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_solar_flare_B2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_f1"
+         }
+      },
+	  {
+         "id" : "sanae_solar_flare_B3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_solar_flare_B3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_f1"
+         }
+      },
+	  {
+         "id" : "sanae_solar_flare_B4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_solar_flare_B4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_f1"
+         }
+      },
+	  {
+         "id" : "sanae_solar_flare_B5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_solar_flare_B5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_f1"
+         }
+      },
+	  {
+         "id" : "sanae_scout30_tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_scout30_tray",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
