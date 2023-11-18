@@ -96,11 +96,11 @@ effect: .name "Sanae_BarrierB_Desk" .target "target" .buff_source_type bsrc_nots
 
 
 //// Embrace \\\\
-effect: .name "Sanae_Bulwark1" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal1" "sanae_bulwarkreflect" "sanae_bulwarkcrit1" .on_hit true .on_miss true .queue true
-effect: .name "Sanae_Bulwark2" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal2" "sanae_bulwarkreflect" "sanae_bulwarkcrit2" .on_hit true .on_miss true .queue true
-effect: .name "Sanae_Bulwark3" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal2" "sanae_bulwarkreflect" "sanae_bulwarkcrit3" .on_hit true .on_miss true .queue true
-effect: .name "Sanae_Bulwark4" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal3" "sanae_bulwarkreflect" "sanae_bulwarkcrit4" .on_hit true .on_miss true .queue true
-effect: .name "Sanae_Bulwark5" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal3" "sanae_bulwarkreflect" "sanae_bulwarkcrit5" .on_hit true .on_miss true .queue true
+effect: .name "Sanae_Bulwark1" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal1" "sanae_bulwarkreflect" "sanae_bulwarkcrit1" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Sanae_Bulwark2" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal2" "sanae_bulwarkreflect" "sanae_bulwarkcrit2" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Sanae_Bulwark3" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal2" "sanae_bulwarkreflect" "sanae_bulwarkcrit3" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Sanae_Bulwark4" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal3" "sanae_bulwarkreflect" "sanae_bulwarkcrit4" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Sanae_Bulwark5" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal3" "sanae_bulwarkreflect" "sanae_bulwarkcrit5" .on_hit true .on_miss true .queue true .apply_once true
 
 effect: .name "Sanae_BulwarkMirDesk1" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_healmiracle1_Desk" .on_hit true .on_miss false
 effect: .name "Sanae_BulwarkMirDesk2" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_healmiracle2_Desk" .on_hit true .on_miss false
