@@ -5,15 +5,15 @@
 	
 
 		<!--Camp Skills-->
-	<entry id="camping_skill_name_sanae_camp_healskill"><![CDATA[GREATER THAUMATURGY]]></entry>
-	<entry id="camping_skill_name_danmaku_sanae"><![CDATA[HARAI CEREMONY]]></entry>
-	<entry id="camping_skill_name_sanae_camp_buffskill"><![CDATA[KEEN BLESSING]]></entry>
-	<entry id="camping_skill_name_sanae_guiding_star"><![CDATA[GUIDING STAR]]></entry>
+	<entry id="camping_skill_name_sanae_camp_healskill"><![CDATA[GRAND THAUMATURGY]]></entry>
+	<entry id="camping_skill_name_danmaku_sanae"><![CDATA[O-MIKUJI DRAWING]]></entry>
+	<entry id="camping_skill_name_sanae_camp_buffskill"><![CDATA[CULTURAL STUDY]]></entry>
+	<entry id="camping_skill_name_sanae_camp_harai"><![CDATA[HARAI CEREMONY]]></entry>
 	
-	<entry id="sanae+str_bark_sanae_camp_healskill"><![CDATA[HAAAAAAA!]]></entry>
-	<entry id="sanae+str_bark_danmaku_sanae"><![CDATA[Please, lend me your prayers...]]></entry>
-	<entry id="sanae+str_bark_sanae_camp_buffskill"><![CDATA[Sharp enough to split metal!]]></entry>
-	<entry id="sanae+str_bark_sanae_guiding_star"><![CDATA[See that one? It will guide us to a brighter future!]]></entry>
+	<entry id="sanae+str_bark_sanae_camp_healskill"><![CDATA[*...we need each other, more than you must know.*]]></entry>
+	<entry id="sanae+str_bark_danmaku_sanae"><![CDATA[Dunno what fortune it holds, but it'll be a good one!]]></entry>
+	<entry id="sanae+str_bark_sanae_camp_buffskill"><![CDATA[Could you explain this custom to me?]]></entry>
+	<entry id="sanae+str_bark_sanae_camp_harai"><![CDATA[With this, we may sleep safely and unburdened.]]></entry>
 	
 	<entry id="sanae+str_bark_encourage"><![CDATA[Take this, it'll bring you good luck.]]></entry>
 	
@@ -43,19 +43,19 @@
     
 	
 		<!-- Upgrades -->
-    <entry id="sanae_weapon_0"><![CDATA[Weapon 1]]></entry>
-    <entry id="sanae_weapon_1"><![CDATA[Weapon 2]]></entry>
+    <entry id="sanae_weapon_0"><![CDATA[Makeshift Onusa]]></entry>
+    <entry id="sanae_weapon_1"><![CDATA[Aspiring Onusa]]></entry>
     <entry id="sanae_weapon_2"><![CDATA[Weapon 3]]></entry>
     <entry id="sanae_weapon_3"><![CDATA[Weapon 4]]></entry>
     <entry id="sanae_weapon_4"><![CDATA["Weapon 5"]]></entry>
     <entry id="upgrade_tree_name_sanae.weapon"><![CDATA[Weapon]]></entry>
-    <entry id="sanae_armour_0"><![CDATA[Armor 1]]></entry>
-    <entry id="sanae_armour_1"><![CDATA[Armor 2]]></entry>
+    <entry id="sanae_armour_0"><![CDATA[Worn Kosode]]></entry>
+    <entry id="sanae_armour_1"><![CDATA[Aspiring Kosode]]></entry>
     <entry id="sanae_armour_2"><![CDATA[Armor 3]]></entry>
     <entry id="sanae_armour_3"><![CDATA[Armor 4]]></entry>
     <entry id="sanae_armour_4"><![CDATA["Armor 5"]]></entry>
     <entry id="upgrade_tree_name_sanae.armour"><![CDATA[Armor]]></entry>
-    <entry id="action_verbose_body_guild_sanae"><![CDATA[Sanae Guild]]></entry>
+    <entry id="action_verbose_body_guild_sanae"><![CDATA[A wandering miko, ardently serving kami of land and sky. She is a master of divine prayers that fortify the party, and grant miraculous boons after combat. In the interim, she bolsters her ailing and zealous faithful with barriers, healing, and inspiration - or steps up herself, cutting through the darkness with powerful condemations and astral artillery!]]></entry>
     <entry id="action_verbose_body_blacksmith_sanae"><![CDATA[Sanae Blacksmith]]></entry>
     <entry id="action_verbose_body_camping_trainer_sanae"><![CDATA[Sanae Camp]]></entry>
 	
@@ -86,7 +86,7 @@
 	<entry id="str_inventory_title_trinketsanae_trinket_fang"><![CDATA[Mishaguji Fang]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_manual"><![CDATA[Esoteric Manual]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_kasen"><![CDATA[Oni Medicine]]></entry>
-	<entry id="str_inventory_title_trinketcom_sanae_donationbox"><![CDATA[Otherworldly Donations]]></entry>
+	<entry id="str_inventory_title_trinketcom_sanae_trinket"><![CDATA[Illusory Stardust]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_sanae_first"><![CDATA[Imagine I]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_sanae_second"><![CDATA[Was Good]]></entry>
 	
@@ -102,10 +102,16 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk"><![CDATA[+30%% {colour_start|healhp}Healing{colour_end} Skills per Missing {colour_start|sanaefaith}Ħ{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_second_desk"><![CDATA[+20%% {colour_start|stun}Stun{colour_end} Skill Chance per {colour_start|sanaefaith}Ħ{colour_end}]]></entry>
 
+	<entry id="buff_rule_data_tooltip_sanae_fake_starfall"><![CDATA[Starfall]]></entry>
+	<entry id="buff_rule_data_tooltip_sanae_fake_starfall_hit"><![CDATA[Starfall Hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_com_desk_1"><![CDATA[Can't DMG/CRIT]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_com_desk_2"><![CDATA[Self/Target: Break Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_com_desk_3"><![CDATA[Force {colour_start|guard}Guard{colour_end} by Target {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_com_desk_4"><![CDATA[{colour_start|skill_unselectable}(Uses Debuff Chance/Resist){colour_end}]]></entry>
 	
 				<!-- Skills -->
 		<!-- Miracle Tray Tooltips -->
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_scout30_tray"><![CDATA[+30%% {colour_start|scouting}Scouting{colour_end} chance]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_scout30_tray"><![CDATA[+30%% {colour_start|scouting}Scouting{colour_end} Chance]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_miracleDesk_A1"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 3 {colour_start|skill_unselectable}(On Combat End){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_miracleDesk_A2"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 4 {colour_start|skill_unselectable}(On Combat End){colour_end}]]></entry>
@@ -138,9 +144,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_barrierB_desk"><![CDATA[ 1 Blocks {colour_start|skill_unselectable}(2 rds){colour_end} {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
 		<!-- Kamis Embrace -->		
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle1_Desk"><![CDATA[{colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 3{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle2_Desk"><![CDATA[{colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 4{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle3_Desk"><![CDATA[{colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 5{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle1_Desk"><![CDATA[  {colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 3  {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle2_Desk"><![CDATA[  {colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 4  {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle3_Desk"><![CDATA[  {colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 5  {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
 		<!-- SOLAR FLARE -->
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fakebuffparty_desk"><![CDATA[  All Heroes:  ]]></entry>
@@ -473,7 +479,6 @@
 	
 		<!-- Compatibility -->
 	<entry id="buff_rule_data_tooltip_farm"><![CDATA[Farmstead]]></entry>
-	<entry id="buff_stat_tooltip_crit_received_chance"><![CDATA[%+d%% Crits Received]]></entry>
 
 	
   </language>

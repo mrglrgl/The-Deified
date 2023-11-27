@@ -1,0 +1,20 @@
+
+sanae.sprite.camp.png
+size: 742,456
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+camp/A/sanae.sprite.camp
+  rotate: true
+  xy: 2, 2
+  size: 452, 673
+  orig: 452, 673
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 677, 97
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

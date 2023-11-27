@@ -1,0 +1,558 @@
+{
+   "buffs":
+   [
+	  {
+         "id" : "sanae_com_debuff26",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 26,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_com_starfall_ap",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_miracle_star"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_com_starfall_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : -500,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_miracle_star"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_com_starfall_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : -500,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_miracle_star"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_com_starfall_crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -99,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "s_miracle_star"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_com_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_com_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_starfall"
+         }
+      },
+	  {
+         "id" : "sanae_com_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_com_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_starfall_hit"
+         }
+      },
+	  {
+         "id" : "sanae_com_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_com_desk_3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_starfall_hit"
+         }
+      },
+	  {
+         "id" : "sanae_com_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_com_desk_4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+		"id" : "sanae_problemblock_1",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "thatchery"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_2",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "ironwork"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_3",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "cosmic"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_4",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "cauldron"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_5",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "carpentry"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_6",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "body"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_7",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "vegetation"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_8",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "pyre"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_9",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "actor_base_class",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "virago_shroom"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_10",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "actor_base_class",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "cell_white"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_11",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "actor_base_class",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "drowned_anchor"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblock_12",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : -10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "actor_base_class",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "drowned_captain"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_1",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "thatchery"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_2",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "ironwork"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_3",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "cosmic"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_4",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "cauldron"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_5",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "carpentry"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_6",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "body"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_7",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "vegetation"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_8",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "monsterType",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "pyre"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_9",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "actor_base_class",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "virago_shroom"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_10",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "actor_base_class",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "cell_white"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_11",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "actor_base_class",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "drowned_anchor"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_problemblockA_12",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 10.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "actor_base_class",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "drowned_captain"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_specialblock_1",
+		"stat_type" : "ignore_guard",
+		"stat_sub_type" : "",
+		"amount" : 1.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "skill",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "siren_song"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_specialblock_2",
+		"stat_type" : "ignore_guard",
+		"stat_sub_type" : "",
+		"amount" : 1.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "skill",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "unholy_judgement"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_specialblock_3",
+		"stat_type" : "ignore_guard",
+		"stat_sub_type" : "",
+		"amount" : 1.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "skill",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "unholy_smite"
+		},
+		"has_description" : false
+	},
+	{
+		"id" : "sanae_specialblock_4",
+		"stat_type" : "ignore_guard",
+		"stat_sub_type" : "",
+		"amount" : 1.0,
+		"remove_if_not_active" : false,
+		"rule_type" : "skill",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "unholy_curse"
+		},
+		"has_description" : false
+	},
+	{
+         "id" : "sanae_debuff_check",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : -20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_guardblock",
+         "stat_type" : "guard_blocked",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "sanae_debuff_clean",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
+}

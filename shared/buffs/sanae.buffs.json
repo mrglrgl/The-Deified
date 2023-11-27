@@ -535,75 +535,10 @@
          }
       },
 	  {
-         "id" : "sanae_bulwarkcrit1",
+         "id" : "sanae_camping_critres",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : -0.05,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_bulwarkcrit2",
-         "stat_type" : "crit_received_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.06,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_bulwarkcrit3",
-         "stat_type" : "crit_received_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.07,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_bulwarkcrit4",
-         "stat_type" : "crit_received_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.08,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_bulwarkcrit5",
-         "stat_type" : "crit_received_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.09,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_camping_ignore_protection",
-         "stat_type" : "ignore_protection",
-         "stat_sub_type" : "",
-         "amount" : 0.2,
+         "amount" : -0.1,
          "duration_type" : "combat_end",
          "duration" : 4,
          "remove_if_not_active" : false,
@@ -614,33 +549,18 @@
             "string" : ""
          }
       },
-      {
-         "id" : "sanae_camping_scout76",
-         "stat_type" : "scouting_chance",
+	  {
+         "id" : "sanae_camping_healbuff",
+         "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : 0.1,
+         "amount" : 2,
          "duration_type" : "combat_end",
          "duration" : 4,
          "remove_if_not_active" : false,
-         "rule_type" : "lightbelow",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 76,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "sanae_camping_scout51",
-         "stat_type" : "scouting_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.1,
-         "duration_type" : "combat_end",
-         "duration" : 4,
-         "remove_if_not_active" : false,
-         "rule_type" : "lightbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 51,
+            "float" : 0,
             "string" : ""
          }
       }

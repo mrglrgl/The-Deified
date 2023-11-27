@@ -228,45 +228,6 @@
          }
       },
 	  {
-         "id" : "sanae_donationbox_shards",
-         "stat_type" : "shard_reward_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.33,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_donationbox_prot",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "protection_rating",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_dungeon",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "farm"
-         }
-      },
-	  {
-         "id" : "sanae_donationbox_stress",
-         "stat_type" : "stress_dmg_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_dungeon",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "farm"
-         }
-      },
-	  {
          "id" : "sanae_kasen_hp",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "max_hp",
