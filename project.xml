@@ -9,7 +9,7 @@
 	<Visibility>private</Visibility>
 	<UploadMode>dont_submit</UploadMode>
 	<VersionMajor>0</VersionMajor>
-	<VersionMinor>1</VersionMinor>
+	<VersionMinor>5</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
 		<Tags>tag1</Tags>
