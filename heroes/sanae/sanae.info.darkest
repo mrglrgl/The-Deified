@@ -1,4 +1,4 @@
-resistances: .stun 30% .poison 40% .bleed 30% .disease 40% .move 20% .debuff 40% .death_blow 67% .trap 20%
+resistances: .stun 30% .poison 40% .bleed 30% .disease 40% .move 20% .debuff 40% .death_blow 67% .trap 30%
 crit: .effects "on_crit_healdone"
 weapon: .name "sanae_weapon_0" .atk 0% .dmg 4 8		.crit 6%	.spd 7
 weapon: .name "sanae_weapon_1" .atk 0% .dmg 5 10	.crit 7%	.spd 7 .upgradeRequirementCode 0
@@ -38,7 +38,7 @@ combat_skill: .id "s_suwacurse" .level 4 .type "melee" .atk 115%	.dmg -67% .crit
 combat_skill: .id "s_suwacurse" .effect "Sanae_DeleterSelf" "Sanae_DeleterSelf"
 
 
-// Cobalt Barrier
+// Cobalt Surge
 combat_skill: .id "s_moses_miracle" .level 0 .launch 4321 .target @1234 .is_crit_valid false	.effect "Sanae Flow" "Clear Stunned Target" "Sanae_Barrier" "Sanae Inspire 1" "Sanae_BarrierA_Desk"	.is_stall_invalidating false
 combat_skill: .id "s_moses_miracle" .level 1 .launch 4321 .target @1234 .is_crit_valid false	.effect "Sanae Flow" "Clear Stunned Target" "Sanae_Barrier" "Sanae Inspire 2" "Sanae_BarrierA_Desk"	.is_stall_invalidating false
 combat_skill: .id "s_moses_miracle" .level 2 .launch 4321 .target @1234 .is_crit_valid false	.effect "Sanae Flow" "Clear Stunned Target" "Sanae_Barrier" "Sanae Inspire 3" "Sanae_BarrierA_Desk"	.is_stall_invalidating false
@@ -48,11 +48,11 @@ combat_skill: .id "s_exorcise" .effect "Sanae_DeleterSelf" "Sanae_DeleterSelf" "
 
 
 // Divine Breeze
-combat_skill: .id "s_divine_wind" .level 0 .heal 2 2	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false .generation_guaranteed true
-combat_skill: .id "s_divine_wind" .level 1 .heal 2 3	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false
-combat_skill: .id "s_divine_wind" .level 2 .heal 3 3	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false
-combat_skill: .id "s_divine_wind" .level 3 .heal 3 4	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false
-combat_skill: .id "s_divine_wind" .level 4 .heal 4 4	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false
+combat_skill: .id "s_divine_wind" .level 0 .heal 3 4	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false .generation_guaranteed true
+combat_skill: .id "s_divine_wind" .level 1 .heal 4 4	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false
+combat_skill: .id "s_divine_wind" .level 2 .heal 4 5	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false
+combat_skill: .id "s_divine_wind" .level 3 .heal 5 5	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false
+combat_skill: .id "s_divine_wind" .level 4 .heal 5 6	.launch 4321 .target @1234	.is_crit_valid True	.effect "Cure" "Sanae_Barrier" "Sanae_BarrierB_Desk"	.is_stall_invalidating false
 combat_skill: .id "s_divine_wind" .effect "Sanae_DeleterSelf" "Sanae_DeleterSelf" "Sanae_DeleterSelf"
 
 
@@ -62,7 +62,7 @@ combat_skill: .id "s_gather_faith" .level 1 .launch 43 .target @~1234 .per_battl
 combat_skill: .id "s_gather_faith" .level 2 .launch 43 .target @~1234 .per_battle_limit 1 .is_crit_valid True	.effect "Sanae_Bulwark3" "Sanae_BulwarkMirDesk2"	.is_stall_invalidating false
 combat_skill: .id "s_gather_faith" .level 3 .launch 43 .target @~1234 .per_battle_limit 1 .is_crit_valid True	.effect "Sanae_Bulwark4" "Sanae_BulwarkMirDesk2"	.is_stall_invalidating false
 combat_skill: .id "s_gather_faith" .level 4 .launch 43 .target @~1234 .per_battle_limit 1 .is_crit_valid True	.effect "Sanae_Bulwark5" "Sanae_BulwarkMirDesk3"	.is_stall_invalidating false
-combat_skill: .id "s_gather_faith" .effect "Sanae_DeleterParty" "Sanae_DeleterParty" "Sanae_DeleterParty"
+combat_skill: .id "s_gather_faith" .effect "Sanae_DeleterParty" "Sanae_DeleterParty" "Sanae_DeleterParty" .refresh_after_each_wave true
 
 combat_skill: .id "s_gather_faith"  .level 0 .valid_modes sanae_default	.sanae_default_effects	"Sanae_mtPray1" "Sanae_MiracleDesk_A1"
 combat_skill: .id "s_gather_faith"  .level 0 .valid_modes sanae_prays	.sanae_prays_effects	"Sanae_mtPray1S" "Sanae_MiracleDesk_A1"
@@ -83,6 +83,12 @@ combat_skill: .id "s_gather_faith" .valid_modes sanae_pray1 sanae_pray1s
 combat_skill: .id "s_gather_faith" .valid_modes sanae_pray2 sanae_pray2s
 combat_skill: .id "s_gather_faith" .valid_modes sanae_pray3 sanae_pray3s
 
+combat_skill: .id "s_gather_faith"  .level 0 .valid_modes sanae_prayinf	.sanae_prayinf_effects	"Sanae_InfHeal1"
+combat_skill: .id "s_gather_faith"  .level 1 .valid_modes sanae_prayinf	.sanae_prayinf_effects	"Sanae_InfHeal1"
+combat_skill: .id "s_gather_faith"  .level 2 .valid_modes sanae_prayinf	.sanae_prayinf_effects	"Sanae_InfHeal2"
+combat_skill: .id "s_gather_faith"  .level 3 .valid_modes sanae_prayinf	.sanae_prayinf_effects	"Sanae_InfHeal2"
+combat_skill: .id "s_gather_faith"  .level 4 .valid_modes sanae_prayinf	.sanae_prayinf_effects	"Sanae_InfHeal3"
+
 
 // SOLAR FLARE
 combat_skill: .id "s_starry_night" .level 0 .type "fumo" .atk 120%	.dmg -100% .crit 0% .launch 21 .target ~1234 .per_battle_limit 1 .is_crit_valid false .ignore_stealth true  .effect "Destealth" "Sanae_Inspire1" "Sanae_Inspire_Desk1" 	.is_stall_invalidating false
@@ -99,18 +105,25 @@ combat_skill: .id "s_starry_night" .valid_modes sanae_pray3		.sanae_pray3_effect
 combat_skill: .id "s_starry_night" .valid_modes sanae_prays sanae_pray1s
 combat_skill: .id "s_starry_night" .valid_modes sanae_pray2s sanae_pray3s
 
-combat_skill: .id "s_starry_night" .effect "Sanae_DeleterSelf" "Sanae_DeleterSelf" "Sanae_DeleterSelf" "Sanae_DeleterSelf" .nil true .can_miss false
+combat_skill: .id "s_starry_night" .valid_modes sanae_prayinf	.sanae_prayinf_effects "Sanae_InfBulwark"
+
+
+combat_skill: .id "s_starry_night" .effect "Sanae_DeleterSelf" "Sanae_DeleterSelf" "Sanae_DeleterSelf" "Sanae_DeleterSelf" .nil true .can_miss false .refresh_after_each_wave true
+
+// Riposte - for Sunward trinket
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 115% .dmg -65% .crit 8% .launch 1234 .target 1234 .is_crit_valid True .effect "Aunn Bleed"
 
 
 // Faith EoC Heal
 combat_move_skill: .id "s_special_move" .level 0  .type "move" .move 2 2 .launch 4321  .valid_modes sanae_default
-combat_move_skill: .id "s_special_move" .valid_modes sanae_pray1	.sanae_pray1_effects "Sanae_PrayHeal1" "Sanae_mtDefault"
-combat_move_skill: .id "s_special_move" .valid_modes sanae_pray2	.sanae_pray2_effects "Sanae_PrayHeal2" "Sanae_mtDefault"
-combat_move_skill: .id "s_special_move" .valid_modes sanae_pray3	.sanae_pray3_effects "Sanae_PrayHeal3" "Sanae_mtDefault"
-combat_move_skill: .id "s_special_move" .valid_modes sanae_prays	.sanae_prays_effects "Sanae_PrayScout" "Sanae_mtDefault"
-combat_move_skill: .id "s_special_move" .valid_modes sanae_pray1s	.sanae_pray1s_effects "Sanae_PrayHeal1" "Sanae_PrayScout" "Sanae_mtDefault"
-combat_move_skill: .id "s_special_move" .valid_modes sanae_pray2s	.sanae_pray2s_effects "Sanae_PrayHeal2" "Sanae_PrayScout" "Sanae_mtDefault"
-combat_move_skill: .id "s_special_move" .valid_modes sanae_pray3s	.sanae_pray3s_effects "Sanae_PrayHeal3" "Sanae_PrayScout" "Sanae_mtDefault"
+combat_move_skill: .id "s_special_move" .valid_modes sanae_pray1	.sanae_pray1_effects	"Sanae_PrayHeal1" "Sanae_mtDefault"
+combat_move_skill: .id "s_special_move" .valid_modes sanae_pray2	.sanae_pray2_effects	"Sanae_PrayHeal2" "Sanae_mtDefault"
+combat_move_skill: .id "s_special_move" .valid_modes sanae_pray3	.sanae_pray3_effects	"Sanae_PrayHeal3" "Sanae_mtDefault"
+combat_move_skill: .id "s_special_move" .valid_modes sanae_prays	.sanae_prays_effects	"Sanae_PrayScout" "Sanae_mtDefault"
+combat_move_skill: .id "s_special_move" .valid_modes sanae_pray1s	.sanae_pray1s_effects	"Sanae_PrayHeal1" "Sanae_PrayScout" "Sanae_mtDefault"
+combat_move_skill: .id "s_special_move" .valid_modes sanae_pray2s	.sanae_pray2s_effects	"Sanae_PrayHeal2" "Sanae_PrayScout" "Sanae_mtDefault"
+combat_move_skill: .id "s_special_move" .valid_modes sanae_pray3s	.sanae_pray3s_effects	"Sanae_PrayHeal3" "Sanae_PrayScout" "Sanae_mtDefault"
+combat_move_skill: .id "s_special_move" .valid_modes sanae_prayinf	.sanae_prayinf_effects	"Sanae_PrayHealS" "Sanae_mtReset"
 	
 tag: .id "light"
 tag: .id "religious"
@@ -126,6 +139,7 @@ mode: .id sanae_prays	.is_raid_default true .battle_complete_combat_skill_id s_s
 mode: .id sanae_pray1s	.is_raid_default true .battle_complete_combat_skill_id s_special_move
 mode: .id sanae_pray2s	.is_raid_default true .battle_complete_combat_skill_id s_special_move
 mode: .id sanae_pray3s	.is_raid_default true .battle_complete_combat_skill_id s_special_move
+mode: .id sanae_prayinf	.is_raid_default true .battle_complete_combat_skill_id s_special_move
 
 
 quirk_modifier: .incompatible_class_ids alcoholism witness faithless desecrater unquiet_mind

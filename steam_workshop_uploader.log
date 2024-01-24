@@ -27,8 +27,6 @@ c:/Users/danaw167/Desktop/Sanae mod/overlays/tray_dot_hp_heal.png
 -------------------------------------------------------------------------------
 Modded files...
 
-1unaltered/modes/new_game_plus/upgrades/heroes/tenshi.upgrades.json
-1unaltered/modes/radiant/upgrades/heroes/tenshi.upgrades.json
 heroes/sanae/sanae_A/anim/sanae.sprite.afflicted.png
 heroes/sanae/sanae_A/anim/sanae.sprite.attack_divinewind.png
 heroes/sanae/sanae_A/anim/sanae.sprite.attack_embrace.png
@@ -173,15 +171,23 @@ heroes/sanae/icons_equip/eqp_weapon_4.png
 heroes/sanae/sanae_A/sanae_portrait_roster.png
 heroes/sanae/sanae_B/sanae_portrait_roster.png
 heroes/sanae/sanae_C/sanae_portrait_roster.png
+monsters/cell_white/cell_white_D/cell_white_D.info.darkest
+monsters/daitengu/daitengu_D/daitengu_D.info.darkest
+monsters/gatekeeper/gatekeeper_A/gatekeeper_A.info.darkest
+monsters/gatekeeper/gatekeeper_B/gatekeeper_B.info.darkest
+monsters/gatekeeper/gatekeeper_C/gatekeeper_C.info.darkest
 panels/icons_equip/supply/inv_supply+sanae_faith_shard.png
+panels/icons_equip/trinket/a.png
+panels/icons_equip/trinket/b.png
 panels/icons_equip/trinket/inv_trinket+cc_set_sanae_first.png
 panels/icons_equip/trinket/inv_trinket+cc_set_sanae_second.png
 panels/icons_equip/trinket/inv_trinket+com_sanae_trinket.png
 panels/icons_equip/trinket/inv_trinket+sanae_trinket_amulet.png
 panels/icons_equip/trinket/inv_trinket+sanae_trinket_fang.png
-panels/icons_equip/trinket/inv_trinket+sanae_trinket_kasen.png
 panels/icons_equip/trinket/inv_trinket+sanae_trinket_manual.png
 panels/icons_equip/trinket/inv_trinket+sanae_trinket_nue.png
+panels/icons_equip/trinket/inv_trinket+sanae_trinket_rare1.png
+panels/icons_equip/trinket/inv_trinket+sanae_trinket_sunward.png
 raid/camping/skill_icons/camp_skill_danmaku_sanae.png
 raid/camping/skill_icons/camp_skill_sanae_camp_buffskill.png
 raid/camping/skill_icons/camp_skill_sanae_camp_harai.png
@@ -199,6 +205,7 @@ heroes/sanae/sanae.ability.two.png
 heroes/sanae/sanae.art.darkest
 heroes/sanae/sanae.info.darkest
 heroes/sanae/sanae_guild_header.png
+raid/ai/sanae_compat.monster_brains.json
 raid/camping/sanae.camping_skills.json
 shared/buffs/sanae.buffs.json
 shared/buffs/sanae_Desk.buffs.json

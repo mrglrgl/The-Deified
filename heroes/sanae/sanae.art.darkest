@@ -22,5 +22,7 @@ combat_skill: .id "s_gather_faith"	.icon "six"		.anim "attack_embrace"			.fx "em
 combat_skill: .id "s_starry_night"	.icon "seven"	.anim "attack_starlight"		.fx "starlightfx"		.targheadfx	 "starlighttarfx"		.can_display_performer_selection_after_turn false  .condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1
 
 combat_move_skill: .id "s_special_move" .icon "generic_move" .anim "attack_ward"
+riposte_skill: .id "riposte1" .anim "defend" .fx "" .targchestfx "blood_splatter"
+
 
 act_out_display: .attack_friendly_anim "attack_shootingstar" .attack_friendly_fx "shootingstarfx" .attack_friendly_targchestfx "shootingstar_tarfx" .attack_friendly_sfx "/char/ally/vestal_mace_bash"

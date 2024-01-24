@@ -1,0 +1,29 @@
+{
+    "monster_brains": [
+       {
+            "id": "gatekeeper",
+            "skill_cooldowns": [     ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        }               
+    ]
+}

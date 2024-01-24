@@ -2,47 +2,6 @@
    "buffs":
    [
 	  {
-         "id" : "sanae_cc_first_stressskills",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.33,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_cc_first_f0heal",
-         "stat_type" : "hp_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.6,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "sanaefaith0"
-         },
-		 "has_description" : false
-      },
-	  {
-         "id" : "sanae_cc_first_f1heal",
-         "stat_type" : "hp_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.3,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "sanaefaith1"
-         },
-		 "has_description" : false
-      },
-	  {
          "id" : "sanae_cc_second_spd",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
@@ -56,30 +15,338 @@
          }
       },
 	  {
-         "id" : "sanae_cc_second_f2stun",
-         "stat_type" : "stun_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.4,
+         "id" : "sanae_cc_second_pray1_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "sanaefaith2"
+            "string" : "sanae_pray1"
          },
 		 "has_description" : false
       },
 	  {
-         "id" : "sanae_cc_second_f1stun",
-         "stat_type" : "stun_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.2,
+         "id" : "sanae_cc_second_pray1_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "sanaefaith1"
+            "string" : "sanae_pray1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray1_heal",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray2_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray2_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray2_heal",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray3_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray3_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray3_heal",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_prays_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_prays"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_prays_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_prays"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_prays_heal",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_prays"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray1s_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray1s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray1s_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray1s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray1s_heal",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray1s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray2s_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray2s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray2s_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray2s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray2s_heal",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray2s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray3s_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray3s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray3s_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray3s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_pray3s_heal",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_pray3s"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_prayinf_dmgl",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_prayinf"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_prayinf_dmgh",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_prayinf"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_cc_second_prayinf_heal",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_prayinf"
          },
 		 "has_description" : false
       },
@@ -87,7 +354,7 @@
          "id" : "sanae_cc_set_stunr",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : 0.3,
+         "amount" : 0.5,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -97,22 +364,9 @@
          }
       },
 	  {
-         "id" : "sanae_cc_set_dodge",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_cc_first_Desk",
+         "id" : "sanae_cc_first_Desk_1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_cc_first_desk",
+         "stat_sub_type" : "sanae_cc_first_desk_1",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -123,9 +377,74 @@
          }
       },
 	  {
-         "id" : "sanae_cc_second_Desk",
+         "id" : "sanae_cc_first_Desk_2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_cc_second_desk",
+         "stat_sub_type" : "sanae_cc_first_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_cc_first_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_cc_first_desk_3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_cc_first_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_cc_first_desk_4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_cc_first_Desk_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_cc_first_desk_5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_cc_second_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_cc_second_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_cc_second_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_cc_second_desk_2",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",

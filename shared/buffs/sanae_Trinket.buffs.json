@@ -71,20 +71,6 @@
 		 "has_description" : false
       },
 	  {
-         "id" : "sanae_amulet_trinketblock",
-         "stat_type" : "activity_side_effect_chance",
-         "stat_sub_type" : "add_trinket",
-         "amount" : -1,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_activity",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "prayer"
-         },
-		 "has_description" : false
-      },
-	  {
          "id" : "sanae_nue_racc",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
@@ -280,6 +266,71 @@
          }
       },
 	  {
+         "id" : "sanae_rare_crit26",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 26,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_sunward_pet_aunn",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_sunward_feed_aunn",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_sunward_riposte_onhit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "sanae_sunward_riposte_onmiss",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_miss_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "sanae_amulet_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_amulet_desk",
@@ -296,6 +347,58 @@
          "id" : "sanae_kasen_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "sanae_kasen_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "sanae_rare1_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_rare1_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_friendly"
+         }
+	  },
+	  {
+         "id" : "sanae_si_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_si_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "sanae_si_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_si_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "sanae_si_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_si_desk_3",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",

@@ -72,6 +72,7 @@
 	<entry id="str_skill_mode_info_sanae_pray1s"><![CDATA[]]></entry>
 	<entry id="str_skill_mode_info_sanae_pray2s"><![CDATA[]]></entry>
 	<entry id="str_skill_mode_info_sanae_pray3s"><![CDATA[]]></entry>
+	<entry id="str_skill_mode_info_sanae_prayinf"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_deleter"><![CDATA[{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_faithbreak_desk"><![CDATA[{colour_start|skill_unselectable}~~~{colour_end}]]></entry>
@@ -85,23 +86,41 @@
 	<entry id="str_inventory_title_trinketsanae_trinket_nue"><![CDATA[Fantastic Stardust]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_fang"><![CDATA[Mishaguji Fang]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_manual"><![CDATA[Esoteric Manual]]></entry>
-	<entry id="str_inventory_title_trinketsanae_trinket_kasen"><![CDATA[Oni Medicine]]></entry>
+	<entry id="str_inventory_title_trinketsanae_trinket_rare1"><![CDATA[Starlit Mirror]]></entry>
+	<entry id="str_inventory_title_trinketsanae_trinket_sunward"><![CDATA[Adopted Komainu]]></entry>
 	<entry id="str_inventory_title_trinketcom_sanae_trinket"><![CDATA[Illusory Stardust]]></entry>
-	<entry id="str_inventory_title_trinketcc_set_sanae_first"><![CDATA[Imagine I]]></entry>
-	<entry id="str_inventory_title_trinketcc_set_sanae_second"><![CDATA[Was Good]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_sanae_first"><![CDATA[Fantastical Design]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_sanae_second"><![CDATA[Shintai of Fading Gods]]></entry>
 	
-	<entry id="str_inventory_set_title_cc_sanae"><![CDATA[At Writing]]></entry>
+	<entry id="str_inventory_set_title_cc_sanae"><![CDATA["I will reforge our broken faith."]]></entry>
 	
 	<entry id="buff_rule_data_tooltip_s_exorcise"><![CDATA[Exorcise]]></entry>
 	<entry id="buff_rule_data_tooltip_s_divine_wind"><![CDATA[Mending Prayer]]></entry>
 	
 		<!-- Random Tooltips Desk -->		
 				<!-- Trinkets -->
+	<entry id="buff_rule_data_tooltip_sanae_fake_friendly"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_amulet_desk"><![CDATA[Improved Transept side-effects]]></entry>
+	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_kasen_desk"><![CDATA[Friendly Skills: Clear {colour_start|debuff}Debuffs{colour_end} / {colour_start|stress}Horror{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk"><![CDATA[+30%% {colour_start|healhp}Healing{colour_end} Skills per Missing {colour_start|sanaefaith}Ħ{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_second_desk"><![CDATA[+20%% {colour_start|stun}Stun{colour_end} Skill Chance per {colour_start|sanaefaith}Ħ{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk_1"><![CDATA[Kami's Embrace: {colour_start|healhp}Heal{colour_end} Immediately]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk_2"><![CDATA[Guiding Star: {colour_start|mark}Mark{colour_end} Self / +30%% PROT {colour_start|skill_unselectable}(1 battle){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk_3"><![CDATA[{colour_start|sanaefaith}Permanent Miracle:{colour_end} Other Heroes: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk_4"><![CDATA[{colour_start|skill_unselectable}(Active as long as holder has acted this combat){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk_5"><![CDATA[Old {colour_start|sanaefaith}Miracles{colour_end} Disabled]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_second_desk_1"><![CDATA[+2 DMG per {colour_start|sanaefaith}Active Miracle{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_second_desk_2"><![CDATA[+2 {colour_start|healhp}Healing{colour_end} Done per {colour_start|sanaefaith}Active Miracle{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_rare1_desk_1"><![CDATA[{colour_start|stress}Stress{colour_end} -8 / Clear {colour_start|stress}Horror{colour_end} / Torch -5]]></entry>
 
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_si_desk_1"><![CDATA[{colour_start|riposte}Permanent Riposte:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_si_desk_2"><![CDATA[ACC base: 115 / DMG mod: -65%% / CRIT mod: +8%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_si_desk_3"><![CDATA[{colour_start|bleed}Bleed{colour_end} 2 pts/rd for 3 rds {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
+
+	
 	<entry id="buff_rule_data_tooltip_sanae_fake_starfall"><![CDATA[Starfall]]></entry>
 	<entry id="buff_rule_data_tooltip_sanae_fake_starfall_hit"><![CDATA[Starfall Hit]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_com_desk_1"><![CDATA[Can't DMG/CRIT]]></entry>
