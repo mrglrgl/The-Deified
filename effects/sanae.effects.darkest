@@ -106,9 +106,9 @@ effect: .name "Sanae_Bulwark3" .target "performer_group" .chance 100% .duration 
 effect: .name "Sanae_Bulwark4" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal3" "sanae_bulwarkreflect" .on_hit true .on_miss true .queue true .apply_once true
 effect: .name "Sanae_Bulwark5" .target "performer_group" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "sanae_bulwarkheal3" "sanae_bulwarkreflect" .on_hit true .on_miss true .queue true .apply_once true
 
-effect: .name "Sanae_BulwarkMirDesk1" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_healmiracle1_Desk" .on_hit true .on_miss false
-effect: .name "Sanae_BulwarkMirDesk2" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_healmiracle2_Desk" .on_hit true .on_miss false
-effect: .name "Sanae_BulwarkMirDesk3" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_healmiracle3_Desk" .on_hit true .on_miss false
+effect: .name "Sanae_BulwarkMirDesk1" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_miracleheader_Desk" "sanae_healmiracle1_Desk" .on_hit true .on_miss false
+effect: .name "Sanae_BulwarkMirDesk2" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_miracleheader_Desk" "sanae_healmiracle2_Desk" .on_hit true .on_miss false
+effect: .name "Sanae_BulwarkMirDesk3" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_miracleheader_Desk" "sanae_healmiracle3_Desk" .on_hit true .on_miss false
 
 // Used for Trinket
 effect: .name "Sanae_InfHeal1" .target "performer_group" .chance 100% .heal 3 .can_crit_heal false	.source_heal_type hero_skill	.on_hit true .on_miss true .apply_once true .has_description false
@@ -119,17 +119,18 @@ effect: .name "Sanae_InfHeal3" .target "performer_group" .chance 100% .heal 5 .c
 
 //// Blinding Starlight \\\\
 //Tooltips
-effect: .name "Sanae_Inspire_Desk1" .target "performer" .skill_instant true .buff_ids "sanae_fakebuffparty_Desk" "sanae_inspire_Desk_1" "sanae_scoutmiracle_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Sanae_Inspire_Desk2" .target "performer" .skill_instant true .buff_ids "sanae_fakebuffparty_Desk" "sanae_inspire_Desk_2" "sanae_scoutmiracle_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Sanae_Inspire_Desk3" .target "performer" .skill_instant true .buff_ids "sanae_fakebuffparty_Desk" "sanae_inspire_Desk_3" "sanae_scoutmiracle_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Sanae_Inspire_Desk4" .target "performer" .skill_instant true .buff_ids "sanae_fakebuffparty_Desk" "sanae_inspire_Desk_4" "sanae_scoutmiracle_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Sanae_Inspire_Desk5" .target "performer" .skill_instant true .buff_ids "sanae_fakebuffparty_Desk" "sanae_inspire_Desk_5" "sanae_scoutmiracle_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Sanae_Inspire_Desk1" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_inspire_Desk_1" "sanae_miracleheader_Desk" "sanae_scoutmiracle_Desk" .on_hit true .on_miss false
+effect: .name "Sanae_Inspire_Desk2" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_inspire_Desk_2" "sanae_miracleheader_Desk" "sanae_scoutmiracle_Desk" .on_hit true .on_miss false
+effect: .name "Sanae_Inspire_Desk3" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_inspire_Desk_3" "sanae_miracleheader_Desk" "sanae_scoutmiracle_Desk" .on_hit true .on_miss false
+effect: .name "Sanae_Inspire_Desk4" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_inspire_Desk_4" "sanae_miracleheader_Desk" "sanae_scoutmiracle_Desk" .on_hit true .on_miss false
+effect: .name "Sanae_Inspire_Desk5" .target "performer_group"		.buff_source_type bsrc_notspecified .buff_ids "sanae_inspire_Desk_5" "sanae_miracleheader_Desk" "sanae_scoutmiracle_Desk" .on_hit true .on_miss false
 
-effect: .name "Sanae_Inspire1" .target "performer_group" .chance 100% .buff_ids 1 "sanae_ACC10" "sanae_Stress-10" 	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Sanae_Inspire2" .target "performer_group" .chance 100% .buff_ids 1 "sanae_ACC11" "sanae_Stress-12"	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Sanae_Inspire3" .target "performer_group" .chance 100% .buff_ids 1 "sanae_ACC12" "sanae_Stress-15"	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Sanae_Inspire4" .target "performer_group" .chance 100% .buff_ids 1 "sanae_ACC13" "sanae_Stress-17"	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Sanae_Inspire5" .target "performer_group" .chance 100% .buff_ids 1 "sanae_ACC15" "sanae_Stress-20" 	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Sanae_Reveal"	.target "performer_group" .chance 100%	.buff_ids "sanae_reveal"					.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true
+effect: .name "Sanae_Inspire1"	.target "performer_group" .chance 100%	.buff_ids "sanae_ACC10" "sanae_Stress-10"	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Sanae_Inspire2"	.target "performer_group" .chance 100%	.buff_ids "sanae_ACC11" "sanae_Stress-12"	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Sanae_Inspire3"	.target "performer_group" .chance 100%	.buff_ids "sanae_ACC12" "sanae_Stress-15"	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Sanae_Inspire4"	.target "performer_group" .chance 100%	.buff_ids "sanae_ACC13" "sanae_Stress-17"	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Sanae_Inspire5"	.target "performer_group" .chance 100%	.buff_ids "sanae_ACC15" "sanae_Stress-20"	.duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
 
 // Used for Trinket
 effect: .name "Sanae_InfBulwark" .target "performer" .chance 100% .tag 1 .buff_duration_type combat_end .combat_stat_buff 1 .protection_rating_add 30% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .apply_once true .has_description false
@@ -149,20 +150,17 @@ effect: .name "sanae_faith_shard" .target "performer" .set_mode sanaefaith2 .cha
 //// Trinkets
 
 // Rare
-effect: .name "Sanae_Starlit_Destress"	.target "target" .chance 100% .healstress 8  .clearDotStress 1	.on_hit true .on_miss false .has_description false
-effect: .name "Sanae_Starlit_Torch" 	.target "global" .chance 100% .torch_decrease 5					.on_hit true .on_miss false .has_description false .queue true
+effect: .name "Sanae_Starlit_Destress"	.target "performer_group" .chance 100% .healstress 3  .apply_once true	.on_hit true .on_miss false .has_description false
+effect: .name "Sanae_Starlit_Torch" 	.target "global" .chance 100% .torch_decrease 5							.on_hit true .on_miss false .has_description false .queue true
 
-
+// VRare
+effect: .name "Sanae_Consecration" .target "performer_group_other" .chance 100% .heal 1 .can_crit_heal false	.on_hit true .on_miss true .has_description false .apply_once true
 
 
 // CoM has its own files due to complexity
 
 // Sunward
 effect: .name "Aunn Bleed" .target "target" .chance 150%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-
-//effect: .name "Sanae Oni Purge" .target "target"  .chance 100% .clear_debuff 1  .clearDotStress 1 .on_hit true .on_miss false .has_description false
-
-effect: .name "Sanae_Extend_Barrier" .target "target" .chance 100% .health_damage_blocks 0  .duration 3 .buff_duration_type after_round .on_hit true .on_miss true .queue true .has_description false
 
 effect: .name "Sanae_mtPrayInf"	.target "performer" .set_mode sanae_prayinf	.chance 100%	.on_hit true .on_miss true .has_description false .apply_with_result true
 

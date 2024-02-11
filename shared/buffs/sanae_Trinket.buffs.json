@@ -3,9 +3,9 @@
    [
 	  {
          "id" : "sanae_amulet_heal",
-         "stat_type" : "hp_heal_percent",
+         "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : 0.15,
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -71,23 +71,10 @@
 		 "has_description" : false
       },
 	  {
-         "id" : "sanae_nue_racc",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.04,
-         "remove_if_not_active" : false,
-         "rule_type" : "rangedonly",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_nue_stun",
-         "stat_type" : "stun_chance",
+         "id" : "sanae_staff_healing",
+         "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : 0.20,
+         "amount" : 3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -97,186 +84,112 @@
          }
       },
 	  {
-         "id" : "sanae_fang_meleedmgl",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "s_exorcise"
-         }
-      },
-      {
-         "id" : "sanae_fang_meleedmgh",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "s_exorcise"
-         }
-      },
-	  {
-         "id" : "sanae_fang_dodge_r1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.08,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_fang_dodge_r2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.08,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 1,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_fang_heal_ewp",
-         "stat_type" : "hp_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.35,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "s_gather_faith"
-         }
-      },
-	  {
-         "id" : "sanae_fang_stress",
-         "stat_type" : "stress_dmg_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_manual_trapres",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "trap",
-         "amount" : 0.4,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_manual_stressskills",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_manual_stress",
-         "stat_type" : "stress_dmg_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_kasen_hp",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "max_hp",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_kasen_diseaser",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "disease",
-         "amount" : 0.30,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_kasen_debuffr",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.30,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_kasen_virtue",
-         "stat_type" : "resolve_check_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "sanae_rare_crit26",
+         "id" : "sanae_staff_critmark",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.08,
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "sanae_staff_debuff",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_staff_dmgL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_staff_dmgH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "sanae_mirror_crit76",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_mirror_crit51",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_mirror_crit26",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
          "remove_if_not_active" : false,
          "rule_type" : "lightbelow",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 26,
             "string" : ""
-         }
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "sanae_mirror_crit1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
       },
 	  {
          "id" : "sanae_sunward_pet_aunn",
@@ -344,9 +257,9 @@
          }
       },
 	  {
-         "id" : "sanae_kasen_Desk",
+         "id" : "sanae_mirror_Desk_A",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_kasen_desk",
+         "stat_sub_type" : "sanae_mirror_Desk_A",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -357,9 +270,9 @@
          }
 	  },
 	  {
-         "id" : "sanae_rare1_Desk_1",
+         "id" : "sanae_mirror_Desk_B",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sanae_rare1_desk_1",
+         "stat_sub_type" : "sanae_mirror_Desk_B",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
@@ -367,6 +280,32 @@
          "rule_data" : {
             "float" : 0,
             "string" : "sanae_fake_friendly"
+         }
+	  },
+	  {
+         "id" : "sanae_mirror_Desk_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_mirror_Desk_C",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "sanae_fake_friendly"
+         }
+	  },
+	  {
+         "id" : "sanae_staff_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sanae_staff_Desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
 	  },
 	  {

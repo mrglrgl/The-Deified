@@ -340,6 +340,19 @@
          }
       },
 	  {
+         "id" : "sanae_reveal",
+         "stat_type" : "ignore_stealth",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "sanae_ACC10",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",

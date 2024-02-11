@@ -27,9 +27,9 @@
 	<entry id="combat_skill_name_sanae_s_miracle_star"><![CDATA[Starfall]]></entry>
 	<entry id="combat_skill_name_sanae_s_suwacurse"><![CDATA[Subjugate]]></entry>
 	<entry id="combat_skill_name_sanae_s_moses_miracle"><![CDATA[Cobalt Surge]]></entry>
-	<entry id="combat_skill_name_sanae_s_starry_night"><![CDATA[Guiding Star]]></entry>
     <entry id="combat_skill_name_sanae_s_divine_wind"><![CDATA[Divine Breeze]]></entry>
 	<entry id="combat_skill_name_sanae_s_gather_faith"><![CDATA[Kami's Embrace]]></entry>
+	<entry id="combat_skill_name_sanae_s_starry_night"><![CDATA[Guiding Star]]></entry>
 	
     <entry id="combat_skill_name_sanae_s_special_move"><![CDATA[Move]]></entry>
 	
@@ -37,13 +37,13 @@
     <entry id="upgrade_tree_name_sanae.s_miracle_star"><![CDATA[Starfall]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_suwacurse"><![CDATA[Subjugate]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_moses_miracle"><![CDATA[Cobalt Surge]]></entry>
-	<entry id="upgrade_tree_name_sanae.s_starry_night"><![CDATA[Guiding Star]]></entry>
     <entry id="upgrade_tree_name_sanae.s_divine_wind"><![CDATA[Divine Breeze]]></entry>
 	<entry id="upgrade_tree_name_sanae.s_gather_faith"><![CDATA[Kami's Embrace]]></entry>
+	<entry id="upgrade_tree_name_sanae.s_starry_night"><![CDATA[Guiding Star]]></entry>
     
 	
 		<!-- Upgrades -->
-    <entry id="sanae_weapon_0"><![CDATA[Makeshift Onusa]]></entry>
+    <entry id="sanae_weapon_0"><![CDATA[Handmade Onusa]]></entry>
     <entry id="sanae_weapon_1"><![CDATA[Aspiring Onusa]]></entry>
     <entry id="sanae_weapon_2"><![CDATA[Consecrated Onusa]]></entry>
     <entry id="sanae_weapon_3"><![CDATA[Elongated Onusa]]></entry>
@@ -83,27 +83,23 @@
 
 		<!-- Trinkets and Bobbles -->
 	<entry id="str_inventory_title_trinketsanae_trinket_amulet"><![CDATA[Moriya O-mikuji]]></entry>
-	<entry id="str_inventory_title_trinketsanae_trinket_nue"><![CDATA[Fantastic Stardust]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_fang"><![CDATA[Mishaguji Fang]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_manual"><![CDATA[Esoteric Manual]]></entry>
-	<entry id="str_inventory_title_trinketsanae_trinket_rare1"><![CDATA[Starlit Mirror]]></entry>
+	<entry id="str_inventory_title_trinketsanae_trinket_mirror"><![CDATA[Starlit Mirror]]></entry>
+	<entry id="str_inventory_title_trinketsanae_trinket_staff"><![CDATA[Consecrated Staff]]></entry>
 	<entry id="str_inventory_title_trinketsanae_trinket_sunward"><![CDATA[Adopted Komainu]]></entry>
 	<entry id="str_inventory_title_trinketcom_sanae_trinket"><![CDATA[Illusory Stardust]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_sanae_first"><![CDATA[Fantastical Design]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_sanae_second"><![CDATA[Shintai of Fading Gods]]></entry>
 	
+	<entry id="str_inventory_set_title_com_sanae"><![CDATA[Well, you get what you earn...]]></entry>
 	<entry id="str_inventory_set_title_cc_sanae"><![CDATA["I will reforge our broken faith."]]></entry>
-	
-	<entry id="buff_rule_data_tooltip_s_exorcise"><![CDATA[Exorcise]]></entry>
-	<entry id="buff_rule_data_tooltip_s_divine_wind"><![CDATA[Mending Prayer]]></entry>
 	
 		<!-- Random Tooltips Desk -->		
 				<!-- Trinkets -->
 	<entry id="buff_rule_data_tooltip_sanae_fake_friendly"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_amulet_desk"><![CDATA[Improved Transept side-effects]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_kasen_desk"><![CDATA[Friendly Skills: Clear {colour_start|debuff}Debuffs{colour_end} / {colour_start|stress}Horror{colour_end}]]></entry>
-	
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_amulet_desk"><![CDATA[Improved Prayer side-effects]]></entry>
+		
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk_1"><![CDATA[Kami's Embrace: {colour_start|healhp}Heal{colour_end} Immediately]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk_2"><![CDATA[Guiding Star: {colour_start|mark}Mark{colour_end} Self / +30%% PROT {colour_start|skill_unselectable}(1 battle){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_first_desk_3"><![CDATA[{colour_start|sanaefaith}Permanent Miracle:{colour_end} Other Heroes: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
@@ -113,7 +109,11 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_second_desk_1"><![CDATA[+2 DMG per {colour_start|sanaefaith}Active Miracle{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_cc_second_desk_2"><![CDATA[+2 {colour_start|healhp}Healing{colour_end} Done per {colour_start|sanaefaith}Active Miracle{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_rare1_desk_1"><![CDATA[{colour_start|stress}Stress{colour_end} -8 / Clear {colour_start|stress}Horror{colour_end} / Torch -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_mirror_Desk_A"><![CDATA[+4%% CRT per 25 {colour_start|stealth}Darkness{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_mirror_Desk_B"><![CDATA[Party: {colour_start|stress}Stress{colour_end} -3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_mirror_Desk_C"><![CDATA[Torch -5]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_staff_Desk"><![CDATA[On CRIT: {colour_start|healhp}Heal{colour_end} Allies 1]]></entry>
 
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_si_desk_1"><![CDATA[{colour_start|riposte}Permanent Riposte:{colour_end}]]></entry>
@@ -159,24 +159,23 @@
 	
 		<!-- Divine Breeze & Cobalt Surge -->
 	<entry id="tray_icon_tooltip_health_damage_blocks_duration_format"><![CDATA[%d Blocks Remain {colour_start|skill_unselectable}(%d Rounds){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_barrierA_desk"><![CDATA[1 Blocks {colour_start|skill_unselectable}(2 rds){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_barrierA_desk"><![CDATA[   1 Blocks  {colour_start|skill_unselectable}(2 rds){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_barrierB_desk"><![CDATA[ 1 Blocks {colour_start|skill_unselectable}(2 rds){colour_end} {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
-		<!-- Kamis Embrace -->		
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle1_Desk"><![CDATA[  {colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 3  {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle2_Desk"><![CDATA[  {colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 4  {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle3_Desk"><![CDATA[  {colour_start|sanaefaith}Miracle:{colour_end} {colour_start|healhp}Heal{colour_end} Party 5  {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+		<!-- Kamis Embrace -->
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_miracleheader_Desk"><![CDATA[{colour_start|sanaefaith}Activate Miracle:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle1_Desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 3{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle2_Desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 4{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_healmiracle3_Desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Party 5{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
 		<!-- SOLAR FLARE -->
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_fakebuffparty_desk"><![CDATA[  All Heroes:  ]]></entry>
-	
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_inspire_desk_1"><![CDATA[+10 ACC / -10%% {colour_start|stress}Stress{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_inspire_desk_2"><![CDATA[+11 ACC / -12%% {colour_start|stress}Stress{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_inspire_desk_3"><![CDATA[+12 ACC / -15%% {colour_start|stress}Stress{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_inspire_desk_4"><![CDATA[+13 ACC / -17%% {colour_start|stress}Stress{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_sanae_inspire_desk_5"><![CDATA[+15 ACC / -20%% {colour_start|stress}Stress{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_sanae_scoutmiracle_desk"><![CDATA[{colour_start|sanaefaith}Miracle:{colour_end} +30%% {colour_start|scouting}Scouting{colour_end} Chance{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sanae_scoutmiracle_desk"><![CDATA[+30%% {colour_start|scouting}Scouting{colour_end} Chance{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	
 	
 		<!-- Camp Item -->
@@ -495,6 +494,8 @@
 	
 		<!-- Buff shit -->
 	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_heal_amount"><![CDATA[%+d {colour_start|healhp}Healing{colour_end} Done]]></entry>
 	
 		<!-- Compatibility -->
 	<entry id="buff_rule_data_tooltip_farm"><![CDATA[Farmstead]]></entry>

@@ -16,10 +16,10 @@ armour: .name "sanae_armour_4" .icon "eqp_armour_4.png"
 combat_skill: .id "s_exorcise"		.icon "one"		.anim "attack_exorcise"			.fx "exorcisefx"		.targchestfx "exorcise_tarfx"		.condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1  .area_pos_offset 150 0
 combat_skill: .id "s_miracle_star"	.icon "two"		.anim "attack_shootingstar"		.fx "shootingstarfx" 	.targchestfx "shootingstar_tarfx"	.condensed_tooltip_effects false	  .area_pos_offset 125 0
 combat_skill: .id "s_suwacurse"		.icon "three"	.anim "attack_subjugate"		.fx "subjugatefx"		.targchestfx "blood_splatter"		.condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1
-combat_skill: .id "s_moses_miracle" .icon "four"	.anim "attack_upliftingsurge"	.fx "upliftingsurgefx"	.targchestfx "cobaltbarrier_tarfx"	.can_display_performer_selection_after_turn false  .condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 2
+combat_skill: .id "s_moses_miracle" .icon "four"	.anim "attack_upliftingsurge"	.fx "upliftingsurgefx"	.targchestfx "cobaltbarrier_tarfx"			.can_display_performer_selection_after_turn false  .condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 2
 combat_skill: .id "s_divine_wind"	.icon "five"	.anim "attack_divinewind"		.fx "divinewindfx"		.targfx		 "battlefield_bandage_target"	.can_display_performer_selection_after_turn false  .condensed_tooltip_stats false .condensed_tooltip_effects false  .condensed_tooltip_effects_per_line 1
-combat_skill: .id "s_gather_faith"	.icon "six"		.anim "attack_embrace"			.fx "embracefx"			.targchestfx "divine_wind_tarfx"	.can_display_performer_selection_after_turn false .condensed_tooltip_stats true  .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1
-combat_skill: .id "s_starry_night"	.icon "seven"	.anim "attack_starlight"		.fx "starlightfx"		.targheadfx	 "starlighttarfx"		.can_display_performer_selection_after_turn false  .condensed_tooltip_stats false .condensed_tooltip_effects true  .condensed_tooltip_effects_per_line 1
+combat_skill: .id "s_gather_faith"	.icon "six"		.anim "attack_embrace"			.fx "embracefx"			.targchestfx "divine_wind_tarfx"			.can_display_performer_selection_after_turn false
+combat_skill: .id "s_starry_night"	.icon "seven"	.anim "attack_starlight"		.fx "starlightfx"		.targheadfx	 "starlighttarfx"				.can_display_performer_selection_after_turn false
 
 combat_move_skill: .id "s_special_move" .icon "generic_move" .anim "attack_ward"
 riposte_skill: .id "riposte1" .anim "defend" .fx "" .targchestfx "blood_splatter"

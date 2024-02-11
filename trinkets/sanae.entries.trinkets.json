@@ -1,0 +1,113 @@
+{
+   "entries":
+   [
+      {
+         "id" : "sanae_trinket_amulet",
+         "buffs" : 
+         [
+            "sanae_amulet_heal",
+			"sanae_amulet_blockblock",
+			"sanae_amulet_missingblock",
+			"sanae_amulet_quirkblock",
+			"sanae_amulet_moneyblock",
+			"sanae_amulet_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "sanae_trinket_momiji",
+         "buffs" : 
+         [
+			"sanae_momiji_critr",
+			"sanae_momiji_Desk_A",
+			"sanae_momiji_Desk_B"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "sanae_trinket_mirror",
+         "buffs" : 
+         [
+			"sanae_mirror_crit76",
+			"sanae_mirror_crit51",
+			"sanae_mirror_crit26",
+			"sanae_mirror_crit1",
+			"sanae_mirror_Desk_A",
+			"sanae_mirror_Desk_B",
+			"sanae_mirror_Desk_C"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+			 "Sanae_Starlit_Destress",
+			 "Sanae_Starlit_Torch"
+         ]
+      },
+	  {
+         "id" : "sanae_trinket_staff",
+         "buffs" : 
+         [
+			"sanae_staff_healing",
+			"sanae_staff_critmark",
+			"sanae_staff_debuff",
+			"sanae_staff_dmgL",
+			"sanae_staff_dmgH",
+			"sanae_staff_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_crit_additional_effects":
+         [
+			 "Sanae_Consecration"
+         ]
+      },
+	  {
+         "id" : "sanae_trinket_sunward",
+         "buffs" : 
+         [
+			"sanae_sunward_pet_aunn",
+			"sanae_sunward_feed_aunn",
+			"sanae_sunward_riposte_onhit",
+			"sanae_sunward_riposte_onmiss",
+			"sanae_si_Desk_1",
+			"sanae_si_Desk_2",
+			"sanae_si_Desk_3"
+         ],
+         "hero_class_requirements":
+         [
+            "sanae"
+         ],
+         "rarity" : "sakura",
+         "price" : 30000,
+         "limit" : 1,
+         "origin_dungeon" : "ship"
+      }
+	]
+}
